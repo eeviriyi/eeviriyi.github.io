@@ -23,15 +23,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yzass.gitee.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="记录 Blog 的搬迁个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。 改动 评论系统由 Valine 转向 Waline 升级 Next 8.X 配置 Lazyl">
+    <meta name="description" content="记录 Blog 的搬迁个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记录 Blog 的搬迁">
 <meta property="og:url" content="https://yzass.gitee.io/2022/07/15/%E8%AE%B0%E5%BD%95%20Blog%20%E7%9A%84%E6%90%AC%E8%BF%81/index.html">
 <meta property="og:site_name" content="Yzass">
-<meta property="og:description" content="记录 Blog 的搬迁个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。 改动 评论系统由 Valine 转向 Waline 升级 Next 8.X 配置 Lazyl">
+<meta property="og:description" content="记录 Blog 的搬迁个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-07-15T01:49:54.000Z">
-<meta property="article:modified_time" content="2022-07-15T02:13:35.655Z">
+<meta property="article:modified_time" content="2022-07-15T03:03:49.113Z">
 <meta property="article:author" content="Yzass">
 <meta property="article:tag" content="建站">
 <meta property="article:tag" content="记录">
@@ -65,6 +65,9 @@
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -88,7 +91,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -160,12 +163,12 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -239,7 +242,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-07-15 09:49:54 / 修改时间：10:13:35" itemprop="dateCreated datePublished" datetime="2022-07-15T09:49:54+08:00">2022-07-15</time>
+      <time title="创建时间：2022-07-15 09:49:54 / 修改时间：11:03:49" itemprop="dateCreated datePublished" datetime="2022-07-15T09:49:54+08:00">2022-07-15</time>
     </span>
 
   
@@ -282,6 +285,8 @@
     
     <div class="post-body" itemprop="articleBody">
         <h1 id="记录-Blog-的搬迁"><a href="#记录-Blog-的搬迁" class="headerlink" title="记录 Blog 的搬迁"></a>记录 Blog 的搬迁</h1><p>个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。</p>
+<span id="more"></span>
+
 <h2 id="改动"><a href="#改动" class="headerlink" title="改动"></a>改动</h2><ul>
 <li>评论系统由 Valine 转向 Waline</li>
 <li>升级 Next 8.X</li>
@@ -324,6 +329,15 @@
 
         
 
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/07/15/2022-07-15/" rel="next" title="2022/07/15">
+                  2022/07/15 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
     </footer>
   </article>
 </div>

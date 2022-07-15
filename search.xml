@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2022/07/15</title>
+    <url>/2022/07/15/2022-07-15/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="aa055d329d3c248eba7b37380e46a4b2926cd67c88cf9d351133a6595292b85f">7e69f6e9355794a0978924755d215743bfdb05da49e4ef13fd35bc6535e8ab5db6d200939cd2763dbfd8d708c11ce4817430d1d9fb2c4b73ed8520de2aafca76fb78ddba659de8f90ebf25f2263f043220a807dbbe6086d18beb9ae475927d2046b9164074284ed087e15f4fc3fec2e353178c533703ecb3706d1cef8c5b6430be1f5db2dbe9abc90849fa52adc646ac683f698c82f159cb105e911f5af09c2764c342162e574a6d86be6da635edc1256b46e3c179435f22360b033830353ad9b2fb7b2683e5eb2e39ca268c5e8c0e0aa59f6cf6e2c2eef07f2920349d1bbb30efab0305fbd5c83180350041c46241fb2b35f811008dac68ab9cf8e398eaab96</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记录 Blog 的搬迁</title>
     <url>/2022/07/15/%E8%AE%B0%E5%BD%95%20Blog%20%E7%9A%84%E6%90%AC%E8%BF%81/</url>
     <content><![CDATA[<h1 id="记录-Blog-的搬迁"><a href="#记录-Blog-的搬迁" class="headerlink" title="记录 Blog 的搬迁"></a>记录 Blog 的搬迁</h1><p>个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。</p>
+<span id="more"></span>
+
 <h2 id="改动"><a href="#改动" class="headerlink" title="改动"></a>改动</h2><ul>
 <li>评论系统由 Valine 转向 Waline</li>
 <li>升级 Next 8.X</li>
