@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>456</title>
-    <url>/2022/07/13/456/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>文章加密</title>
-    <url>/2021/01/04/123/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c14d0e9bb1c5be3dcc32c5e6ee68401c284672bd8e8a4c7b8086558e5f097687">c7f7aa4b9b6d307a8f5984362016826f5b8bbb7b5eb10b1a01ee2ce2d4f305f9</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码，查看文章</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
+    <title>记录 Blog 的搬迁</title>
+    <url>/2022/07/15/%E8%AE%B0%E5%BD%95%20Blog%20%E7%9A%84%E6%90%AC%E8%BF%81/</url>
+    <content><![CDATA[<h1 id="记录-Blog-的搬迁"><a href="#记录-Blog-的搬迁" class="headerlink" title="记录 Blog 的搬迁"></a>记录 Blog 的搬迁</h1><p>个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。</p>
+<h2 id="改动"><a href="#改动" class="headerlink" title="改动"></a>改动</h2><ul>
+<li>评论系统由 Valine 转向 Waline</li>
+<li>升级 Next 8.X</li>
+<li>配置 Lazyload Fancybox 等插件</li>
+<li>加密系统 Hexo-blog-encrypt 的引入</li>
+<li>Front-matter 的学习与规范</li>
+<li>使用 SMMS 等图床</li>
+<li>本地搜索系统</li>
+<li>UI 的优化</li>
+</ul>
+]]></content>
       <tags>
-        <tag>博客</tag>
-        <tag>inside</tag>
+        <tag>建站</tag>
+        <tag>记录</tag>
       </tags>
   </entry>
 </search>
