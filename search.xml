@@ -1,179 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2022/07/19</title>
-    <url>/2022/07/19/2022-07-19/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="025e1a73a0b0a07be3e6e2636d2ce6328dba0fc350effcd13530e41315f031a6">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2eadc219cc98cca2c2e135c96946e956465c9dc8b46cb6fd8c4faca351647583b6fb8cb8fe453a4affdddfa41a4a0b5d7b52fb20c3ae9bed193fb9d2c4561435650c81cae8115deba59d056eef2bbd7c455756fc529155f27e3c13f8bf595470b5ad6def83155eb86e62d8c4839bd254ceb39cf9458d60657894a92ac46e8f5871d1ca02fec6774e53972934b31121d3d664f2e221811fcae7d533ded8fe32a27fa07ab139a93d2e783dd08abaac93da2038b1f51fe3432798a043cf514472be8b1df6948e0bac45a8a09c6e34db42a1378a45c57496c5988877361ce609700d051c2c6712dcb71b87dd3470422f0ee0a1d13da663aaacfd28a86943aa62c0c0f42733663ac580efb4e8dc58a6e34a883bf29deee2af62729f357b2178f563b4c22c7b8bc04c23e1651bfb7f9198fcf979f30769ab13b0690bfd2b02eda27bd64631e4e3fd424b37bee39f929c493ce533c85634e4aa68e3c05690d7f1b12e294798795489e1b6b0d0a982b83519a4dce953351d320cc503799b4f2e6cd58d885a2503ca8624d1100911d3ab67fc35c2753b2ec8d6c39772640bae30d8dfeb5c4920ace2a5d0a3f6b810a61661cd03699166e45fdf80406c5ba85ecc8be55b96ec3af2036b406b5e0ac304376603bd8ba55eafd5a38adb06d42468d64ca65991ea83d310d083467a902627d81b230cf0315e77149c14e3c66288cd116abee4b3c3483b5d703fe514d07220023329cd9ed70517585106902b2761747bab0a339d87c0423c6227289a691a3cb7d16fa5db0438ba51fdf1e983f1184ac0e4c0fd9f0b1c</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>记录 Blog 的恢复</title>
+    <url>/uncategorized/%E8%AE%B0%E5%BD%95-Blog-%E7%9A%84%E6%81%A2%E5%A4%8D/</url>
+    <content><![CDATA[<h1 id="记录-Blog-的恢复"><a href="#记录-Blog-的恢复" class="headerlink" title="记录 Blog 的恢复"></a>记录 Blog 的恢复</h1><p>在续上次计划通过 Github Page 搭建博客后，又出现了页面空白的 Bug，初步排查是 Node.js 的版本问题，这一弄又是两天。中间真的是不知道 Bug 出在哪里一直找一直找，还好最后在逛街的时候想到了思路。</p>
+<p>那么目前在服务器上的搭建也是有了一点头绪，不妨采用 服务器 + Github Page 双备份的形式。</p>
+<p>发现之前的 Bug 是某些 CDN 被墙的缘故，现在更换了 360 的 CDN</p>
+<p>静待花开。</p>
+]]></content>
       <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/15</title>
-    <url>/2022/07/15/2022-07-15/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7e7fdb433b767274a7d367a295ca65c2f187a6d8e51e2fb5ecb0223fd902055e">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead8c999bb7dfbe780c551b6ae9de83a7018097892656b33d57b3f338e1750f08ebf76feb791c01d0a7cebaa8d77f2b8947466fede1cb3a61f907bec6109b70dda51aa25a1f1db32367ae4f6ea544c3339f05d1c61389e4a46789ea2cf38353c17678145797b04251a9e0b73e2e35c5642babd58f9dcdd74f24f51faef8a2215c4da224bb0684f0e7727f2dc3ff0c4de13bd64612ea799b23a119a4a0d4e876cc8c75807b1fc7e3f708ee201d7974fe19a31f322846cf9908e7b9cb04400d5722f0a2b329fc13a7d598e657b23083ec21cb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/20</title>
-    <url>/2022/07/20/2022-07-20/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="638b51f7aa4baab45064439a303dc167af2513d395bae6803c4bd6ad15204c39">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead943359742b568559b9b09f270040135ab5372709132a34247b9b9dbf7a91481006bc3f9420854863d6c384a0fd239806e770dd0ae9d19968e5904750fea29c4cc4aaa89c9306e6c1dbe36c41a815a175428fea8085fd79e037303190e0b8d527dba36c007c977d61aa5a736fdc6e47634b6055ed8425581556a77afeb70752693f68b2b1486135322fbc18364a976a128f7b20a5c47f8111d00e2cfd59e0e84e0f2fdab92cb66009046e8c2d5746c6033039038b46d4045602257216198680a4b29fc582a19c8baa3f4abbd2cf18988c78b1d012f4fd79d58c4d6314aed2b02808481d8773a919823b425f6cf9d47cf150244cfbd380d73636b34283b36185b6d90ac7a1e8664bd3e7408ca624d671b73b8c7a2a75899d4cf5af28bf4fac379a4fd21a7afcd18fcb6c1a5f445b7dc280</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/21</title>
-    <url>/2022/07/21/2022-07-21/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="bff141e8c609a77225ac68bf5c556ef30cc41956b40a25fb8579fb0993c10c01">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead943359742b568559b9b09f270040135ab5372709132a34247b9b9dbf7a91481006bc3f9420854863d6c384a0fd239806e770dd0ae9d19968e5904750fea29c4cc4aaa89c9306e6c1dbe36c41a815a175428fea8085fd79e037303190e0b8d527dba36c007c977d61aa5a736fdc6e476336ebab90c38df7c87a8cc9f0f9fdc078ff61a2f22711681e0de9c1e3492f7ece918bd1636de8590a437961e7a4da9be02c9f7e4d229b4cdea2b3053bd1a81f6d14d0fe52adeba84be550e922a9511647057b7ab2681b782625373c3d5cceaee723baf1b40ab3435de723e7d0f24475eb62cbb2bc2d2a6a0a9e9c1a4bc60f9bc2b0c39e6fd6c2524902b3cf8bc5f64340ac960b4ebb0d906a6baad02afabc2ec040ea354675eb404dbc76b67ed9db101c</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/23</title>
-    <url>/2022/07/23/2022-07-23/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c1bfd52a82f9bd44457e43578ff17bfcce4ea1bcf90176c58ccd9144575f3e86">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead94bf2d3ab0ad61c71c9b35b50772031708e8478921b7494fb4a53fe25816d67c89adf2329f538f00d6bfe3179209a5e1b0360da295ef3aca62697c3ecd721ed86503d584abe9c813018036ed3576b57a3e20f763587a3230bdfaf65c444de5ede54206fd279cd05bb52a51457a5d328bf5f476254db832b902018e2b8edbb83837b1d383e1c015ec21073729320b87ec440af045aa53dc7225d382f00dbd904053cbf95137d456a1f82c1685805e8524434cdab5a2eb01ec3f1a36e4492bdc837b5b8cb2119c8f600083165273058109d4eed1240e12550728a8918cd6b4b233e62fae2f77978cd6f6311be3c16304d7c72e1f038ad8f0d017811e9a5c4045a64a61fc1093c5d4b84829a92c4ce822e1027b200eea3befb400ee1b4e3afc67d61b94218d71b86ca2d4782ee98014036be96d4fb3495ea7d6e50cca84775025c3c625aa9a4723df57441c4e7c9463d0dafaef6b264ab6ad739397213ad93286130effcf768d939320b5a2fe6a8be75e360d189a1b9cd96125673e12fb930644d287c8aabf961f69952ca8ea01187793a15ea49bbff95f30715477f02d6f08c42d034853a3d180fd14b6fe1bfb193253b6e6ef7b3f82adf8f835574436221cf45d5cc1272e1fd647efa5ff6125d0ca10b77b965e50dca2ebf2093d807b949052adfb3e001d341acfbeed116002716b4693c7e3da42216032667ca5dc8eac87c3d7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/24</title>
-    <url>/2022/07/24/2022-07-24/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="30a106e6ff94185a81e83dc7bfe4fc0c5b87e8cff14b184348718fc5d140ce3c">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead5a22b95dd8265a5cd87a709bf2606508fc4f8b357b8e2d96dd80ac3365088190c26f916e23c9952abb069db66ac29b1b8f2594e3143f5f7006186ced8e5ae16ef77c61b9004a5af5c4ce34e6507622ab0973d99f83f05152226fc2369caa187b10a0ad1e290052d0c410910e1035d1f4fe1747fb4eb8ee42f01d7685784793466b38bf75bfdc3d8ebe6679781d917617ba91859684db47e6b7a8a106d4556342242efe2f7804fddadf7a48464c15cf036e16466865622cc4dedaa3ffec24ce751077b3cba279e35582ab711a2968a8b2964ced388d22e2720aab85df72ea562b8675cd47f894024090e91339fbd70d219490c5298f511492dbce2e3d51c12533024dce251dde88149d7bef311480d12f3d12cdbc03f75db60e629289feff3e20248ba68dfc29327091e8c88c49684582ead1f1c9f568758b120899e2c562519a3615ce3dce22a8236e860fdc6c6de2e255ad277fada0582492c33f5c5c970ac6e2c5c6bd1860b276c59dcf8f7a7f0c58283938d574f0ee6dd310314b4c014f5fbaa342170085c3c39d44ebdd1d772233694017c62cfa25d1b615898122a6c7d6a631921805840ba8e9024df3b9e4d3d2fab01f459cdf0a960711103f1a67227154bf1a54ce6e6698746d031ee09c6160dcbd222cd0fddcf1c0c819915b611616dfb82cb74713ab169eccc5dfa0c9a39c7de5f8cdea130965de7639e4f2efb98cb667af496c23b2424032b07b2661118e574cfd4787cefaf449266c5c3c7501e2025447f6d0e41dab8c46c79fdaa93b9d0cac16edd6d61ae046bb684b8c8770a0de783ebec1e8c3e17feda72a7673f9722313ff5287b1d9318b2b209bfcbbce57bd01226e58ea6f7afa1339c13934c4ff57c2daf549d14592b4301662d2cb0c99fa307095337be12a59caf61d0d368c8ba7b283cd75b92a830991425a839522eca9908a9eb457911a7f1879a54bbdb02bcd1a60b8cc4d5cfd69ec5bcd27734637d895eb0205edaa1a01f46d85d7d5ccdcdca3357bb1580b0c40b1d79e931c13155651e3a9acb2cf9c0ca7607e801229022493fe7fb90de767ff3bb8c91c8bfddaf061499b60afd8baf35be4e08c3c8860adeb1e9d34c911326596618bbfad8e67730f36622e1125b8932cee74354459a816afb504d8ed55536429f01651d5a45f22f6f94ea963dd2374857d94a1e781a6</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/25</title>
-    <url>/2022/07/25/2022-07-25/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e03fd50c00f3d587f878760f43ef2416a9077732b792de88b95b8429f68f2bd8">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead336ce9c5e12150a5c86dfd3eeb378d16f02961914d82a65558b5bc7e423b0b5f4b35aed35e98e699799cd7844df9ddfe3def523c93fd68b4d55f8c0a6fc1b4679058e4cb09f447556f8d2117a08a6d42c6644eebe75ef56a4006ef4c316876735abdb4d45ec1c020373fcf81ca40c553daf56c6da40480a80e31f54b8a7eb6a84d42d4688eae6dd02c15dbbc9391a4102227868167e96183ac8398a0bc5930742f8bfdb7b85c948ffbb2c1ca571352eed4ba3b6c8a03f24cc025c238ae3430bef082500e6e1fab576aeacc0ad9485e7ba09e1fa088dd9de146c45b425360818d981e3095fdeee0f5ca8c2e48e815d8c2c632f71c6c9a5bf5ca27e9a75373e67cd7b60f9e054f920fee2da273a8a0822080ddfaf7919dd87563473a1b43480a5d84859295d9760e220871daeee97e3dbc26791efe2a0320d39ea3715ce63b312add5cd8f434b7b22dc7d80200d1a9d38820f16e8371be4318347304519c0e0facf9f8a6d18bd74fcc1d2b6f3b566792ae</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/26</title>
-    <url>/2022/07/26/2022-07-26/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="5b5c38865a8719da764f4f8a6e4ce60e79eaba818fdec7a63d987dedc2e697e5">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead067303919e53e50fbb7ab6fc0be963dc2c47bf7eec3c9510b7a53d8069e8bc242c5f49416e19364f366e377970c7ad9e018fa8370d7abefd1996b68066457156ae9f181dca945b1ccb465fc91e646a4ccbe2779a2f15ceeeadf9a07ec942125829dd7646e11178b1a7d564d03ac053e4a98f64bbaaf2c34fdadc73c3db48dcde6dfc7ff6b47022656e7a90fd02301859b7da91231b12b7c21d05dd00a7a8d2a775262c8d053afdd6f1bbd3f7c3851d82947da12c0d6b8ac5e71242c06c138059490a75da66a5bcb7ca7096b549a1946bd17ba47a0593e4acb54a644bc69b2a1a9c8abb224dea001afb09e3783acd01b68416e605d02012388bfe4577e2f2afb3000e1b79fb84b1234889e5931f89401f4cc062495189bdd746db6b7342f4909308d58d657bb7e215a1fd094ad908cf52148904c57c17449951353443e6222a24c68610289a916056df4176e5600879a2a46c0c61d1b56afc5a4af78f6b4e491b0ee15dd36ff1c2c5e87c59b4045d9a8ecb0398b1ad86129904e3cf348fe6abd76822ad9be4aaf1077ac75671014154f2e9a0c386e1b95947fa3de2c959f877b567a9128d3ed61f9a9c87ebc9116cb29c955be417ff0746188b1012af659c13464559f5186c3df9959229015f6865448c7bc7740fb61121e472d8ea4ccf4d9fee299750c105c9346d97f1dedbc2a08aad915bb80a58b7fcf0c1ca55c73eb5d4f1a2ec0f032f1297a5d706530eafe4f56dd8699c410b6adf4a2ff46d3013a7358ef1ca138a9a4a6a75294a49fb038b2ab1d2474a3430ce4472312e78e307b5475e284cc684443662e4a0cdf4a6b5e10cd7fd8bf66b5b9c25580f285e67e3415cd0707cc9c5891befa8afe1c5cec0e6ca06db24e9ebb3dedd1d49ab7f62f574bc288ac9a0edc029ce990d1627bda0c29d594f94757cbd48169fbf6fab60914089e237b42e825ea0611ee386eb555e44ee44</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022/07/27</title>
-    <url>/2022/07/27/2022-07-27/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7b1928d9b687e8784bb7c4f175f9915167131dc92ab5ea761d004c06e9c1c1b7">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead6d1739f6d43a72ed90e3083ae5f3c8339cb49d8f08cd04eae53b739b44a3a2ec22f02c539fc37cc9d42b46775579e1fde673fd26d7fdcdfe07850eea1bf428248de01d71b46e837f128a1b20e0eac2e976ea7ca7ff12b50b89e3f5fe42488a6e4555871f864a58891ff3ae80fadb23cd854badb11e1be0c3fc99da7093fe4cef6765fababfde46cdd7c7bd568903d9463ceb47337e316f169f92765252f1eb60ca3b715d11518ecb7d0121fa37058e99b45cfda8484a17c9d4e32e7c96302fc30eb7ea70cdf0b9e4b08e4d0ad4d0a7bffd259de61b2abcfab220b56bde5b6347d30b92cb1af2c06f20dfc6db74d375dd4dc55373e6d891124275d151ae6ff17b89d7e9fd3e5a68d15e235ac4204b1d0ce63a81d7f5cc13bb8c55adaebdac6b2ae9cb7898dc30e3bdf75d2425af49b3c234903092c3e04a66cc0c6d77d22c6224e80a9aa4dee192a274e597a28b565ce8be9883f4adecaf280f367fb751629dd66be19496c80cf715900fbc0a31f2b7342210a581f81b68e93e7feffc70036ee15698b2d1c340fbf8333639b6cc7503902cf29c3e0191f0dd65ff2af01e32c7cfaf55d849dc283c35f5c2a9f0939d2a3415bb0560156e8b3bb873a262add521707d4ddccff8395a139c9854a286bb4a2b04751f0b12aad5b414ccd54b5324efadb28cf095de789b58daf0c8a531caf7edaf5f6deb3dadf575b32b20dca9785fd29267a588f289e478c9ca4e309a498a013a97a593ff31a65d1b16e6e007cad353d7f01378905e81b5d73336e76f980a9ea3fe8b5c05836a11d0f5c01cbf1c0fee69f7506878be54f1706d7742857694bdda1556cfaf9363fe4efe23b1303f289e037d9c3194de98312263a76c4bb4bbc7bb8264b720ed0840884ace5f8a1fb4fbbc2bad2e1ac9f75d9a3f44e9b0b87ec4b974c79a4e2d9cf48aad1c837035c120451d91a9c806df46d5f5e1638fe00e75d44b8f44ae0e6552c72d20c15c936be3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>日记</tag>
+        <tag>记录</tag>
       </tags>
   </entry>
   <entry>
     <title>记录 Blog 的搬迁</title>
-    <url>/2022/07/15/%E8%AE%B0%E5%BD%95%20Blog%20%E7%9A%84%E6%90%AC%E8%BF%81/</url>
+    <url>/uncategorized/%E8%AE%B0%E5%BD%95-Blog-%E7%9A%84%E6%90%AC%E8%BF%81/</url>
     <content><![CDATA[<h1 id="记录-Blog-的搬迁"><a href="#记录-Blog-的搬迁" class="headerlink" title="记录 Blog 的搬迁"></a>记录 Blog 的搬迁</h1><p>个人 Blog 原先部署在 Github Page。众所周知，由于网络管制等诸多原因，Github 在境内访问出奇地慢甚至在有些地方无法访问，而且因为是初次接触 Hexo 这种静态部署，遂决定吧网站搬迁到 GItee Page 上来，并采用的大量的 CDN 加速，希望能有更好的体验。</p>
 <span id="more"></span>
 
@@ -190,31 +31,597 @@
 ]]></content>
       <tags>
         <tag>建站</tag>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录 Blog 的恢复</title>
-    <url>/2022/07/19/%E8%AE%B0%E5%BD%95%20Blog%20%E7%9A%84%E6%81%A2%E5%A4%8D/</url>
-    <content><![CDATA[<h1 id="记录-Blog-的恢复"><a href="#记录-Blog-的恢复" class="headerlink" title="记录 Blog 的恢复"></a>记录 Blog 的恢复</h1><p>在续上次计划通过 Github Page 搭建博客后，又出现了页面空白的 Bug，初步排查是 Node.js 的版本问题，这一弄又是两天。中间真的是不知道 Bug 出在哪里一直找一直找，还好最后在逛街的时候想到了思路。</p>
-<p>那么目前在服务器上的搭建也是有了一点头绪，不妨采用 服务器 + Github Page 双备份的形式。</p>
-<p>发现之前的 Bug 是某些 CDN 被墙的缘故，现在更换了 360 的 CDN</p>
-<p>静待花开。</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-        <tag>记录</tag>
       </tags>
   </entry>
   <entry>
     <title>记录建站の无语事件</title>
-    <url>/2022/07/16/%E8%AE%B0%E5%BD%95%E6%97%A0%E8%AF%AD%E4%BA%8B%E4%BB%B6/</url>
+    <url>/uncategorized/%E8%AE%B0%E5%BD%95%E6%97%A0%E8%AF%AD%E4%BA%8B%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="记录建站の无语事件"><a href="#记录建站の无语事件" class="headerlink" title="记录建站の无语事件"></a>记录建站の无语事件</h1><p>  在上次从 Github Page 转移到 Gitee Page 后，本来以为备案了就会一帆风顺，结果又出现了网站涉嫌违规的无语问题，真的不知道哪里出了问题。</p>
 <p>  然后就尝试在 阿里云 的 学生机 上建站，这就又要学习 Linux 和 SSH 什么的相关知识搞得我头昏眼花都没有什么头绪，目前的计划是返回 Github 了。慢一点就慢一点吧，CDN 加速还打不开就真的没办法了。</p>
 <p>  大学阶段也不太会弄这些东西了，还是不要太麻烦为好。</p>
 ]]></content>
       <tags>
-        <tag>记录</tag>
+        <tag>建站</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>2022/07/15</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-15/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="6c77a8c4c56775eea4637ed66917a97c8b8210fa37c80ae4a3b99d455feeb95b">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21fbcd56cb57bad350b10b8f4d1597c372041a47505a49b1ab5c91b1c7ab2f4a980cb58f6c754003aba218d787790db777c4644cdcacc627526eb7616084e2c232ff867e6c2a607018e9f0ea8020e2a5417f6cfc0b3fda392f0597306c3f188ffc619313fed97ffda854a8ab02deb20aa854114a99b5fb80798bc6b819d0d41436968cc667eef487327b66240bea67797e1994ead2f7f03f7da682899d9ebc86eddc8a98e7a4a3179d56193ed7bed43fcca2d0fc8d148ae76a12505d6d3bc13f112e9bfcbe846e7870b440483e3ffc6900</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/20</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-20/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f4aa69ca0d1cf50d12ef8d5612eb8c1b23f0eb3aac2ebcb40041174aa11ca654">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21c82ffa988ebc9d1724376b1e723f5600d4dd4a1461e8584a93780d21d0fceac275715829dad629b64d28cd01c03589dfec1b056580db4e47b3e3855a98014a0d12ad3dffe0e43d88712ebc3668e30c99105e8d286d339b2987d0867728344fa7549539742691feb780c0bd39a2ab6cc66bc821df4d04fea08e241947fe24fe565053b7d216c0233bf05a68217a38876002ce3a92ada23fc99e1ec756df37181b131a1256cad04dc3ddf3d5110488350b76d486a4847793b1875d9a921878e4c1d6b852fd2b5a7ef1884ee7288b82d472d8cbe2c0ff3ad2fe7f0a51ee8250671527adbf71df2cd747d802a64029fcb687d876830c1f1eb19c1b7621fd2b765de20e744d7bfb15c9837c90c61262696a1cb5c3b8fb569d434b66d35b35c4fa691dd53ee2d1b31d91e8db2b47cd36071fdd</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/21</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-21/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="dc9e25cd77a49ccc4fa3470fc1fb0ee35f43c3932acae6df5daf2be25b896d66">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21c82ffa988ebc9d1724376b1e723f5600d4dd4a1461e8584a93780d21d0fceac275715829dad629b64d28cd01c03589dfec1b056580db4e47b3e3855a98014a0d12ad3dffe0e43d88712ebc3668e30c99105e8d286d339b2987d0867728344fa7549539742691feb780c0bd39a2ab6cc6c844ab633f90315fb958e4dea8e1bc78a25c945a74383c120df62d984258e1d571cb18aaaf785713014a4bcecc0c3645719ef92ecd73e8cc033612531807d3bd032320ce9479e9ed2387830c7ff6b5c400284592eecb47f8324505574dd0c524024ba1541eeb92e80d1407f94a9dfa29edcf85b5876fa005336026aef40b9e789408ae9eff1bac173b55132b2875ba81748078654a14f1dfa87f58dd75667476c21129ccee93898db75ca3b1851fff72</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/19</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-19/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a6eb4b5db6a54c284c8bde5199a88bcebb8b68a7b5141d9ded71e10193cc9017">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc217d185e4aa02d186d088e5341a6c3a214302b76c2fc6acc383017b7579996e75f3b28b4de722afb11cad7a49847e4bf531978fdb2ac3e9bab5cabe855fbc465ac8751a9ad4d54895898d5b07bc5c142c55f673a2141b572cef8989e14c518e8ba970e1b7ced18bd1bc938ae17b8211f6f051504fbafec3ea35625eed8a9a8b9982c38ba4a2d636a4b1bcd21d595c8daad33635036387654b44123b664c958c4af57daa2670728829fe9195aeb7dd55e1d135f47672f7a8bb12f1a70c563d28f051386d12e33f525cbfda46e32171facc8c863f011beacc9941ea2d030ba7ab95f91dfd5c5dbe867ce17b217fe9187e2a9298e011e649d7d47d856ca75c6c8f23ea510da8eb8f57ab435a5bc51cd0a9a2ab9477bc0c14d89b434e514af8f097140e9ab3527a6e2325d08da6762a178d632adeb9d7e7952c8351af23a5769a80dc5e6e14e0665b3efc515efb238105c463a095c2d388c63b02b6c55f87530577edcbb367d2551b20b43a084406c1fcc04f15d5213f0498f8eee9c7f07dc3fb3f8a3b321c046ce46a37cd0eb4d51a81a63341c00754230dd8b06a59bf573b02deb86f34ae317b6a87f47dbfa98d0708b08dc81c8c25de507c928d2924e81e25f932c2625a1665a821290fb2732d851fdd8dad60d5c669e033675e5ed623b3fb6a770616488ef6d398824b07bba81410454f2bc43779efcd334f533129fa5132a23628fe3604a1bd65b610dd2440d71667bfad92c1012bd71665ace52724e962fae32d9bff6fcc5c64fb930cc0a40936120700d11ffdf7ec1bab21a161116ee523d54</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/23</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-23/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="23ded0e7c9555763a36c556e2f4d4df0dd3ac40d0d64687cca1f58615b151b8e">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21166abf1b3ef498511f9df35ae51adc220ad3457343ecadc56c20e48fe409f5247358c3ec284b7ba94ef6922f5cc26e13790198c848c84752d83feb0e7c9b12528650fcf5083bc7054e507337282ca13b9e9f62e7c4023123f296aa56d407ae2b9286c43161f008af29f6948cfea4bfc7d458ec0058a6b9705f65f0b990b120558c8484408ffbbea80694a80fdddfd58cf498ead8400eb06932e0d6a1390ec50df75a11382ef10b48388802137225e4fe2a8a87c3d683966f93fe34edb20709133e41c88237b0fe5fa070bf4c9c228d8a7c30e6bc23d29cd53ff23332eb9a2ba873e334ae149a58f7f67b2e9513b33b482a1940d963cb84f6d051ac0ace1723df32373191a4e0ff115bf3aeeddb924f3431d9de84a6f19358baf27dca8946f52284b4fcd8ea6c95ccaa0f40418778c48f147ec81e8881bd5174bbbe6f6f6f0d63ce06ce57e110f080543d7183aa6e1090e548206861db2e5dd62e933f7bfee6a286ed36e72cdf8cf30119343f975865399e6f1a426699895012a4c59c9f0731c4e4dd105e2b5443e57fa6b0ef9b87364503fcb0163ca67ddb9c620fa4ec2fc2b0459eadf70eb76fa6206b9275a60bf5545d432d7a15a0aa9a29f996a351330542555cd5636336fd1b3756444f083b194d4fdd5b3bd9bf78bdc6c92e88ccb1b49bf495bae8287be97a86a32fa7ab2cab5103bc4e0c2186ce73494a343b3e1ee238</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/24</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-24/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="30a106e6ff94185a81e83dc7bfe4fc0c5b87e8cff14b184348718fc5d140ce3c">defcda3c3eb6f54a8ca2e091747a6c649488976e6c06e24dcdb6cf71bdac0d3874adfa4f6ba6eeff3c2b0bd5bada2ead5a22b95dd8265a5cd87a709bf2606508fc4f8b357b8e2d96dd80ac3365088190c26f916e23c9952abb069db66ac29b1b8f2594e3143f5f7006186ced8e5ae16ef77c61b9004a5af5c4ce34e6507622ab0973d99f83f05152226fc2369caa187b10a0ad1e290052d0c410910e1035d1f4fe1747fb4eb8ee42f01d7685784793466b38bf75bfdc3d8ebe6679781d917617ba91859684db47e6b7a8a106d4556342242efe2f7804fddadf7a48464c15cf036e16466865622cc4dedaa3ffec24ce751077b3cba279e35582ab711a2968a8b2964ced388d22e2720aab85df72ea562b8675cd47f894024090e91339fbd70d219490c5298f511492dbce2e3d51c12533024dce251dde88149d7bef311480d12f3d12cdbc03f75db60e629289feff3e20248ba68dfc29327091e8c88c49684582ead1f1c9f568758b120899e2c562519a3615ce3dce22a8236e860fdc6c6de2e255ad277fada0582492c33f5c5c970ac6e2c5c6bd1860b276c59dcf8f7a7f0c58283938d574f0ee6dd310314b4c014f5fbaa342170085c3c39d44ebdd1d772233694017c62cfa25d1b615898122a6c7d6a631921805840ba8e9024df3b9e4d3d2fab01f459cdf0a960711103f1a67227154bf1a54ce6e6698746d031ee09c6160dcbd222cd0fddcf1c0c819915b611616dfb82cb74713ab169eccc5dfa0c9a39c7de5f8cdea130965de7639e4f2efb98cb667af496c23b2424032b07b2661118e574cfd4787cefaf449266c5c3c7501e2025447f6d0e41dab8c46c79fdaa93b9d0cac16edd6d61ae046bb684b8c8770a0de783ebec1e8c3e17feda72a7673f9722313ff5287b1d9318b2b209bfcbbce57bd01226e58ea6f7afa1339c13934c4ff57c2daf549d14592b4301662d2cb0c99fa307095337be12a59caf61d0d368c8ba7b283cd75b92a830991425a839522eca9908a9eb457911a7f1879a54bbdb02bcd1a60b8cc4d5cfd69ec5bcd27734637d895eb0205edaa1a01f46d85d7d5ccdcdca3357bb1580b0c40b1d79e931c13155651e3a9acb2cf9c0ca7607e801229022493fe7fb90de767ff3bb8c91c8bfddaf061499b60afd8baf35be4e08c3c8860adeb1e9d34c911326596618bbfad8e67730f36622e1125b8932cee74354459a816afb504d8ed55536429f01651d5a45f22f6f94ea963dd2374857d94a1e781a6</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/26</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-26/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="6ffdf2d93a0bc20a3dd09f473cf75bc6a99ada06e5ae8dcccabb7cf517e86a4f">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21f372d57b9d4becb03eee4f1fe9e451da31747724f4b370415351c24d913f257e10fbee126b7dcdf7adc0e86ba727ab921c1ca12976cb205bce9b7213645600566253485715b275ae97e0440eea342771fa6b559ba513967810959a23c9c81dcae49770c0ddd9ee4d8a52cbf4e6b2d50b581ead0f4c1da2d44aee6de27cebbc69bb448bc4373358a80bf3664127e50c965ac1abba2c2a98b563f55bb914aa3de7fd90e0599e70cbcbcd3d8151cf4e87fd4999f384669b7cef61d38e344c7cf41e80af26d7e310f09beb1d0e3c257e38bf4aa80ab8fd2c0954b6153275ed86d3f82be5cbdaf005779143c70b596f1b8c66a8df1218e41ad40b9dbe518cbc8c7c40d8504753977a009acb3f853ac74bdac9bcc8b3367173cd902f46808f44d96f0d6074173acd16f2765b1cc9b9e4caff7162f1549401a3353acfc062fd54caba1ee8d2a0886f48452bbfb31d8dd163331664d3118bca000e8566f26bfffbd25146ef86a3768c6b180defddce1d78f4ff2f48cefc243153d1922b76228506fa9f9fed307a24127ea43cea87360a4101981c16938650c443cbc5da02e5d80ff16e1efcb1fd2c52eeeea6a7fd47c35b970f578d544a002c511e60822733c290f41389ce381f993699b49e95712ba8092b2846926fb71a9d7777023d56aae5b266660845026ba29f645569c67f0dd61d0356dad8b3241583d4a7bb3856a19b26077f03cf79d1decca55e01cb9d906124b1236d0003857b33ab5c4e00d60f0f3f7aafcc4873d8a0dfb70ed11bc6ddf01b48b6ddeb8cc7127767b3e8b9e0f4e14030f65da9b8d53f2723cd2d6946156f213fc1df47fb9f94372fdd8d48c908f53d5f53df4a99a548870f2072fe7bcc4798d908cad9c0175ad0b02dfa77d0271f8ff74d529f282e07ca3165639c71af203d51cd0d2c9b367257c9e57b9acf2bcc9af841fbfcac315301185ac039ec0a6f8a85e1fa</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/25</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-25/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="dd30b36f7e2235d34c933381ab458837f9773e94953a68c4356b7cc86e1fca39">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21a511b5f4594aef993aa070f0e16d897dcf4389aa696a2a43e3d0174b84c3bd8e2882507a750d9940c7dcfda9112e6eadb4de3633f5ef70f2c39216270e46bf3b646cc7e99420b10ed19cd287c8597f0742c8f72a0af4bc81780041e8d0f5247912bab20349cb9ef83222835248870f53feb1f2c6cdc30da78ac340549e05d8eef4913101546a48ab1e1ecefcbbd2ee8daed7cb1ea9cf577a7829c14974ad0702412d3a449df83f4ddcdf4744fe1c77e40bfa4ac21389d44a0462935be8fe6fc84047e41567ef9b87e986aa702fd1a35ce6e1df84032e729430e541c551fc4acd6d735e645a8785ab558167154baa1d90c548f0416e977577d62612b602fc79348d379d707a3a11b2616216d7d4b2405b67b424cb9b211f8470c9d3c7edd6fdd90c798d859e84aaa9c00c2cad185e296b7285863796bd694bdcd1d3d64e194a6d7a7e83f8dfd407931b48e450875b9ef7b96978c291e33445a0e3aa0eeb43c3121928e63eeeb07eebea7da17c6baa30f7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/27</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-27/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="cc183b5cbc2a6fa950363bc80b5e6b776ea7ef50716f6edca2af16860d7898d9">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc219b936aeda6a1588d0ae38417deef9acca069cd3d7d50f6be9afef4eb5de554d1ab6307fe37c7ff506be981e33b25667ae18322072f10c0248f14e926eaff0c1eed3e9270b0c5b278b0957ea9eff96afbcacbee05265075cce9973992abc224c314164d8fa8d2c993d9800650529c0461cdd295626fee4c45f46c45822beace9bd20f9be9d27e2f1cc3fcbed9e43da493ea0e3716385c492ed101f073607a6678f32b04cd69f646d236923f92a73b8986aac3382256f3b98ffc908da6a0ccc6a1cb19c061d8c216f712ef440d7689bde7ab5477146b8237936020e6154d4709aeb648857846452a2cd254547c0f5694fed2ea3d43ae6f58bafe59b78ad37271d34e372714b763f77389a82d749ef02ea32d36be110d287fa21f665169035f01118dce41839f482129733e8c6c1c2c31ee8d6d3e5b2ff64da83f48bdeec0ef53ce02bf7ca4a8c74b2402e6b70c41129869fb60fb5477096c3ccf8ce78d0e09deea4e7fc5be2af50523877ec01ae9b6f1ea4ae9593086cd6f8564d958c367a59356bcfbcfe92f2d29641bff0811cb35a77562e07354a0309789c0e8c19fc5a8cf7b94d5475f12a5b2cfcd2e63cfd3251833239516c11b459b9a3654682dfbd347c7cc13d0b76500da10e836744c71f849bf097c606be075d7e27f6c80a08963ae2006dd43fc5139459db42bb0779b07b5b147f766b7136b932ab974641781ec8e5fb3a3fba4ec606a42a9228a1d8defcb93d5cbddc35b3258fca08f2dd00b41e8abbec242b9101ceead0c904263ea52cddc647256ad4b86ccaf365eb8a742c72a9ed7f4c762c39fcef5e1b69fea7d7f4c7a283d54cbeba7754b10792d996b0a5ff9fe4f5cdf72313a2f23efb4c6993ef9a57c395ab107dc44bd5ba6d2b99e27550c80beb12657a5b7ab1f4b4a0d8c93464cd1e31a0f82fd3cf5c7883715080fbdf226257bf0299b3505a6d439196ba6889684b8f4b0461e2367c2e85a54769fa9f8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/29</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-29/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="53fbcd6ebc5daeb579e6667019b9159b0ebe713df4b3778853cbb92bc918c02d">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21431b92f1d2a9ded4240c914f7a634164ec892e33b85292b38bd07fd9081f691327da79b4c4987fe28e65668929f5be4779b5e110cab2b1faba8e953de17789707c5dcb196f93a4bff838f7cbde10f7384005c72f9bac4c1c4da82f65650e2fa3c3c33fb832f305a061305829486551bb907075ee80f15e0529d57b11d11f37cf116f990431a38d7d850fb064ce7da16821272e4e804aa6009bc70917ddb9074ab2998c473d09f13868f84aae3a97654b004310e66d1f25366dc55ad70ca82d1151e25feac9a619037093643b9cc30345a1a2772a5ccb4a227d4f4646ca1187c0f8bff408bdfdb690c14bc9ce222484a0aadc2cb1a9209503e9cc0db7f3d9cea421373643473662f6433650aff4bf0a66d35d0a9188fa15c47cf0d0a2b7e7ffd175e19264a80bcf1b2a00b857d3cd9043a305230ce6f994a4ce6ec54bdc5db9591fb057c8bcfc5c7ccaac2a034fb4a14fd8a7a4ef2d9d7731152bcd43cb594e50ac5615ccf599bfd1b2b09edc6244c191fffd443db4d6515a1f09a2677bea3637d0a1e1e80721553baa3465b372dd3e205349460ba57b19c082349b476b7a2ffba4e2364d727f1f188f8b9170e53ef12e51cb9d0654cb199ef73cf3e4b0a60441c0d4252737ea952ed2de3afe9cb17d98183033a9db65933abe72dd82d7ccd13e412644b59f1812a69e28590c1720b65dc39ec53e7bb7e11635fd659b95efa38090b0d7b0585392a8b6c77d04d5420f056178c1b934499761b64ebd8da4db330ddc1f56ee47e7ee21273747cb1c8ec6178306753948125d950ef988e3492f54b7f0b60e0eae53a2dae67fed3eb7b1cd4338ed1a7de75bf6e062a61d0b73badf5e6949a3f0bec6d93092bd8ffe0a5eb3a473aa90f9ae194f9db0f314ef8c6bca5663ee376d6d9ee701da55698b07ece19e283bd038817444fcc8248c99a777e5cd48f2480e97785d5a19fd1191986707fa37c77e65425567318e4985c9ce6662b512a9e4b58ce87c6faccce439aaca4f7b591f0bc026b101733448d78da7706d74394d44b0cc00d41e76799edab65337643261329201578fd4b4713017790aea1c05241f7be014d54142236f4c400c442a74629b2dfee70e230571a3147a18c02d98b9debf2b80f6bcfd12f5b602a13ad1</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/31</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-30/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="19ab566de57cf1a5a42b915a2d0645b24085e31b03c90edb683c198bd51e1c19">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21b344d955dacd56afbec9a0e195bf547554783d83c8e2ab6efe380d70a053e77fbfbcd4251b3ac2305267cb0c6812bb185a6a25c1bf8cdb5161425ec2dae8546efb4ba04a0d2c5eccda642f56468d115ce4f12c1863e8fc474a6581057dd2d4de361f95f2faa745f276f3e9df69589448f334e275614c4381ff726e91648772d2d2eb839a8628c10f7e6bf9e4318076ce061cf0a0cb804eb149a5f1df93a2da0c6f208fcee3ffc7c2691be4619f4d688df762bc26179e842301dc91ae53538e6f8b715330ed6c3ffd58a126deb0849631dddf66ba8acd9d743f06187b43d8dfa5a12d3cd6b65e06053c39ef8218243b9ecbd674fb7d793a3dd8b3ded802cebd0c399660895fae3aedc0430bc64e2569d38392c3e61f29f33f11ffdf0621f08fd76d7b6bdc92393a0b5b6af157876b9329689f650f2864637445d64e3e1946652d05fdd2d8a60ee66768a10e65b1910577695ed4f791f2a5a062212b5011f39fc7b693951849394de8885ca4e74d1c0e1180bde6145b0bcbb8ab3c4d672d0942ab2e258ba65d812dd3560941ddd066dd81b37d328ab2070287e49785f3d78d16d15bd946c95ba1fe8e9aa5c0173efbd251db3fee95478018006162e0d513b15bfe36be6a47eb7f7722b545915c817108ac55a84f4d85519651c07301437a6d8525a9918241053fe8ea755de5ac638448852c207452322e43165f10292f242644678e1a511d0eec7ee728dcaf86d2a881551ed06e13ef2139e85db8265e341b180e36e077eea50de63b0c455c58b5dc59c541af01fadebc877a7b86f6d6692c4cc2343ac61261a98cb41892d237fdef384e8ca108eb04db5db928dd84b8630002af2307765f7df3daedbaa54bb4308a33c2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/07/30</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-07-31/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="8e936244e8ae3fe8c3039892376ee25bd8163f4bd348989ae39a5941027a3bfb">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f4029221e1639dcac4cbca659c8f21a71fcc21b461ea91c868c542c4fa0d7de52d9d3d411219f86d72aa3e11c0574f3419feb8189fc299fbcd2b35f7381dbcee8756fd115d49b81f286dffc12734851f3f7c64ace4ac9bff321c4ba9fee2b49c75c48939d0716b4ad8bf31ed9950a25f501ce81aabf049db44824e45ba6cb414bc5760bb5f1f62504d60c18fb7da6334097eec919abe70ffa16bd909d7828975c2d95a95a878d362fc94549c94c71f214adafb3979eda7c6cf3ce6b2785da6b08cd4dca285c64af15eff9b7984fb37ba272dc0a12d004d3175cbf4142de1b1346d316b5ae41a31b17b7d39e92a976317668da7cf6e42d4f357c9af2f63eeed736cd7e75e2634d14487bec9e6709fa3f68499f4ba4ccc64cb05fd8c3fa958aa2006676e742ae5135c9e1f892f2a281dd46225259a9f0ae06dd6ff1de27824adf282d92c02a303beb3c2243845ddf71876d04682b96402991a812d578837c1f2c3727a323494e589b76521d7505fe486450f0fa22a66364f1d5d4a454f6f80ac7f08a6f75b2ad609861b5a1b791e9f79921b4cc258283cb45568727539f32291505fc4be3dc533eeaff38b7693b74714221bb2d5df430eee380e4043e9e044c07f77cc671abe9404a24e9005d78e193112cbb65e1c59c3355f8850ebf1dba861afb24fe3d4d166cb20ef1bcbdb166c6ca91f5b47818a8368795811ea2c8d7372e40a00f5b797364a7548550d1167ca47b914259f0c88e9f4c4dde9586d427f8d7f3e403eeb57dfac2ea0ddc740008bbcebf7dccb267648c87660b8cfc6c70af8745f2a420bc1c16456ec91203204b6b131dbd0ca22ac7b67ad08cbad1a780e9d4d01542bfe28ddc1a42b194af83390e17fd558a63488ee82f8ba4ab0a4f17abf064696fc858502ee34b221e2ffe64546be8a572d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/08/01</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-08-01/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="230d042a96494209ae693f318247f395f7557842d6b9909252a7245a0941c2eb">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f402924932d3c4fca5c5f510e7a421854693a40636bdd02285651af8e871b945b3201319ec2409ee5d6a04db9406cb19ebf4e7c843c6631b0c0461d0b0f34d8b68c6d8bfb96d0404a4df0f5f9b4d3943650faccf6ca06d4af7e46301a5895e90780e85a011d06f01515efd6cacff254bd698ae7914b8ceafac0526277929a9296040f73e290f8e77f7682e64054b12d04543fb98e76f06421befa993ff2f980b71774544f195cb15762a1b7ba2d7b560e9a59e9cd913296ce6685cb80255f6fe51830574dedea4df0048109c63710eeb0cfe4b2011a6caf17e09cdff5f208a2f2065d516a7bdcc209dcd59724720b512d300324567e4620164301d81fe405600eb77875d3a3d829c38efa108ce72e499379b5aa2b04cf548edf9bbf5579ac107f36031b1d783f128d9704b1f7ce0221b8951f521d49ee4b0ce6be13cafe7caf18641dcd0089ff53825e334a54eb6c8e79673a0b66ba400bd44d5a4eca8a9bf9046734430bf2c2809eb3308bb526a40224b5502bddd774cc18502b7842939e3b01e3a98f7138ff14ba779485e40888cbbd9f6143aa5f4fdf2d4b8d2de0ad13c0340c195b355075c907e5487b830ab8b98252c713c3738d90d69c853b0507e96ded0c167c21aa943c50ae89c736ef7e61949f584</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/08/02</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-08-02/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="452c8ee6c07fde31f2b6dd5bd8f7ec2cf35f6a09cabe7aec21718a5a9144b24f">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f402924932d3c4fca5c5f510e7a421854693a4de32fdd8d71fcefcd72e459446f1d5b85b7575aa7c44555499a7bf34ad22964ba40ffb5ff007210fb90804db7fd44ecd1ec7e7ce3197de25a16c5a80bf39a4b268a2616bc6f088bfc8abd8b5eb6636f289803b49df24cafb8522824aff00b339abdb5852705fca8fb45aa6bd5bacb5d983df3104320a7a5278d1a057a577c60f382c98bb030cdfd163264c8daf0015679d8e34ee5e2f388c71f67a57c170de9566d745b3db938e239ecf7880a2685c0b4d5a3c960d5622c0796fb2e31598a1099ecf66ff258cbe830f2bf3876a24e438ff1aff5ca94768a458460cb5fc0f3b8c290205d96934bc0cee0a16cc3742df8b1893638b97ebb305b334838e5c0454fd1537334a49cb7ecf13af2c624bece1aef980b217056165ef4b7a830288c3f1fb012c95a59c03fc82933b9484c3fbd7919a3e90bb307d4f91fb4c8e66f8e5ac34c012d74a0cd9db6b57bf4fd15130b1065ff1a6aa8358f2f7d67847bfb260b808385094d257725da5aac4dbd4a909c22a1ffc6c0ab3cf4c375f5d44071f90d8b0ca425490465cf2f497e13c37b4d7cf4ee0d22734de7c65256b584cabac3a43232b04b1339822f0b1863af92ae282c4a6259102c326fa3ad4f184a2efe24bc394361323ecdcd83f3e67627f075413f2a166925c982bee99228e89e5d1e70f12471f947afb91def3a9d6d8616b61e1a68157a894b264e26e50bd3583d1dd291caac13ff2384482620ecbb30bce07802ab27ce0ed36c3b5bb030c675247f9dc57eb96a9e7bcffecbecb78f5bc7d5b56a0484b79f20dd5ad1780117be3fd3e6f9000e24d937dbe761bfb2916563684fb8c1f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/08/03</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-08-03/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e604011a1758ba7e620ec4f962d7880c9ab7c77b3b7dd5d7d6fe9dccc96a0afb">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f402924932d3c4fca5c5f510e7a421854693a40a7206ed26b4e1e84d735fb84f4f28e2d3b01d84eea7f32323d9560577838ea96a4d0908c118b212fb7afe22bab60d9413fc7d07df75910afda6b6c6d23b795231b07938cba3880f257fe5ac9cdc6c6312ef23dad636b207bf7b643adbf2728c57f281867a5c6f97c92cd7cff56f5d751b01d0a725885837ee0cffdf6a0100dbe1237f6321e4beaa20a34b28a0c3e66a8e8687512f7628e3c54244a79baec03a51d94d704b46a1d0f8a739c6cc3e303be0554bf09e10a3d5bcf01b8dc4419a347d117f3d67500c3dfc0b1ac48ea3c8122b93250049e8e62c40b500cca7ae8c87ad4e25036188615bf6e445ebeafb230871e55404195bbeb462f5815e376516a4a231bcb11b4e8e40918921efa8c8a5cfa52f27ac610daaff827e5461b501ee775ba49f4dcb092f9c7a1bfdf7736902965bdc084052490a0f876fe5590f0af8abdcd69f2b09eace96343e8b53bf1b8b23f668bc80924fc9e32a4ae06a03bd94a27dd4e4a62b4a98c3d1774d2140dd6bdbdd660d60950a8b04b85c0b671fefc01fc46ba2db7f8ddc8c449be2c7c485c14899e4f2a74bab7455b2c4241e60b8272b2fa0036265b7151b488acbf520bc909c4f0afa7bcee4bb34804651bcdc048fddf9b957adc7c5d1e13945c6530dd81c6d1ea9b424ed125ee13a23df8d6bd0366f27a72ec2982b65cf4ecab9111ec2843491a6be4bc07b840006360c0bfe2ff57381255f55cfd819140a43bda98906b88ffb4d987eb005b23e1951910e03a709c0450af0037d81a5d0dac1d1b6504216323667ed3ea7342475fa10fe6345e92946a4f915ba6b75e7498517ac908d8e41f3ba07266d0dc7a258c75be383b856f43163aa11cd42384544ed35b8815a460f02291c5d467ba86a34d28958f37d4d747297d45ee64cf02ff8c76b1582b0734f63dd709ec14fd6bc25e6a7a6152a425cf34a62a3f653bed56ec8c0c3094b74d8de921fbcafab1d6e34ebf019174e6a49c3a9315656118c1eb07d0fec5f35ff26053f3b31464dd4c448451655a1885d99b945b3f9b64041d9f0f70a1800a32bf2262fdcd7d8b5ad11dfc83e8c9db46e911de26e28bff89df3c62c445652f9001e79bbdb9f2a56653ecbccdd6d21fb2f2bb1822bd8b199d2e2a4042b7f462066e64b7eaa5c63dc2e4dde5b58e5e165c3d836b8dbcfe54c3a9344bb7f86c5da5f349be57fc0b6f6a75df682feebfeac848cb57434fabd455e52f7451b141813d17445826f140ad8f3fa4e4082e5267a58d80910c042bc2fa2e9c8a8e5fbc8db31d0b4cc321b1a20194ef93dc5cc10be4d0fe53da6ad3b81f604078188ac1edf7ae75b0f3033b3b74760b74f4d5f3360fc9b98e0bde48434d679b151a09b03d748ef143f860aa10bfccd293603a74e7e6e71ee4d226e70c3cbc269d2305b079781781917e861aed3e84b7c975eb8d176ace7510155974f50bba95550b7e3d87b3a2f796f6e4f0647953d7d58271b3569625f37090c68555f1f857eec28d660471d5ce9419dcf40eb05063f5e95a48dddc52bf182d0b850d52f516a782556799b8f20915ea5a11692942f23973bc628d1c6e12c0efe385337abede57a6a69a23b3b82733b96a1ed69eececf93eb920a39340d080696be55dee3b94f9c12431d30283daa2e430325edbdfc53461e8c5cc33494e8a78dc1468a7a65ee853dca0e23621b7495f73b46cc877bda2d08a4558868f5159b1e7b78a7f2ecc361049651a4649bac9393cece70ba2ac4dec06deb3dd5b2ff794dd6b5948d9e3b262de07e34730312a4b247ec9d21276905c962d827c460f16e3f5fcb12a3a22d4d6042a00ad1c47a72f30b422ea2acb146bd5c5b2d8a8f0560229c32fcecc2aed0965b24a2ac257c05c11be8909ba5b8fb628f0e5a115ccf73e175c5c0042ce7ddbcbcb1ed182b65ed770af8adaec66d28e3dfd707eed3ec3df14287f56ab08cb57c035a79519e3aacc589c4bf074567e640caed7ec7edb87e8a4b06ef8e36b13a1cae97e8c83e06dff6c28db6a90089807c487226db6085d54e2d2af7aa50c779799cedf89d5d0fbc55cd1b3f228265c79b13348141aa2a159a6c4127a3b04e5f8c8d78b044708a3c8b2e3b1bc61d94b07ce319101a034f082376f866d9041f0fcaa83620cbbeac3ba0b41cb52133811f8bf0301d71094ad295253affaeb9e7628d168fdcb823ba91b0443ba4ab648a7f6a800afc29fd05bbc8c17b8b9517b9b585d1bca9211d45</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022/08/04</title>
+    <url>/%E6%97%A5%E8%AE%B0/2022-08-04/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="抱歉，这个文章不能被修改，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4a3e09b159949b9ec0ba90b0cb88b6d2434c918fe09d3525edb9be0146eb770b">1c2bfb4fd452be59cceaee695494db247ec54f76d09222172a94ed9af8f402924932d3c4fca5c5f510e7a421854693a4174df8fd129f7236649e2080d0e1ae722e6f0d461bddfaa75d7e4dae204372d061d79f7eb404d2ec7fdc8f4e7f3476d5bb7e45bd976aad09813d0a298c0b829d1b279921e7f743119ad4a947c3b70fdcc70625d2f23f6b271ae84769004006510f4963b501fe41452e1d85bee6fa5eedff5f32f738118041e054d2c44574c1a4c383e0106d4f054dd162dbbc40f1c24961fe3bdca171d0509f54e1e1f5ef451f7ecb1565732c71dab6e4cdd94368a98609ff25686bc1f365175a078ecbd3096f2b42e6f856a99edac8b5d31eba799eb874f124af1eb03876442527b61cc6ee237cc487f9fd11ecd0eb4cebf63f2f84620b3de3d2132be2f3bde77c8834b7e5802391accb0c9f433dfb8cc0d49e325f322b03fd2a006ca955afec32ad07c171093864414f706024b6342526499300f78dccb3c9a61b2579119ad1ca62f69924d927197ea0621fce924e68d65084db6b3f76b57dd3c3679cdd9ced8e5b28e2178f8c8ef3b394d922d64c59178fcfa45b7b716abd5061254de7ebea489eb9e9965b3798f6da24e9054fc09d64739c58bc38d3087e752c18df96c7147dc02daea08121bae84ff929242ffd4a02edd853a84dd1c373c210f9cb6a507f6f3111ebe5cb8db0c0ab66d96fbcb7299dabaa540e4a0539f6bbf27dae024af490dc584e4e3118a3da1353eeee45deb1c5ebf31ca899b6802c2b34cadc18fb5b04888f4f71225435857e09d583002de6540887e362607b68338fe45cdb5973ae80aa1ed97d54c3097bbf8eb6fdd3c3664dea23baee55016128aacc31ee29945464d7cbb6c353e6b362a7cd511b6cc4279a7e7d5576317ef0eabbb75a60d32549c5209bdfa560609becc131e12c979077afa4497120ee3573b34da2f6561e6edbb8d2a0188e41d10e1ae0f95097529adfc5007d11eedd0d6f5c3f68e77614f3d01a3c5126106c8bf256fe1f0d48c32fceec6bded58f37ed23ef0d9ebafc092d042fff4bd6ab3dc9ce984eac9f9396c53f4431bf1e29d534b13f9175b270214e177764e4c0c2333a709244147c9f1e13533aec802e0f71</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一章 心理学的研究对象和方法</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%BF%83%E7%90%86%E5%AD%A6%E7%9A%84%E7%A0%94%E7%A9%B6%E5%AF%B9%E8%B1%A1%E5%92%8C%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="第一章-心理学的研究对象和方法"><a href="#第一章-心理学的研究对象和方法" class="headerlink" title="第一章 心理学的研究对象和方法"></a>第一章 心理学的研究对象和方法</h1><h2 id="心理学的研究对象"><a href="#心理学的研究对象" class="headerlink" title="心理学的研究对象"></a>心理学的研究对象</h2><p>心理学是研究心理现象的学科</p>
+<ul>
+<li>动物的心理</li>
+<li>人的心理</li>
+</ul>
+<h3 id="个体心理"><a href="#个体心理" class="headerlink" title="个体心理"></a>个体心理</h3><p>个人所具有的心理现象称个体心理</p>
+<h4 id="认知"><a href="#认知" class="headerlink" title="认知"></a>认知</h4><p>人最基本的心理过程</p>
+<ul>
+<li>人获得知识或应用知识的过程</li>
+<li>信息加工的过程</li>
+</ul>
+<h4 id="动机和情绪"><a href="#动机和情绪" class="headerlink" title="动机和情绪"></a>动机和情绪</h4><h5 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h5><p>动机是指推动人的活动并使活动朝向某一目标的内部动力</p>
+<p>动机的基础是人类的各种需要——个体在心理上和心理上的各种不平衡状态</p>
+<h5 id="情绪"><a href="#情绪" class="headerlink" title="情绪"></a>情绪</h5><p>人在加工外界输入的信息时，形成对事物的态度，产生主观体验</p>
+<h5 id="意志"><a href="#意志" class="headerlink" title="意志"></a>意志</h5><p>自觉的确定目的并为实现目的而自觉支配和条件行为的心理过程</p>
+<h4 id="能力和人格"><a href="#能力和人格" class="headerlink" title="能力和人格"></a>能力和人格</h4><h3 id="个体心理现象和行为"><a href="#个体心理现象和行为" class="headerlink" title="个体心理现象和行为"></a>个体心理现象和行为</h3><h4 id="行为"><a href="#行为" class="headerlink" title="行为"></a>行为</h4><p>行为指有机体的反应系统</p>
+<p>由一系列反应动作和活动构成</p>
+<p>大多情况是在一定的刺激情境下产生的</p>
+<p>从外部行为推测内部心理过程，是心理学研究的一条基本法则</p>
+<p>常常把心理学叫做——研究行为和心理过程的学科</p>
+<p>​	即通过对行为的客观记录、分析和测量来揭示人的心理过程的规律</p>
+<h3 id="个体意识与无意识"><a href="#个体意识与无意识" class="headerlink" title="个体意识与无意识"></a>个体意识与无意识</h3><h3 id="个体心理与社会心理"><a href="#个体心理与社会心理" class="headerlink" title="个体心理与社会心理"></a>个体心理与社会心理</h3><h2 id="心理学的任务"><a href="#心理学的任务" class="headerlink" title="心理学的任务"></a>心理学的任务</h2><h3 id="心理学的基本任务"><a href="#心理学的基本任务" class="headerlink" title="心理学的基本任务"></a>心理学的基本任务</h3><h4 id="心理过程"><a href="#心理过程" class="headerlink" title="心理过程"></a>心理过程</h4><p>分析心理现象的时间进程</p>
+<h4 id="心理结构"><a href="#心理结构" class="headerlink" title="心理结构"></a>心理结构</h4><p>研究心理现象之间的内在联系</p>
+<h4 id="心理的脑机制"><a href="#心理的脑机制" class="headerlink" title="心理的脑机制"></a>心理的脑机制</h4><p>揭示脑与心理现象的关系</p>
+<h4 id="心理现象的发生与发展"><a href="#心理现象的发生与发展" class="headerlink" title="心理现象的发生与发展"></a>心理现象的发生与发展</h4><p>研究心理现象的种系发展和个体发展以及它们和脑发育的关系</p>
+<h4 id="心理与环境的关系"><a href="#心理与环境的关系" class="headerlink" title="心理与环境的关系"></a>心理与环境的关系</h4><p>揭示心理现象和人的外部环境之间的规律性联系</p>
+<h3 id="研究心理学的意义"><a href="#研究心理学的意义" class="headerlink" title="研究心理学的意义"></a>研究心理学的意义</h3><h4 id="理论意义"><a href="#理论意义" class="headerlink" title="理论意义"></a>理论意义</h4><p>对破除迷信、形成科学的世界观和人生观有重要的意义</p>
+<h4 id="实践意义"><a href="#实践意义" class="headerlink" title="实践意义"></a>实践意义</h4><h3 id="心理学的研究领域"><a href="#心理学的研究领域" class="headerlink" title="心理学的研究领域"></a>心理学的研究领域</h3><h4 id="普通心理学"><a href="#普通心理学" class="headerlink" title="普通心理学"></a>普通心理学</h4><p>研究心理现象发生和发展的最一般的规律</p>
+<h4 id="生理心理学和心理生理学"><a href="#生理心理学和心理生理学" class="headerlink" title="生理心理学和心理生理学"></a>生理心理学和心理生理学</h4><p>研究心理现象的生理机制</p>
+<h4 id="发展心理学"><a href="#发展心理学" class="headerlink" title="发展心理学"></a>发展心理学</h4><p>研究心理的种系发展和人的心理的个体发展</p>
+<h5 id="比较心理学"><a href="#比较心理学" class="headerlink" title="比较心理学"></a>比较心理学</h5><p>研究心理种系发展</p>
+<p>将动物心理与人的心理进行比较，从比较中确定他们的联系和差别</p>
+<h5 id="毕生发展心理学"><a href="#毕生发展心理学" class="headerlink" title="毕生发展心理学"></a>毕生发展心理学</h5><p>研究人类个体心理发展</p>
+<h4 id="教育心理学"><a href="#教育心理学" class="headerlink" title="教育心理学"></a>教育心理学</h4><p>研究教育过程所保护的各种心理现象，揭示教育同心理发展的相互关系</p>
+<h5 id="学校心理学"><a href="#学校心理学" class="headerlink" title="学校心理学"></a>学校心理学</h5><p>研究儿童、青少年以及各阶段学生与教学过程有关的心理问题</p>
+<h4 id="医学心理学"><a href="#医学心理学" class="headerlink" title="医学心理学"></a>医学心理学</h4><p>研究心理因素在基本的发生、诊断、治疗机预防中的作用</p>
+<h5 id="健康心理学"><a href="#健康心理学" class="headerlink" title="健康心理学"></a>健康心理学</h5><p>研究人的思维、感受和行为方式与其生理健康的联系，探讨身心因素的 人类行为的影响，并通过心理——社会干预来促进尽快，防止疾病</p>
+<h4 id="工业心理学"><a href="#工业心理学" class="headerlink" title="工业心理学"></a>工业心理学</h4><p>研究工业劳动中人的心理特点和行为方式</p>
+<h4 id="军事心理学"><a href="#军事心理学" class="headerlink" title="军事心理学"></a>军事心理学</h4><p>将心理学应用于军事</p>
+<h4 id="社会心理学"><a href="#社会心理学" class="headerlink" title="社会心理学"></a>社会心理学</h4><p>系统研究社会心理与社会行为的科学</p>
+<h3 id="心理学在科学大家庭中的地位"><a href="#心理学在科学大家庭中的地位" class="headerlink" title="心理学在科学大家庭中的地位"></a>心理学在科学大家庭中的地位</h3><h4 id="心理学是一门中间学科"><a href="#心理学是一门中间学科" class="headerlink" title="心理学是一门中间学科"></a>心理学是一门中间学科</h4><p>心理学要研究心理现象的物质本体，即心理的神经生物学基础</p>
+<p>心理学还研究在计算机上模拟人类的行为，因而具有自然科学的性质</p>
+<h4 id="心理学的相关职业"><a href="#心理学的相关职业" class="headerlink" title="心理学的相关职业"></a>心理学的相关职业</h4><h4 id="如何做一名心理学家"><a href="#如何做一名心理学家" class="headerlink" title="如何做一名心理学家"></a>如何做一名心理学家</h4><h2 id="心理学的研究方法"><a href="#心理学的研究方法" class="headerlink" title="心理学的研究方法"></a>心理学的研究方法</h2><h3 id="心理学研究方法的客观性"><a href="#心理学研究方法的客观性" class="headerlink" title="心理学研究方法的客观性"></a>心理学研究方法的客观性</h3><h3 id="几种主要的研究方法"><a href="#几种主要的研究方法" class="headerlink" title="几种主要的研究方法"></a>几种主要的研究方法</h3><h4 id="观察法"><a href="#观察法" class="headerlink" title="观察法"></a>观察法</h4><p>在自然条件下，对表现心理现象的外部活动进行有系统、有计划的观察，从中发现心理现象产生和发展的规律性</p>
+<h5 id="下列条件采用观察法"><a href="#下列条件采用观察法" class="headerlink" title="下列条件采用观察法"></a>下列条件采用观察法</h5><ul>
+<li>对所研究的对象无法加以控制</li>
+<li>控制条件可能影响某种行为的出现</li>
+<li>由于社会道德的要求，不能对某种现象进行控制</li>
+</ul>
+<h5 id="观察法的主要缺陷"><a href="#观察法的主要缺陷" class="headerlink" title="观察法的主要缺陷"></a>观察法的主要缺陷</h5><ul>
+<li>在自然条件下，事件很难严格按相同的方式重复出现，因此，对某种现象难以进行重复观察，而对观察的结果也难以进行验证和证实</li>
+<li>在自然条件下，影响某种心理活动的因素是多方面的，因此，用观察法得到的结果，往往难以进行精确的分析</li>
+<li>由于对条件未加控制，观察时可能出现不需要研究的对象，而要研究的现象却没有出现</li>
+<li>观察容易“各取所需”，即观察的结果容易受到观察者本人的兴趣、愿望、知识经验和观察技能的影响</li>
+</ul>
+<h4 id="测验法"><a href="#测验法" class="headerlink" title="测验法"></a>测验法</h4><p>用一套预先经过标准化的问题来测量某种心理品质的方法</p>
+<p>测验要注意两个基本要求：测验的信度和效度</p>
+<h4 id="相关法"><a href="#相关法" class="headerlink" title="相关法"></a>相关法</h4><h4 id="实验法"><a href="#实验法" class="headerlink" title="实验法"></a>实验法</h4><p>在控制条件下对某种心理现象进行观察</p>
+<p>实验法分两种：实验室实验法和自然实验法</p>
+<h4 id="个案法"><a href="#个案法" class="headerlink" title="个案法"></a>个案法</h4><p>对某个人进行深入而详尽的观察与研究，以便发现影响某种行为和心理现象的原因</p>
+<h3 id="心理学研究中的伦理道德"><a href="#心理学研究中的伦理道德" class="headerlink" title="心理学研究中的伦理道德"></a>心理学研究中的伦理道德</h3><h2 id="心理学的过去和现在"><a href="#心理学的过去和现在" class="headerlink" title="心理学的过去和现在"></a>心理学的过去和现在</h2><h3 id="现代心理学产生的历史背景"><a href="#现代心理学产生的历史背景" class="headerlink" title="现代心理学产生的历史背景"></a>现代心理学产生的历史背景</h3><h4 id="近代哲学的影响"><a href="#近代哲学的影响" class="headerlink" title="近代哲学的影响"></a>近代哲学的影响</h4><h5 id="唯理论"><a href="#唯理论" class="headerlink" title="唯理论"></a>唯理论</h5><h5 id="经验论"><a href="#经验论" class="headerlink" title="经验论"></a>经验论</h5><h4 id="实验生理学的影响"><a href="#实验生理学的影响" class="headerlink" title="实验生理学的影响"></a>实验生理学的影响</h4><h3 id="19-世纪末-20-世纪初的重要心理学派别"><a href="#19-世纪末-20-世纪初的重要心理学派别" class="headerlink" title="19 世纪末 20 世纪初的重要心理学派别"></a>19 世纪末 20 世纪初的重要心理学派别</h3><h4 id="构造主义"><a href="#构造主义" class="headerlink" title="构造主义"></a>构造主义</h4><h4 id="机能主义"><a href="#机能主义" class="headerlink" title="机能主义"></a>机能主义</h4><h4 id="行为主义"><a href="#行为主义" class="headerlink" title="行为主义"></a>行为主义</h4><h4 id="格式塔心理学"><a href="#格式塔心理学" class="headerlink" title="格式塔心理学"></a>格式塔心理学</h4><h4 id="精神分析学派"><a href="#精神分析学派" class="headerlink" title="精神分析学派"></a>精神分析学派</h4><h3 id="当代心理学的研究方向"><a href="#当代心理学的研究方向" class="headerlink" title="当代心理学的研究方向"></a>当代心理学的研究方向</h3><h4 id="生理心理学的研究取向"><a href="#生理心理学的研究取向" class="headerlink" title="生理心理学的研究取向"></a>生理心理学的研究取向</h4><ul>
+<li>脑与心理的关系</li>
+<li>心理免疫学</li>
+<li>遗传在行为中的作用</li>
+</ul>
+<h4 id="行为主义的研究取向"><a href="#行为主义的研究取向" class="headerlink" title="行为主义的研究取向"></a>行为主义的研究取向</h4><h4 id="精神分析的研究取向"><a href="#精神分析的研究取向" class="headerlink" title="精神分析的研究取向"></a>精神分析的研究取向</h4><h4 id="认知心理学的研究取向"><a href="#认知心理学的研究取向" class="headerlink" title="认知心理学的研究取向"></a>认知心理学的研究取向</h4><h4 id="人本主义心理学和积极心理学的研究取向"><a href="#人本主义心理学和积极心理学的研究取向" class="headerlink" title="人本主义心理学和积极心理学的研究取向"></a>人本主义心理学和积极心理学的研究取向</h4><h3 id="中国心理学的发展道路"><a href="#中国心理学的发展道路" class="headerlink" title="中国心理学的发展道路"></a>中国心理学的发展道路</h3><h4 id="中国古代心理学思想的发展"><a href="#中国古代心理学思想的发展" class="headerlink" title="中国古代心理学思想的发展"></a>中国古代心理学思想的发展</h4><h4 id="中国早期心理学的传播"><a href="#中国早期心理学的传播" class="headerlink" title="中国早期心理学的传播"></a>中国早期心理学的传播</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第七章 思维</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%83%E7%AB%A0%20%E6%80%9D%E7%BB%B4/</url>
+    <content><![CDATA[<h1 id="第七章-思维"><a href="#第七章-思维" class="headerlink" title="第七章 思维"></a>第七章 思维</h1><h2 id="思维的一般概念"><a href="#思维的一般概念" class="headerlink" title="思维的一般概念"></a>思维的一般概念</h2><h3 id="思维的概念及特征"><a href="#思维的概念及特征" class="headerlink" title="思维的概念及特征"></a>思维的概念及特征</h3><h4 id="概括性"><a href="#概括性" class="headerlink" title="概括性"></a>概括性</h4><h4 id="间接性"><a href="#间接性" class="headerlink" title="间接性"></a>间接性</h4><h4 id="对经验的改组"><a href="#对经验的改组" class="headerlink" title="对经验的改组"></a>对经验的改组</h4><h3 id="思维的种类"><a href="#思维的种类" class="headerlink" title="思维的种类"></a>思维的种类</h3><h4 id="直观动作思维、形象思维和逻辑思维"><a href="#直观动作思维、形象思维和逻辑思维" class="headerlink" title="直观动作思维、形象思维和逻辑思维"></a>直观动作思维、形象思维和逻辑思维</h4><h5 id="直观动作思维"><a href="#直观动作思维" class="headerlink" title="直观动作思维"></a>直观动作思维</h5><h5 id="形象思维"><a href="#形象思维" class="headerlink" title="形象思维"></a>形象思维</h5><h5 id="逻辑思维"><a href="#逻辑思维" class="headerlink" title="逻辑思维"></a>逻辑思维</h5><h4 id="经验思维和理论思维"><a href="#经验思维和理论思维" class="headerlink" title="经验思维和理论思维"></a>经验思维和理论思维</h4><h4 id="直觉思维和分析思维"><a href="#直觉思维和分析思维" class="headerlink" title="直觉思维和分析思维"></a>直觉思维和分析思维</h4><h4 id="辐合思维和发散思维"><a href="#辐合思维和发散思维" class="headerlink" title="辐合思维和发散思维"></a>辐合思维和发散思维</h4><h4 id="常规性思维与创造性思维"><a href="#常规性思维与创造性思维" class="headerlink" title="常规性思维与创造性思维"></a>常规性思维与创造性思维</h4><h2 id="表象"><a href="#表象" class="headerlink" title="表象"></a>表象</h2><h3 id="什么是表象"><a href="#什么是表象" class="headerlink" title="什么是表象"></a>什么是表象</h3><h3 id="表象的特征"><a href="#表象的特征" class="headerlink" title="表象的特征"></a>表象的特征</h3><h4 id="直观性"><a href="#直观性" class="headerlink" title="直观性"></a>直观性</h4><h4 id="概括性-1"><a href="#概括性-1" class="headerlink" title="概括性"></a>概括性</h4><h4 id="可操作性"><a href="#可操作性" class="headerlink" title="可操作性"></a>可操作性</h4><h3 id="表象的脑机制"><a href="#表象的脑机制" class="headerlink" title="表象的脑机制"></a>表象的脑机制</h3><h3 id="表象在思维中的作用"><a href="#表象在思维中的作用" class="headerlink" title="表象在思维中的作用"></a>表象在思维中的作用</h3><h4 id="表象为概念的形成提供了感性基础"><a href="#表象为概念的形成提供了感性基础" class="headerlink" title="表象为概念的形成提供了感性基础"></a>表象为概念的形成提供了感性基础</h4><h4 id="表象促进问题的解决"><a href="#表象促进问题的解决" class="headerlink" title="表象促进问题的解决"></a>表象促进问题的解决</h4><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><h3 id="概念的含义和种类"><a href="#概念的含义和种类" class="headerlink" title="概念的含义和种类"></a>概念的含义和种类</h3><h4 id="概念的含义"><a href="#概念的含义" class="headerlink" title="概念的含义"></a>概念的含义</h4><h4 id="概念的种类"><a href="#概念的种类" class="headerlink" title="概念的种类"></a>概念的种类</h4><h5 id="合取概念、析取概念和关系概念"><a href="#合取概念、析取概念和关系概念" class="headerlink" title="合取概念、析取概念和关系概念"></a>合取概念、析取概念和关系概念</h5><h5 id="自然概念和人工概念"><a href="#自然概念和人工概念" class="headerlink" title="自然概念和人工概念"></a>自然概念和人工概念</h5><h3 id="概念形成的实验研究"><a href="#概念形成的实验研究" class="headerlink" title="概念形成的实验研究"></a>概念形成的实验研究</h3><h4 id="人工概念形成的实验研究"><a href="#人工概念形成的实验研究" class="headerlink" title="人工概念形成的实验研究"></a>人工概念形成的实验研究</h4><h4 id="人工概念形成的途径"><a href="#人工概念形成的途径" class="headerlink" title="人工概念形成的途径"></a>人工概念形成的途径</h4><h5 id="假设检验"><a href="#假设检验" class="headerlink" title="假设检验"></a>假设检验</h5><h5 id="样例学习"><a href="#样例学习" class="headerlink" title="样例学习"></a>样例学习</h5><h3 id="概念结构的理论"><a href="#概念结构的理论" class="headerlink" title="概念结构的理论"></a>概念结构的理论</h3><h4 id="层次网络模型"><a href="#层次网络模型" class="headerlink" title="层次网络模型"></a>层次网络模型</h4><h5 id="激活扩散模型"><a href="#激活扩散模型" class="headerlink" title="激活扩散模型"></a>激活扩散模型</h5><h2 id="推理"><a href="#推理" class="headerlink" title="推理"></a>推理</h2><h3 id="三段论推理"><a href="#三段论推理" class="headerlink" title="三段论推理"></a>三段论推理</h3><h3 id="线性推理"><a href="#线性推理" class="headerlink" title="线性推理"></a>线性推理</h3><h3 id="条件推理"><a href="#条件推理" class="headerlink" title="条件推理"></a>条件推理</h3><h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><h3 id="问题解决的概念"><a href="#问题解决的概念" class="headerlink" title="问题解决的概念"></a>问题解决的概念</h3><h4 id="什么是问题解决"><a href="#什么是问题解决" class="headerlink" title="什么是问题解决"></a>什么是问题解决</h4><h4 id="问题的种类"><a href="#问题的种类" class="headerlink" title="问题的种类"></a>问题的种类</h4><h5 id="界定清晰的问题的界定含糊的问题"><a href="#界定清晰的问题的界定含糊的问题" class="headerlink" title="界定清晰的问题的界定含糊的问题"></a>界定清晰的问题的界定含糊的问题</h5><h5 id="对抗性问题和非对抗性问题"><a href="#对抗性问题和非对抗性问题" class="headerlink" title="对抗性问题和非对抗性问题"></a>对抗性问题和非对抗性问题</h5><h5 id="语义丰富的问题和语义贫乏的问题"><a href="#语义丰富的问题和语义贫乏的问题" class="headerlink" title="语义丰富的问题和语义贫乏的问题"></a>语义丰富的问题和语义贫乏的问题</h5><h3 id="问题解决的脑机制"><a href="#问题解决的脑机制" class="headerlink" title="问题解决的脑机制"></a>问题解决的脑机制</h3><h3 id="问题解决的策略"><a href="#问题解决的策略" class="headerlink" title="问题解决的策略"></a>问题解决的策略</h3><h4 id="算法策略"><a href="#算法策略" class="headerlink" title="算法策略"></a>算法策略</h4><h4 id="启发法"><a href="#启发法" class="headerlink" title="启发法"></a>启发法</h4><h5 id="手段——目的分析法"><a href="#手段——目的分析法" class="headerlink" title="手段——目的分析法"></a>手段——目的分析法</h5><h5 id="逆向搜索法"><a href="#逆向搜索法" class="headerlink" title="逆向搜索法"></a>逆向搜索法</h5><h5 id="爬山法"><a href="#爬山法" class="headerlink" title="爬山法"></a>爬山法</h5><h3 id="影响问题解决的因素"><a href="#影响问题解决的因素" class="headerlink" title="影响问题解决的因素"></a>影响问题解决的因素</h3><h4 id="知识经验在问题解决中的作用"><a href="#知识经验在问题解决中的作用" class="headerlink" title="知识经验在问题解决中的作用"></a>知识经验在问题解决中的作用</h4><h5 id="专家与新手在知识数量上的差别"><a href="#专家与新手在知识数量上的差别" class="headerlink" title="专家与新手在知识数量上的差别"></a>专家与新手在知识数量上的差别</h5><h5 id="专家与新手在组织方式上的差别"><a href="#专家与新手在组织方式上的差别" class="headerlink" title="专家与新手在组织方式上的差别"></a>专家与新手在组织方式上的差别</h5><h4 id="无关信息的影响"><a href="#无关信息的影响" class="headerlink" title="无关信息的影响"></a>无关信息的影响</h4><h4 id="问题的表征方式"><a href="#问题的表征方式" class="headerlink" title="问题的表征方式"></a>问题的表征方式</h4><h4 id="思维定势"><a href="#思维定势" class="headerlink" title="思维定势"></a>思维定势</h4><h4 id="功能固着"><a href="#功能固着" class="headerlink" title="功能固着"></a>功能固着</h4><h4 id="动机和情绪"><a href="#动机和情绪" class="headerlink" title="动机和情绪"></a>动机和情绪</h4><h4 id="人际关系"><a href="#人际关系" class="headerlink" title="人际关系"></a>人际关系</h4><h3 id="创造性和想象"><a href="#创造性和想象" class="headerlink" title="创造性和想象"></a>创造性和想象</h3><h4 id="什么是创造性"><a href="#什么是创造性" class="headerlink" title="什么是创造性"></a>什么是创造性</h4><h4 id="创造性的心理成分"><a href="#创造性的心理成分" class="headerlink" title="创造性的心理成分"></a>创造性的心理成分</h4><h5 id="想象"><a href="#想象" class="headerlink" title="想象"></a>想象</h5><h6 id="想象的含义及其功能"><a href="#想象的含义及其功能" class="headerlink" title="想象的含义及其功能"></a>想象的含义及其功能</h6><h6 id="想象的综合过程"><a href="#想象的综合过程" class="headerlink" title="想象的综合过程"></a>想象的综合过程</h6><h6 id="想象的种类"><a href="#想象的种类" class="headerlink" title="想象的种类"></a>想象的种类</h6><h5 id="辐合思维与发散思维"><a href="#辐合思维与发散思维" class="headerlink" title="辐合思维与发散思维"></a>辐合思维与发散思维</h5><h5 id="远距离联想能力"><a href="#远距离联想能力" class="headerlink" title="远距离联想能力"></a>远距离联想能力</h5><h5 id="与创造性相关的非智力因素"><a href="#与创造性相关的非智力因素" class="headerlink" title="与创造性相关的非智力因素"></a>与创造性相关的非智力因素</h5><h2 id="决策"><a href="#决策" class="headerlink" title="决策"></a>决策</h2><h3 id="什么是决策"><a href="#什么是决策" class="headerlink" title="什么是决策"></a>什么是决策</h3><h3 id="决策的理性观"><a href="#决策的理性观" class="headerlink" title="决策的理性观"></a>决策的理性观</h3><h4 id="古典决策理论"><a href="#古典决策理论" class="headerlink" title="古典决策理论"></a>古典决策理论</h4><h4 id="行为决策理论"><a href="#行为决策理论" class="headerlink" title="行为决策理论"></a>行为决策理论</h4><h3 id="决策过程的研究"><a href="#决策过程的研究" class="headerlink" title="决策过程的研究"></a>决策过程的研究</h3><h4 id="期望效用理论"><a href="#期望效用理论" class="headerlink" title="期望效用理论"></a>期望效用理论</h4><h4 id="前景理论"><a href="#前景理论" class="headerlink" title="前景理论"></a>前景理论</h4><h5 id="代表性启发法"><a href="#代表性启发法" class="headerlink" title="代表性启发法"></a>代表性启发法</h5><h5 id="易得性启发法"><a href="#易得性启发法" class="headerlink" title="易得性启发法"></a>易得性启发法</h5><h5 id="锚定和启发调整法"><a href="#锚定和启发调整法" class="headerlink" title="锚定和启发调整法"></a>锚定和启发调整法</h5>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第三章 感觉</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E6%84%9F%E8%A7%89/</url>
+    <content><![CDATA[<h1 id="第三章-感觉"><a href="#第三章-感觉" class="headerlink" title="第三章 感觉"></a>第三章 感觉</h1><h2 id="感觉的一般概念"><a href="#感觉的一般概念" class="headerlink" title="感觉的一般概念"></a>感觉的一般概念</h2><h3 id="什么是感觉"><a href="#什么是感觉" class="headerlink" title="什么是感觉"></a>什么是感觉</h3><h3 id="近刺激和远刺激"><a href="#近刺激和远刺激" class="headerlink" title="近刺激和远刺激"></a>近刺激和远刺激</h3><h3 id="感觉的编码"><a href="#感觉的编码" class="headerlink" title="感觉的编码"></a>感觉的编码</h3><h3 id="刺激强度与感觉大小的关系——感受性与感觉阈限"><a href="#刺激强度与感觉大小的关系——感受性与感觉阈限" class="headerlink" title="刺激强度与感觉大小的关系——感受性与感觉阈限"></a>刺激强度与感觉大小的关系——感受性与感觉阈限</h3><h4 id="绝对感受性与绝对感受阈限"><a href="#绝对感受性与绝对感受阈限" class="headerlink" title="绝对感受性与绝对感受阈限"></a>绝对感受性与绝对感受阈限</h4><h4 id="差别感受性与差别感受阈限"><a href="#差别感受性与差别感受阈限" class="headerlink" title="差别感受性与差别感受阈限"></a>差别感受性与差别感受阈限</h4><h4 id="刺激强度与感觉大小的关系"><a href="#刺激强度与感觉大小的关系" class="headerlink" title="刺激强度与感觉大小的关系"></a>刺激强度与感觉大小的关系</h4><h5 id="对数定律"><a href="#对数定律" class="headerlink" title="对数定律"></a>对数定律</h5><h5 id="幂定律"><a href="#幂定律" class="headerlink" title="幂定律"></a>幂定律</h5><h5 id="信号检测论"><a href="#信号检测论" class="headerlink" title="信号检测论"></a>信号检测论</h5><h2 id="视觉"><a href="#视觉" class="headerlink" title="视觉"></a>视觉</h2><h3 id="视觉刺激"><a href="#视觉刺激" class="headerlink" title="视觉刺激"></a>视觉刺激</h3><h3 id="视觉的生理机制"><a href="#视觉的生理机制" class="headerlink" title="视觉的生理机制"></a>视觉的生理机制</h3><h4 id="眼球"><a href="#眼球" class="headerlink" title="眼球"></a>眼球</h4><h4 id="视网膜的构造和换能作用"><a href="#视网膜的构造和换能作用" class="headerlink" title="视网膜的构造和换能作用"></a>视网膜的构造和换能作用</h4><h4 id="视觉的传导机制"><a href="#视觉的传导机制" class="headerlink" title="视觉的传导机制"></a>视觉的传导机制</h4><h4 id="视觉的中枢机制"><a href="#视觉的中枢机制" class="headerlink" title="视觉的中枢机制"></a>视觉的中枢机制</h4><h3 id="视觉的基本现象"><a href="#视觉的基本现象" class="headerlink" title="视觉的基本现象"></a>视觉的基本现象</h3><h4 id="明度"><a href="#明度" class="headerlink" title="明度"></a>明度</h4><h4 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h4><h5 id="什么是颜色"><a href="#什么是颜色" class="headerlink" title="什么是颜色"></a>什么是颜色</h5><h5 id="色觉缺陷"><a href="#色觉缺陷" class="headerlink" title="色觉缺陷"></a>色觉缺陷</h5><h5 id="色觉理论"><a href="#色觉理论" class="headerlink" title="色觉理论"></a>色觉理论</h5><h6 id="三色说"><a href="#三色说" class="headerlink" title="三色说"></a>三色说</h6><h6 id="对立过程理论"><a href="#对立过程理论" class="headerlink" title="对立过程理论"></a>对立过程理论</h6><h4 id="视觉中的空间特性"><a href="#视觉中的空间特性" class="headerlink" title="视觉中的空间特性"></a>视觉中的空间特性</h4><h5 id="视觉对比"><a href="#视觉对比" class="headerlink" title="视觉对比"></a>视觉对比</h5><h5 id="边界突出与马赫带"><a href="#边界突出与马赫带" class="headerlink" title="边界突出与马赫带"></a>边界突出与马赫带</h5><h5 id="视敏度"><a href="#视敏度" class="headerlink" title="视敏度"></a>视敏度</h5><h4 id="视觉中的时间特性"><a href="#视觉中的时间特性" class="headerlink" title="视觉中的时间特性"></a>视觉中的时间特性</h4><h5 id="视觉适应"><a href="#视觉适应" class="headerlink" title="视觉适应"></a>视觉适应</h5><h5 id="后像"><a href="#后像" class="headerlink" title="后像"></a>后像</h5><h5 id="闪光融合"><a href="#闪光融合" class="headerlink" title="闪光融合"></a>闪光融合</h5><h5 id="视觉掩蔽"><a href="#视觉掩蔽" class="headerlink" title="视觉掩蔽"></a>视觉掩蔽</h5><h2 id="听觉"><a href="#听觉" class="headerlink" title="听觉"></a>听觉</h2><h3 id="听觉刺激"><a href="#听觉刺激" class="headerlink" title="听觉刺激"></a>听觉刺激</h3><h3 id="听觉的生理机制"><a href="#听觉的生理机制" class="headerlink" title="听觉的生理机制"></a>听觉的生理机制</h3><h4 id="耳的构造和功能"><a href="#耳的构造和功能" class="headerlink" title="耳的构造和功能"></a>耳的构造和功能</h4><h4 id="听觉的传导机制和中枢机制"><a href="#听觉的传导机制和中枢机制" class="headerlink" title="听觉的传导机制和中枢机制"></a>听觉的传导机制和中枢机制</h4><h3 id="听觉的基本现象"><a href="#听觉的基本现象" class="headerlink" title="听觉的基本现象"></a>听觉的基本现象</h3><h4 id="音调"><a href="#音调" class="headerlink" title="音调"></a>音调</h4><h5 id="频率理论"><a href="#频率理论" class="headerlink" title="频率理论"></a>频率理论</h5><h5 id="共鸣理论"><a href="#共鸣理论" class="headerlink" title="共鸣理论"></a>共鸣理论</h5><h5 id="行波理论"><a href="#行波理论" class="headerlink" title="行波理论"></a>行波理论</h5><h5 id="神经齐射理论"><a href="#神经齐射理论" class="headerlink" title="神经齐射理论"></a>神经齐射理论</h5><h4 id="音响"><a href="#音响" class="headerlink" title="音响"></a>音响</h4><h4 id="声音的掩蔽"><a href="#声音的掩蔽" class="headerlink" title="声音的掩蔽"></a>声音的掩蔽</h4><h2 id="其他感觉"><a href="#其他感觉" class="headerlink" title="其他感觉"></a>其他感觉</h2><h3 id="皮肤感觉"><a href="#皮肤感觉" class="headerlink" title="皮肤感觉"></a>皮肤感觉</h3><h4 id="肤觉"><a href="#肤觉" class="headerlink" title="肤觉"></a>肤觉</h4><h4 id="触压觉"><a href="#触压觉" class="headerlink" title="触压觉"></a>触压觉</h4><h4 id="温度觉"><a href="#温度觉" class="headerlink" title="温度觉"></a>温度觉</h4><h3 id="嗅觉和味觉"><a href="#嗅觉和味觉" class="headerlink" title="嗅觉和味觉"></a>嗅觉和味觉</h3><h4 id="嗅觉"><a href="#嗅觉" class="headerlink" title="嗅觉"></a>嗅觉</h4><h4 id="味觉"><a href="#味觉" class="headerlink" title="味觉"></a>味觉</h4><h3 id="内部感觉"><a href="#内部感觉" class="headerlink" title="内部感觉"></a>内部感觉</h3><h4 id="动觉"><a href="#动觉" class="headerlink" title="动觉"></a>动觉</h4><h4 id="平衡觉"><a href="#平衡觉" class="headerlink" title="平衡觉"></a>平衡觉</h4><h4 id="内脏感觉"><a href="#内脏感觉" class="headerlink" title="内脏感觉"></a>内脏感觉</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第五章 意识和注意</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E6%84%8F%E8%AF%86%E5%92%8C%E6%B3%A8%E6%84%8F/</url>
+    <content><![CDATA[<h1 id="第五章-意识和注意"><a href="#第五章-意识和注意" class="headerlink" title="第五章 意识和注意"></a>第五章 意识和注意</h1><h2 id="意识的一般概念"><a href="#意识的一般概念" class="headerlink" title="意识的一般概念"></a>意识的一般概念</h2><h3 id="什么是意识"><a href="#什么是意识" class="headerlink" title="什么是意识"></a>什么是意识</h3><h4 id="意识是一种觉知"><a href="#意识是一种觉知" class="headerlink" title="意识是一种觉知"></a>意识是一种觉知</h4><h4 id="意识是一种高级的心理功能"><a href="#意识是一种高级的心理功能" class="headerlink" title="意识是一种高级的心理功能"></a>意识是一种高级的心理功能</h4><h4 id="意识是一种心理状态"><a href="#意识是一种心理状态" class="headerlink" title="意识是一种心理状态"></a>意识是一种心理状态</h4><h3 id="什么是无意识"><a href="#什么是无意识" class="headerlink" title="什么是无意识"></a>什么是无意识</h3><h4 id="无意识行为"><a href="#无意识行为" class="headerlink" title="无意识行为"></a>无意识行为</h4><h4 id="对刺激的无意识"><a href="#对刺激的无意识" class="headerlink" title="对刺激的无意识"></a>对刺激的无意识</h4><h4 id="盲视"><a href="#盲视" class="headerlink" title="盲视"></a>盲视</h4><h3 id="意识的局限性及能动性"><a href="#意识的局限性及能动性" class="headerlink" title="意识的局限性及能动性"></a>意识的局限性及能动性</h3><h3 id="生物节律的周期性与意识状态"><a href="#生物节律的周期性与意识状态" class="headerlink" title="生物节律的周期性与意识状态"></a>生物节律的周期性与意识状态</h3><h2 id="几种不同的意识状态"><a href="#几种不同的意识状态" class="headerlink" title="几种不同的意识状态"></a>几种不同的意识状态</h2><h3 id="睡眠与梦"><a href="#睡眠与梦" class="headerlink" title="睡眠与梦"></a>睡眠与梦</h3><h4 id="睡眠"><a href="#睡眠" class="headerlink" title="睡眠"></a>睡眠</h4><h5 id="睡眠及其阶段"><a href="#睡眠及其阶段" class="headerlink" title="睡眠及其阶段"></a>睡眠及其阶段</h5><h5 id="睡眠的功能"><a href="#睡眠的功能" class="headerlink" title="睡眠的功能"></a>睡眠的功能</h5><h5 id="失眠"><a href="#失眠" class="headerlink" title="失眠"></a>失眠</h5><h4 id="梦"><a href="#梦" class="headerlink" title="梦"></a>梦</h4><h5 id="关于梦的解释"><a href="#关于梦的解释" class="headerlink" title="关于梦的解释"></a>关于梦的解释</h5><h6 id="精神分析的观点"><a href="#精神分析的观点" class="headerlink" title="精神分析的观点"></a>精神分析的观点</h6><h6 id="生理学的观点"><a href="#生理学的观点" class="headerlink" title="生理学的观点"></a>生理学的观点</h6><h6 id="认知观点"><a href="#认知观点" class="headerlink" title="认知观点"></a>认知观点</h6><h5 id="对梦的研究"><a href="#对梦的研究" class="headerlink" title="对梦的研究"></a>对梦的研究</h5><h3 id="什么是催眠"><a href="#什么是催眠" class="headerlink" title="什么是催眠"></a>什么是催眠</h3><h4 id="催眠"><a href="#催眠" class="headerlink" title="催眠"></a>催眠</h4><h4 id="对催眠的不同解释"><a href="#对催眠的不同解释" class="headerlink" title="对催眠的不同解释"></a>对催眠的不同解释</h4><h4 id="催眠的应用"><a href="#催眠的应用" class="headerlink" title="催眠的应用"></a>催眠的应用</h4><h3 id="白日梦与幻想"><a href="#白日梦与幻想" class="headerlink" title="白日梦与幻想"></a>白日梦与幻想</h3><h3 id="精神活性药物引发的意识状态改变"><a href="#精神活性药物引发的意识状态改变" class="headerlink" title="精神活性药物引发的意识状态改变"></a>精神活性药物引发的意识状态改变</h3><h2 id="注意的一般概念"><a href="#注意的一般概念" class="headerlink" title="注意的一般概念"></a>注意的一般概念</h2><h3 id="注意的基本概念"><a href="#注意的基本概念" class="headerlink" title="注意的基本概念"></a>注意的基本概念</h3><h4 id="什么是注意"><a href="#什么是注意" class="headerlink" title="什么是注意"></a>什么是注意</h4><h4 id="注意和意识"><a href="#注意和意识" class="headerlink" title="注意和意识"></a>注意和意识</h4><h4 id="注意的外部表现"><a href="#注意的外部表现" class="headerlink" title="注意的外部表现"></a>注意的外部表现</h4><h4 id="注意的功能"><a href="#注意的功能" class="headerlink" title="注意的功能"></a>注意的功能</h4><h3 id="注意的种类"><a href="#注意的种类" class="headerlink" title="注意的种类"></a>注意的种类</h3><h4 id="选择性注意"><a href="#选择性注意" class="headerlink" title="选择性注意"></a>选择性注意</h4><h4 id="持续性注意"><a href="#持续性注意" class="headerlink" title="持续性注意"></a>持续性注意</h4><h4 id="分配性注意"><a href="#分配性注意" class="headerlink" title="分配性注意"></a>分配性注意</h4><h2 id="注意的认知——神经机制"><a href="#注意的认知——神经机制" class="headerlink" title="注意的认知——神经机制"></a>注意的认知——神经机制</h2><h3 id="注意的认知理论"><a href="#注意的认知理论" class="headerlink" title="注意的认知理论"></a>注意的认知理论</h3><h4 id="注意的选择功能"><a href="#注意的选择功能" class="headerlink" title="注意的选择功能"></a>注意的选择功能</h4><h5 id="过滤器理论"><a href="#过滤器理论" class="headerlink" title="过滤器理论"></a>过滤器理论</h5><h5 id="衰减理论"><a href="#衰减理论" class="headerlink" title="衰减理论"></a>衰减理论</h5><h5 id="后期选择理论"><a href="#后期选择理论" class="headerlink" title="后期选择理论"></a>后期选择理论</h5><h5 id="多节点选择理论"><a href="#多节点选择理论" class="headerlink" title="多节点选择理论"></a>多节点选择理论</h5><h4 id="注意与认知资源分配"><a href="#注意与认知资源分配" class="headerlink" title="注意与认知资源分配"></a>注意与认知资源分配</h4><h5 id="认知资源理论"><a href="#认知资源理论" class="headerlink" title="认知资源理论"></a>认知资源理论</h5><h5 id="双加工理论"><a href="#双加工理论" class="headerlink" title="双加工理论"></a>双加工理论</h5><h3 id="注意的生理机制"><a href="#注意的生理机制" class="headerlink" title="注意的生理机制"></a>注意的生理机制</h3><h4 id="朝向反射"><a href="#朝向反射" class="headerlink" title="朝向反射"></a>朝向反射</h4><h4 id="脑干网状结构"><a href="#脑干网状结构" class="headerlink" title="脑干网状结构"></a>脑干网状结构</h4><h4 id="边缘系统和大脑皮层的功能"><a href="#边缘系统和大脑皮层的功能" class="headerlink" title="边缘系统和大脑皮层的功能"></a>边缘系统和大脑皮层的功能</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第九章 动机</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B9%9D%E7%AB%A0%20%E5%8A%A8%E6%9C%BA/</url>
+    <content><![CDATA[<h1 id="第九章-动机"><a href="#第九章-动机" class="headerlink" title="第九章 动机"></a>第九章 动机</h1><h2 id="动机的一般概念"><a href="#动机的一般概念" class="headerlink" title="动机的一般概念"></a>动机的一般概念</h2><h3 id="动机的含义与功能"><a href="#动机的含义与功能" class="headerlink" title="动机的含义与功能"></a>动机的含义与功能</h3><h4 id="激活功能"><a href="#激活功能" class="headerlink" title="激活功能"></a>激活功能</h4><h4 id="指向功能"><a href="#指向功能" class="headerlink" title="指向功能"></a>指向功能</h4><h4 id="维持功能"><a href="#维持功能" class="headerlink" title="维持功能"></a>维持功能</h4><h3 id="动机与需要"><a href="#动机与需要" class="headerlink" title="动机与需要"></a>动机与需要</h3><h4 id="需要及其种类"><a href="#需要及其种类" class="headerlink" title="需要及其种类"></a>需要及其种类</h4><h5 id="需要的意义"><a href="#需要的意义" class="headerlink" title="需要的意义"></a>需要的意义</h5><h5 id="需要的种类"><a href="#需要的种类" class="headerlink" title="需要的种类"></a>需要的种类</h5><h6 id="自然需要和社会需要"><a href="#自然需要和社会需要" class="headerlink" title="自然需要和社会需要"></a>自然需要和社会需要</h6><h6 id="物质需要和精神需要"><a href="#物质需要和精神需要" class="headerlink" title="物质需要和精神需要"></a>物质需要和精神需要</h6><h3 id="动机与目标"><a href="#动机与目标" class="headerlink" title="动机与目标"></a>动机与目标</h3><h4 id="目标的含义"><a href="#目标的含义" class="headerlink" title="目标的含义"></a>目标的含义</h4><h4 id="目标的种类"><a href="#目标的种类" class="headerlink" title="目标的种类"></a>目标的种类</h4><h5 id="明确的目标与模糊的目标"><a href="#明确的目标与模糊的目标" class="headerlink" title="明确的目标与模糊的目标"></a>明确的目标与模糊的目标</h5><h5 id="长期目标与短期目标"><a href="#长期目标与短期目标" class="headerlink" title="长期目标与短期目标"></a>长期目标与短期目标</h5><h5 id="不同难度的目标"><a href="#不同难度的目标" class="headerlink" title="不同难度的目标"></a>不同难度的目标</h5><h4 id="目标的动机机制"><a href="#目标的动机机制" class="headerlink" title="目标的动机机制"></a>目标的动机机制</h4><h3 id="动机与行为和工作效率"><a href="#动机与行为和工作效率" class="headerlink" title="动机与行为和工作效率"></a>动机与行为和工作效率</h3><h4 id="动机与行为"><a href="#动机与行为" class="headerlink" title="动机与行为"></a>动机与行为</h4><h4 id="动机与工作效率"><a href="#动机与工作效率" class="headerlink" title="动机与工作效率"></a>动机与工作效率</h4><h3 id="动机与价值观"><a href="#动机与价值观" class="headerlink" title="动机与价值观"></a>动机与价值观</h3><h2 id="动机的种类"><a href="#动机的种类" class="headerlink" title="动机的种类"></a>动机的种类</h2><h3 id="生理性动机"><a href="#生理性动机" class="headerlink" title="生理性动机"></a>生理性动机</h3><h4 id="饥饿"><a href="#饥饿" class="headerlink" title="饥饿"></a>饥饿</h4><h5 id="饥饿与体内平衡"><a href="#饥饿与体内平衡" class="headerlink" title="饥饿与体内平衡"></a>饥饿与体内平衡</h5><h5 id="饥饿与体内化学物质"><a href="#饥饿与体内化学物质" class="headerlink" title="饥饿与体内化学物质"></a>饥饿与体内化学物质</h5><h5 id="饥饿与下丘脑"><a href="#饥饿与下丘脑" class="headerlink" title="饥饿与下丘脑"></a>饥饿与下丘脑</h5><h5 id="进食偏好"><a href="#进食偏好" class="headerlink" title="进食偏好"></a>进食偏好</h5><h5 id="进食障碍"><a href="#进食障碍" class="headerlink" title="进食障碍"></a>进食障碍</h5><h4 id="性"><a href="#性" class="headerlink" title="性"></a>性</h4><h5 id="激素与性行为"><a href="#激素与性行为" class="headerlink" title="激素与性行为"></a>激素与性行为</h5><h5 id="外部刺激与性行为"><a href="#外部刺激与性行为" class="headerlink" title="外部刺激与性行为"></a>外部刺激与性行为</h5><h5 id="想象的刺激与性行为"><a href="#想象的刺激与性行为" class="headerlink" title="想象的刺激与性行为"></a>想象的刺激与性行为</h5><h3 id="社会性动机"><a href="#社会性动机" class="headerlink" title="社会性动机"></a>社会性动机</h3><h4 id="兴趣"><a href="#兴趣" class="headerlink" title="兴趣"></a>兴趣</h4><h4 id="成就动机"><a href="#成就动机" class="headerlink" title="成就动机"></a>成就动机</h4><h4 id="权力动机"><a href="#权力动机" class="headerlink" title="权力动机"></a>权力动机</h4><h4 id="交往动机"><a href="#交往动机" class="headerlink" title="交往动机"></a>交往动机</h4><h4 id="学习动机"><a href="#学习动机" class="headerlink" title="学习动机"></a>学习动机</h4><h2 id="动机的理论"><a href="#动机的理论" class="headerlink" title="动机的理论"></a>动机的理论</h2><h3 id="本能论"><a href="#本能论" class="headerlink" title="本能论"></a>本能论</h3><h3 id="驱动理论"><a href="#驱动理论" class="headerlink" title="驱动理论"></a>驱动理论</h3><h3 id="唤醒理论"><a href="#唤醒理论" class="headerlink" title="唤醒理论"></a>唤醒理论</h3><h3 id="诱因理论"><a href="#诱因理论" class="headerlink" title="诱因理论"></a>诱因理论</h3><h3 id="认知理论"><a href="#认知理论" class="headerlink" title="认知理论"></a>认知理论</h3><h4 id="期待价值理论"><a href="#期待价值理论" class="headerlink" title="期待价值理论"></a>期待价值理论</h4><h4 id="归因理论"><a href="#归因理论" class="headerlink" title="归因理论"></a>归因理论</h4><h4 id="自我决定理论"><a href="#自我决定理论" class="headerlink" title="自我决定理论"></a>自我决定理论</h4><h4 id="自我功效论"><a href="#自我功效论" class="headerlink" title="自我功效论"></a>自我功效论</h4><h4 id="成就目标理论"><a href="#成就目标理论" class="headerlink" title="成就目标理论"></a>成就目标理论</h4><h3 id="逆转理论"><a href="#逆转理论" class="headerlink" title="逆转理论"></a>逆转理论</h3><h2 id="工作动机与组织行为"><a href="#工作动机与组织行为" class="headerlink" title="工作动机与组织行为"></a>工作动机与组织行为</h2><h3 id="工作动机及其结构"><a href="#工作动机及其结构" class="headerlink" title="工作动机及其结构"></a>工作动机及其结构</h3><h4 id="工作动机的概念"><a href="#工作动机的概念" class="headerlink" title="工作动机的概念"></a>工作动机的概念</h4><h4 id="工作动机的结构"><a href="#工作动机的结构" class="headerlink" title="工作动机的结构"></a>工作动机的结构</h4><h3 id="组织行为"><a href="#组织行为" class="headerlink" title="组织行为"></a>组织行为</h3><h4 id="动机的激发"><a href="#动机的激发" class="headerlink" title="动机的激发"></a>动机的激发</h4><h4 id="满意度的提高"><a href="#满意度的提高" class="headerlink" title="满意度的提高"></a>满意度的提高</h4><h4 id="良好的管理"><a href="#良好的管理" class="headerlink" title="良好的管理"></a>良好的管理</h4><h5 id="开发人力资源"><a href="#开发人力资源" class="headerlink" title="开发人力资源"></a>开发人力资源</h5><h5 id="设定具体的、有挑战性的目标"><a href="#设定具体的、有挑战性的目标" class="headerlink" title="设定具体的、有挑战性的目标"></a>设定具体的、有挑战性的目标</h5><h5 id="采取有效的激励措施"><a href="#采取有效的激励措施" class="headerlink" title="采取有效的激励措施"></a>采取有效的激励措施</h5><h5 id="选择适当的领导风格"><a href="#选择适当的领导风格" class="headerlink" title="选择适当的领导风格"></a>选择适当的领导风格</h5>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第二章 心理的神经生理机制</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%BF%83%E7%90%86%E7%9A%84%E7%A5%9E%E7%BB%8F%E7%94%9F%E7%90%86%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="第二章-心理的神经生理机制"><a href="#第二章-心理的神经生理机制" class="headerlink" title="第二章 心理的神经生理机制"></a>第二章 心理的神经生理机制</h1><h2 id="神经系统与脑的进化"><a href="#神经系统与脑的进化" class="headerlink" title="神经系统与脑的进化"></a>神经系统与脑的进化</h2><h3 id="神经系统的起源"><a href="#神经系统的起源" class="headerlink" title="神经系统的起源"></a>神经系统的起源</h3><h3 id="神经系统的进化和脑的产生"><a href="#神经系统的进化和脑的产生" class="headerlink" title="神经系统的进化和脑的产生"></a>神经系统的进化和脑的产生</h3><h3 id="高等脊椎动物的脑"><a href="#高等脊椎动物的脑" class="headerlink" title="高等脊椎动物的脑"></a>高等脊椎动物的脑</h3><h4 id="脑相对大小的变化"><a href="#脑相对大小的变化" class="headerlink" title="脑相对大小的变化"></a>脑相对大小的变化</h4><p>脑的相对大小可以用脑指数 EQ 来表示</p>
+<h4 id="皮层相对容积和面积的变化"><a href="#皮层相对容积和面积的变化" class="headerlink" title="皮层相对容积和面积的变化"></a>皮层相对容积和面积的变化</h4><h3 id="人类文化与脑进化的关系"><a href="#人类文化与脑进化的关系" class="headerlink" title="人类文化与脑进化的关系"></a>人类文化与脑进化的关系</h3><h2 id="神经元"><a href="#神经元" class="headerlink" title="神经元"></a>神经元</h2><h3 id="神经元和胶质细胞"><a href="#神经元和胶质细胞" class="headerlink" title="神经元和胶质细胞"></a>神经元和胶质细胞</h3><h4 id="神经元-1"><a href="#神经元-1" class="headerlink" title="神经元"></a>神经元</h4><h4 id="胶质细胞"><a href="#胶质细胞" class="headerlink" title="胶质细胞"></a>胶质细胞</h4><h3 id="神经元冲动的传递"><a href="#神经元冲动的传递" class="headerlink" title="神经元冲动的传递"></a>神经元冲动的传递</h3><h4 id="神经冲动"><a href="#神经冲动" class="headerlink" title="神经冲动"></a>神经冲动</h4><h4 id="神经冲动的传导方式"><a href="#神经冲动的传导方式" class="headerlink" title="神经冲动的传导方式"></a>神经冲动的传导方式</h4><h5 id="神经冲动的电传导"><a href="#神经冲动的电传导" class="headerlink" title="神经冲动的电传导"></a>神经冲动的电传导</h5><h5 id="神经冲动的化学传导"><a href="#神经冲动的化学传导" class="headerlink" title="神经冲动的化学传导"></a>神经冲动的化学传导</h5><h3 id="神经回路"><a href="#神经回路" class="headerlink" title="神经回路"></a>神经回路</h3><h4 id="神经元的连接方式"><a href="#神经元的连接方式" class="headerlink" title="神经元的连接方式"></a>神经元的连接方式</h4><ul>
+<li>一对一</li>
+<li>发散式</li>
+<li>聚合式</li>
+<li>环式</li>
+</ul>
+<h2 id="神经系统"><a href="#神经系统" class="headerlink" title="神经系统"></a>神经系统</h2><h3 id="外周神经系统"><a href="#外周神经系统" class="headerlink" title="外周神经系统"></a>外周神经系统</h3><h4 id="躯体神经系统"><a href="#躯体神经系统" class="headerlink" title="躯体神经系统"></a>躯体神经系统</h4><h5 id="脊神经"><a href="#脊神经" class="headerlink" title="脊神经"></a>脊神经</h5><h6 id="依脊柱走向"><a href="#依脊柱走向" class="headerlink" title="依脊柱走向"></a>依脊柱走向</h6><ul>
+<li>颈神经 8 对</li>
+<li>胸神经 12 对</li>
+<li>腰神经 5 对</li>
+<li>骶神经 5 对</li>
+<li>尾神经 1 对</li>
+</ul>
+<h6 id="混合组成"><a href="#混合组成" class="headerlink" title="混合组成"></a>混合组成</h6><ul>
+<li>脊髓前根的神经纤维 运动性</li>
+<li>脊髓后根的神经纤维 感觉性</li>
+</ul>
+<h6 id="机能成分"><a href="#机能成分" class="headerlink" title="机能成分"></a>机能成分</h6><ul>
+<li>一般躯体感觉纤维 皮肤、骨骼肌、腱和关节</li>
+<li>一般内脏感觉纤维 内脏、心血管和腺体</li>
+<li>一般躯体运动纤维 支配骨骼肌的运动</li>
+<li>一般内脏运动纤维 支配平滑肌、心肌和腺体</li>
+</ul>
+<h5 id="脑神经"><a href="#脑神经" class="headerlink" title="脑神经"></a>脑神经</h5><h6 id="按顺序"><a href="#按顺序" class="headerlink" title="按顺序"></a>按顺序</h6><ol>
+<li>嗅神经</li>
+<li>视神经</li>
+<li>眼动神经</li>
+<li>滑车神经</li>
+<li>三叉神经</li>
+<li>外展神经</li>
+<li>面神经</li>
+<li>听神经</li>
+<li>舌咽神经</li>
+<li>迷走神经</li>
+<li>副神经</li>
+<li>舌下神经</li>
+</ol>
+<h4 id="自主神经系统"><a href="#自主神经系统" class="headerlink" title="自主神经系统"></a>自主神经系统</h4><h3 id="中枢神经系统"><a href="#中枢神经系统" class="headerlink" title="中枢神经系统"></a>中枢神经系统</h3><h4 id="脊髓"><a href="#脊髓" class="headerlink" title="脊髓"></a>脊髓</h4><h4 id="脑干"><a href="#脑干" class="headerlink" title="脑干"></a>脑干</h4><h4 id="间脑"><a href="#间脑" class="headerlink" title="间脑"></a>间脑</h4><h4 id="小脑"><a href="#小脑" class="headerlink" title="小脑"></a>小脑</h4><h4 id="边缘系统"><a href="#边缘系统" class="headerlink" title="边缘系统"></a>边缘系统</h4><h3 id="大脑的结构、分区及机能"><a href="#大脑的结构、分区及机能" class="headerlink" title="大脑的结构、分区及机能"></a>大脑的结构、分区及机能</h3><h4 id="大脑的结构"><a href="#大脑的结构" class="headerlink" title="大脑的结构"></a>大脑的结构</h4><h4 id="大脑皮层的分区及机能"><a href="#大脑皮层的分区及机能" class="headerlink" title="大脑皮层的分区及机能"></a>大脑皮层的分区及机能</h4><h4 id="大脑两半球的一侧优势"><a href="#大脑两半球的一侧优势" class="headerlink" title="大脑两半球的一侧优势"></a>大脑两半球的一侧优势</h4><h3 id="神经系统的发育和脑的可塑性"><a href="#神经系统的发育和脑的可塑性" class="headerlink" title="神经系统的发育和脑的可塑性"></a>神经系统的发育和脑的可塑性</h3><h2 id="脑功能学说"><a href="#脑功能学说" class="headerlink" title="脑功能学说"></a>脑功能学说</h2><h3 id="定位说"><a href="#定位说" class="headerlink" title="定位说"></a>定位说</h3><h3 id="整体说"><a href="#整体说" class="headerlink" title="整体说"></a>整体说</h3><h3 id="机能系统学说"><a href="#机能系统学说" class="headerlink" title="机能系统学说"></a>机能系统学说</h3><h3 id="模块说"><a href="#模块说" class="headerlink" title="模块说"></a>模块说</h3><h3 id="神经网络说"><a href="#神经网络说" class="headerlink" title="神经网络说"></a>神经网络说</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第八章 语言</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E8%AF%AD%E8%A8%80/</url>
+    <content><![CDATA[<h1 id="第八章-语言"><a href="#第八章-语言" class="headerlink" title="第八章 语言"></a>第八章 语言</h1><h2 id="语言的一般概念"><a href="#语言的一般概念" class="headerlink" title="语言的一般概念"></a>语言的一般概念</h2><h3 id="语言的概念"><a href="#语言的概念" class="headerlink" title="语言的概念"></a>语言的概念</h3><h3 id="语言的特征"><a href="#语言的特征" class="headerlink" title="语言的特征"></a>语言的特征</h3><h4 id="创造性"><a href="#创造性" class="headerlink" title="创造性"></a>创造性</h4><h4 id="结构性"><a href="#结构性" class="headerlink" title="结构性"></a>结构性</h4><h4 id="意义性"><a href="#意义性" class="headerlink" title="意义性"></a>意义性</h4><h4 id="指代性"><a href="#指代性" class="headerlink" title="指代性"></a>指代性</h4><h4 id="社会性与个体性"><a href="#社会性与个体性" class="headerlink" title="社会性与个体性"></a>社会性与个体性</h4><h3 id="语言的结构"><a href="#语言的结构" class="headerlink" title="语言的结构"></a>语言的结构</h3><h4 id="音位"><a href="#音位" class="headerlink" title="音位"></a>音位</h4><h4 id="语素"><a href="#语素" class="headerlink" title="语素"></a>语素</h4><h4 id="词"><a href="#词" class="headerlink" title="词"></a>词</h4><h4 id="句子"><a href="#句子" class="headerlink" title="句子"></a>句子</h4><h3 id="语言的形式"><a href="#语言的形式" class="headerlink" title="语言的形式"></a>语言的形式</h3><h4 id="对话语言"><a href="#对话语言" class="headerlink" title="对话语言"></a>对话语言</h4><h4 id="独白语言"><a href="#独白语言" class="headerlink" title="独白语言"></a>独白语言</h4><h4 id="书面语言"><a href="#书面语言" class="headerlink" title="书面语言"></a>书面语言</h4><h4 id="手势语"><a href="#手势语" class="headerlink" title="手势语"></a>手势语</h4><h4 id="内部语言"><a href="#内部语言" class="headerlink" title="内部语言"></a>内部语言</h4><h3 id="研究语言的意义"><a href="#研究语言的意义" class="headerlink" title="研究语言的意义"></a>研究语言的意义</h3><h2 id="语言的神经生理机制"><a href="#语言的神经生理机制" class="headerlink" title="语言的神经生理机制"></a>语言的神经生理机制</h2><h3 id="语言的发音机制"><a href="#语言的发音机制" class="headerlink" title="语言的发音机制"></a>语言的发音机制</h3><h4 id="呼吸器官"><a href="#呼吸器官" class="headerlink" title="呼吸器官"></a>呼吸器官</h4><h4 id="喉头和声带"><a href="#喉头和声带" class="headerlink" title="喉头和声带"></a>喉头和声带</h4><h4 id="口腔、鼻腔和咽喉"><a href="#口腔、鼻腔和咽喉" class="headerlink" title="口腔、鼻腔和咽喉"></a>口腔、鼻腔和咽喉</h4><h3 id="语言的中枢神经机制"><a href="#语言的中枢神经机制" class="headerlink" title="语言的中枢神经机制"></a>语言的中枢神经机制</h3><h4 id="布洛卡区"><a href="#布洛卡区" class="headerlink" title="布洛卡区"></a>布洛卡区</h4><h4 id="威尔尼克区"><a href="#威尔尼克区" class="headerlink" title="威尔尼克区"></a>威尔尼克区</h4><h4 id="角回"><a href="#角回" class="headerlink" title="角回"></a>角回</h4><h3 id="大脑两半球的一侧优势与语言活动"><a href="#大脑两半球的一侧优势与语言活动" class="headerlink" title="大脑两半球的一侧优势与语言活动"></a>大脑两半球的一侧优势与语言活动</h3><h3 id="语言与脑的进化"><a href="#语言与脑的进化" class="headerlink" title="语言与脑的进化"></a>语言与脑的进化</h3><h2 id="语言理解"><a href="#语言理解" class="headerlink" title="语言理解"></a>语言理解</h2><h3 id="言语理解"><a href="#言语理解" class="headerlink" title="言语理解"></a>言语理解</h3><h4 id="语音的物理性质"><a href="#语音的物理性质" class="headerlink" title="语音的物理性质"></a>语音的物理性质</h4><h4 id="音位及其类别"><a href="#音位及其类别" class="headerlink" title="音位及其类别"></a>音位及其类别</h4><h4 id="影响言语理解的因素"><a href="#影响言语理解的因素" class="headerlink" title="影响言语理解的因素"></a>影响言语理解的因素</h4><h5 id="语音类似性"><a href="#语音类似性" class="headerlink" title="语音类似性"></a>语音类似性</h5><h5 id="语音强度"><a href="#语音强度" class="headerlink" title="语音强度"></a>语音强度</h5><h5 id="噪声掩蔽"><a href="#噪声掩蔽" class="headerlink" title="噪声掩蔽"></a>噪声掩蔽</h5><h5 id="语境"><a href="#语境" class="headerlink" title="语境"></a>语境</h5><h3 id="阅读理解"><a href="#阅读理解" class="headerlink" title="阅读理解"></a>阅读理解</h3><h4 id="词汇理解"><a href="#词汇理解" class="headerlink" title="词汇理解"></a>词汇理解</h4><h5 id="字母长度与笔画数量"><a href="#字母长度与笔画数量" class="headerlink" title="字母长度与笔画数量"></a>字母长度与笔画数量</h5><h5 id="单词的部位信息和字形结构信息"><a href="#单词的部位信息和字形结构信息" class="headerlink" title="单词的部位信息和字形结构信息"></a>单词的部位信息和字形结构信息</h5><h5 id="正字法规则"><a href="#正字法规则" class="headerlink" title="正字法规则"></a>正字法规则</h5><h5 id="字词的使用频率与词汇习得年龄"><a href="#字词的使用频率与词汇习得年龄" class="headerlink" title="字词的使用频率与词汇习得年龄"></a>字词的使用频率与词汇习得年龄</h5><h5 id="语义特征"><a href="#语义特征" class="headerlink" title="语义特征"></a>语义特征</h5><h5 id="语境-1"><a href="#语境-1" class="headerlink" title="语境"></a>语境</h5><h4 id="句子理解"><a href="#句子理解" class="headerlink" title="句子理解"></a>句子理解</h4><h5 id="句子的类型"><a href="#句子的类型" class="headerlink" title="句子的类型"></a>句子的类型</h5><h5 id="句法分析与语义分析"><a href="#句法分析与语义分析" class="headerlink" title="句法分析与语义分析"></a>句法分析与语义分析</h5><h4 id="篇章理解"><a href="#篇章理解" class="headerlink" title="篇章理解"></a>篇章理解</h4><h5 id="推理"><a href="#推理" class="headerlink" title="推理"></a>推理</h5><h5 id="语境-2"><a href="#语境-2" class="headerlink" title="语境"></a>语境</h5><h5 id="图式和策略"><a href="#图式和策略" class="headerlink" title="图式和策略"></a>图式和策略</h5><h2 id="语言产生"><a href="#语言产生" class="headerlink" title="语言产生"></a>语言产生</h2><h3 id="言语产生"><a href="#言语产生" class="headerlink" title="言语产生"></a>言语产生</h3><h4 id="言语产生的研究方法"><a href="#言语产生的研究方法" class="headerlink" title="言语产生的研究方法"></a>言语产生的研究方法</h4><h5 id="语误分析"><a href="#语误分析" class="headerlink" title="语误分析"></a>语误分析</h5><h5 id="基于反应时间的实验室实验"><a href="#基于反应时间的实验室实验" class="headerlink" title="基于反应时间的实验室实验"></a>基于反应时间的实验室实验</h5><h4 id="言语产生的阶段"><a href="#言语产生的阶段" class="headerlink" title="言语产生的阶段"></a>言语产生的阶段</h4><h5 id="词汇选择阶段"><a href="#词汇选择阶段" class="headerlink" title="词汇选择阶段"></a>词汇选择阶段</h5><h5 id="言语形式编码阶段"><a href="#言语形式编码阶段" class="headerlink" title="言语形式编码阶段"></a>言语形式编码阶段</h5><h5 id="发音运动阶段"><a href="#发音运动阶段" class="headerlink" title="发音运动阶段"></a>发音运动阶段</h5><h4 id="言语产生的时间进程"><a href="#言语产生的时间进程" class="headerlink" title="言语产生的时间进程"></a>言语产生的时间进程</h4><h3 id="书写产生"><a href="#书写产生" class="headerlink" title="书写产生"></a>书写产生</h3><h3 id="手势语-1"><a href="#手势语-1" class="headerlink" title="手势语"></a>手势语</h3><h4 id="手势语产生的单位"><a href="#手势语产生的单位" class="headerlink" title="手势语产生的单位"></a>手势语产生的单位</h4><h4 id="手势语产生的阶段"><a href="#手势语产生的阶段" class="headerlink" title="手势语产生的阶段"></a>手势语产生的阶段</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第六章 记忆</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%85%AD%E7%AB%A0%20%E8%AE%B0%E5%BF%86/</url>
+    <content><![CDATA[<h1 id="第六章-记忆"><a href="#第六章-记忆" class="headerlink" title="第六章 记忆"></a>第六章 记忆</h1><h2 id="记忆的一般概念"><a href="#记忆的一般概念" class="headerlink" title="记忆的一般概念"></a>记忆的一般概念</h2><h3 id="什么是记忆"><a href="#什么是记忆" class="headerlink" title="什么是记忆"></a>什么是记忆</h3><h3 id="记忆的作用"><a href="#记忆的作用" class="headerlink" title="记忆的作用"></a>记忆的作用</h3><h3 id="记忆的分类"><a href="#记忆的分类" class="headerlink" title="记忆的分类"></a>记忆的分类</h3><h4 id="感觉记忆、短时记忆和长时记忆"><a href="#感觉记忆、短时记忆和长时记忆" class="headerlink" title="感觉记忆、短时记忆和长时记忆"></a>感觉记忆、短时记忆和长时记忆</h4><h4 id="情景记忆和语义记忆"><a href="#情景记忆和语义记忆" class="headerlink" title="情景记忆和语义记忆"></a>情景记忆和语义记忆</h4><h4 id="外显记忆和内隐记忆"><a href="#外显记忆和内隐记忆" class="headerlink" title="外显记忆和内隐记忆"></a>外显记忆和内隐记忆</h4><h4 id="陈述性记忆和程序性记忆"><a href="#陈述性记忆和程序性记忆" class="headerlink" title="陈述性记忆和程序性记忆"></a>陈述性记忆和程序性记忆</h4><h2 id="记忆的神经生理机制"><a href="#记忆的神经生理机制" class="headerlink" title="记忆的神经生理机制"></a>记忆的神经生理机制</h2><h3 id="与记忆相关的脑区"><a href="#与记忆相关的脑区" class="headerlink" title="与记忆相关的脑区"></a>与记忆相关的脑区</h3><h4 id="颞叶中部及其皮层下结果在记忆中的作用"><a href="#颞叶中部及其皮层下结果在记忆中的作用" class="headerlink" title="颞叶中部及其皮层下结果在记忆中的作用"></a>颞叶中部及其皮层下结果在记忆中的作用</h4><h4 id="前额叶在记忆中的作用"><a href="#前额叶在记忆中的作用" class="headerlink" title="前额叶在记忆中的作用"></a>前额叶在记忆中的作用</h4><h3 id="记忆的脑细胞机制"><a href="#记忆的脑细胞机制" class="headerlink" title="记忆的脑细胞机制"></a>记忆的脑细胞机制</h3><h4 id="反响回路"><a href="#反响回路" class="headerlink" title="反响回路"></a>反响回路</h4><h4 id="突触结构"><a href="#突触结构" class="headerlink" title="突触结构"></a>突触结构</h4><h4 id="长时程增强机制"><a href="#长时程增强机制" class="headerlink" title="长时程增强机制"></a>长时程增强机制</h4><h3 id="记忆的生物化学机制"><a href="#记忆的生物化学机制" class="headerlink" title="记忆的生物化学机制"></a>记忆的生物化学机制</h3><h4 id="核糖核酸"><a href="#核糖核酸" class="headerlink" title="核糖核酸"></a>核糖核酸</h4><h4 id="激素和记忆"><a href="#激素和记忆" class="headerlink" title="激素和记忆"></a>激素和记忆</h4><h2 id="感觉记忆"><a href="#感觉记忆" class="headerlink" title="感觉记忆"></a>感觉记忆</h2><h3 id="感觉记忆的编码"><a href="#感觉记忆的编码" class="headerlink" title="感觉记忆的编码"></a>感觉记忆的编码</h3><h3 id="感觉记忆的储存"><a href="#感觉记忆的储存" class="headerlink" title="感觉记忆的储存"></a>感觉记忆的储存</h3><h3 id="感觉记忆向短时记忆的转换"><a href="#感觉记忆向短时记忆的转换" class="headerlink" title="感觉记忆向短时记忆的转换"></a>感觉记忆向短时记忆的转换</h3><h2 id="短时记忆"><a href="#短时记忆" class="headerlink" title="短时记忆"></a>短时记忆</h2><h3 id="短时记忆的编码方式及影响编码效果的因素"><a href="#短时记忆的编码方式及影响编码效果的因素" class="headerlink" title="短时记忆的编码方式及影响编码效果的因素"></a>短时记忆的编码方式及影响编码效果的因素</h3><h4 id="编码方式"><a href="#编码方式" class="headerlink" title="编码方式"></a>编码方式</h4><h4 id="影响编码效果的因素"><a href="#影响编码效果的因素" class="headerlink" title="影响编码效果的因素"></a>影响编码效果的因素</h4><h5 id="觉醒状态"><a href="#觉醒状态" class="headerlink" title="觉醒状态"></a>觉醒状态</h5><h5 id="加工深度"><a href="#加工深度" class="headerlink" title="加工深度"></a>加工深度</h5><h5 id="组块"><a href="#组块" class="headerlink" title="组块"></a>组块</h5><h3 id="短时记忆的容量"><a href="#短时记忆的容量" class="headerlink" title="短时记忆的容量"></a>短时记忆的容量</h3><h3 id="短时记忆信息的储存和以往"><a href="#短时记忆信息的储存和以往" class="headerlink" title="短时记忆信息的储存和以往"></a>短时记忆信息的储存和以往</h3><h4 id="复述"><a href="#复述" class="headerlink" title="复述"></a>复述</h4><h4 id="短时记忆的遗忘进程"><a href="#短时记忆的遗忘进程" class="headerlink" title="短时记忆的遗忘进程"></a>短时记忆的遗忘进程</h4><h4 id="短时记忆的遗忘——干扰还是消退"><a href="#短时记忆的遗忘——干扰还是消退" class="headerlink" title="短时记忆的遗忘——干扰还是消退"></a>短时记忆的遗忘——干扰还是消退</h4><h3 id="短时记忆的信息提取"><a href="#短时记忆的信息提取" class="headerlink" title="短时记忆的信息提取"></a>短时记忆的信息提取</h3><h4 id="平行扫描"><a href="#平行扫描" class="headerlink" title="平行扫描"></a>平行扫描</h4><h4 id="自动停止系列扫描"><a href="#自动停止系列扫描" class="headerlink" title="自动停止系列扫描"></a>自动停止系列扫描</h4><h4 id="完全系列扫描"><a href="#完全系列扫描" class="headerlink" title="完全系列扫描"></a>完全系列扫描</h4><h3 id="工作记忆"><a href="#工作记忆" class="headerlink" title="工作记忆"></a>工作记忆</h3><h2 id="长时记忆"><a href="#长时记忆" class="headerlink" title="长时记忆"></a>长时记忆</h2><h3 id="什么是长时记忆"><a href="#什么是长时记忆" class="headerlink" title="什么是长时记忆"></a>什么是长时记忆</h3><h3 id="长时记忆的编码"><a href="#长时记忆的编码" class="headerlink" title="长时记忆的编码"></a>长时记忆的编码</h3><h4 id="长时记忆的编码形式"><a href="#长时记忆的编码形式" class="headerlink" title="长时记忆的编码形式"></a>长时记忆的编码形式</h4><h4 id="影响长时记忆编码的主要因素"><a href="#影响长时记忆编码的主要因素" class="headerlink" title="影响长时记忆编码的主要因素"></a>影响长时记忆编码的主要因素</h4><h5 id="编码时的意识状态"><a href="#编码时的意识状态" class="headerlink" title="编码时的意识状态"></a>编码时的意识状态</h5><h5 id="加工深度-1"><a href="#加工深度-1" class="headerlink" title="加工深度"></a>加工深度</h5><h3 id="长时记忆的信息储存"><a href="#长时记忆的信息储存" class="headerlink" title="长时记忆的信息储存"></a>长时记忆的信息储存</h3><h4 id="信息储存的动态变化"><a href="#信息储存的动态变化" class="headerlink" title="信息储存的动态变化"></a>信息储存的动态变化</h4><h4 id="信息储存的条件与方法"><a href="#信息储存的条件与方法" class="headerlink" title="信息储存的条件与方法"></a>信息储存的条件与方法</h4><h5 id="组织有效的复习"><a href="#组织有效的复习" class="headerlink" title="组织有效的复习"></a>组织有效的复习</h5><h5 id="利用外部记忆手段"><a href="#利用外部记忆手段" class="headerlink" title="利用外部记忆手段"></a>利用外部记忆手段</h5><h5 id="注意脑的健康和用脑卫生"><a href="#注意脑的健康和用脑卫生" class="headerlink" title="注意脑的健康和用脑卫生"></a>注意脑的健康和用脑卫生</h5><h3 id="长时记忆的信息提取"><a href="#长时记忆的信息提取" class="headerlink" title="长时记忆的信息提取"></a>长时记忆的信息提取</h3><h4 id="长时记忆的信息提取形式"><a href="#长时记忆的信息提取形式" class="headerlink" title="长时记忆的信息提取形式"></a>长时记忆的信息提取形式</h4><h5 id="再认"><a href="#再认" class="headerlink" title="再认"></a>再认</h5><h5 id="回忆"><a href="#回忆" class="headerlink" title="回忆"></a>回忆</h5><h4 id="长时记忆信息提取的线索"><a href="#长时记忆信息提取的线索" class="headerlink" title="长时记忆信息提取的线索"></a>长时记忆信息提取的线索</h4><h3 id="长时记忆中信息的遗忘"><a href="#长时记忆中信息的遗忘" class="headerlink" title="长时记忆中信息的遗忘"></a>长时记忆中信息的遗忘</h3><h4 id="遗忘的一般概念"><a href="#遗忘的一般概念" class="headerlink" title="遗忘的一般概念"></a>遗忘的一般概念</h4><h4 id="遗忘的进程"><a href="#遗忘的进程" class="headerlink" title="遗忘的进程"></a>遗忘的进程</h4><h5 id="识记材料的性质与数量"><a href="#识记材料的性质与数量" class="headerlink" title="识记材料的性质与数量"></a>识记材料的性质与数量</h5><h5 id="学习的程度"><a href="#学习的程度" class="headerlink" title="学习的程度"></a>学习的程度</h5><h5 id="识记材料的系列位置"><a href="#识记材料的系列位置" class="headerlink" title="识记材料的系列位置"></a>识记材料的系列位置</h5><h5 id="识记者的态度"><a href="#识记者的态度" class="headerlink" title="识记者的态度"></a>识记者的态度</h5><h4 id="遗忘的原因"><a href="#遗忘的原因" class="headerlink" title="遗忘的原因"></a>遗忘的原因</h4><h5 id="衰退说"><a href="#衰退说" class="headerlink" title="衰退说"></a>衰退说</h5><h5 id="干扰说"><a href="#干扰说" class="headerlink" title="干扰说"></a>干扰说</h5><h5 id="压抑说"><a href="#压抑说" class="headerlink" title="压抑说"></a>压抑说</h5><h5 id="提取失败说"><a href="#提取失败说" class="headerlink" title="提取失败说"></a>提取失败说</h5><h2 id="内隐记忆"><a href="#内隐记忆" class="headerlink" title="内隐记忆"></a>内隐记忆</h2><h3 id="内隐记忆的一般概念"><a href="#内隐记忆的一般概念" class="headerlink" title="内隐记忆的一般概念"></a>内隐记忆的一般概念</h3><h3 id="内隐记忆与外显记忆的关系"><a href="#内隐记忆与外显记忆的关系" class="headerlink" title="内隐记忆与外显记忆的关系"></a>内隐记忆与外显记忆的关系</h3><h4 id="加工深度对内隐记忆和外显记忆的影响不同"><a href="#加工深度对内隐记忆和外显记忆的影响不同" class="headerlink" title="加工深度对内隐记忆和外显记忆的影响不同"></a>加工深度对内隐记忆和外显记忆的影响不同</h4><h4 id="内隐记忆和外显记忆的保持时间不同"><a href="#内隐记忆和外显记忆的保持时间不同" class="headerlink" title="内隐记忆和外显记忆的保持时间不同"></a>内隐记忆和外显记忆的保持时间不同</h4><h4 id="记忆负荷量对内隐记忆和外显记忆的影响不同"><a href="#记忆负荷量对内隐记忆和外显记忆的影响不同" class="headerlink" title="记忆负荷量对内隐记忆和外显记忆的影响不同"></a>记忆负荷量对内隐记忆和外显记忆的影响不同</h4><h4 id="呈现方式对外显记忆和内隐记忆的影响不同"><a href="#呈现方式对外显记忆和内隐记忆的影响不同" class="headerlink" title="呈现方式对外显记忆和内隐记忆的影响不同"></a>呈现方式对外显记忆和内隐记忆的影响不同</h4><h4 id="干扰因素对外显记忆和内隐记忆的影响不同"><a href="#干扰因素对外显记忆和内隐记忆的影响不同" class="headerlink" title="干扰因素对外显记忆和内隐记忆的影响不同"></a>干扰因素对外显记忆和内隐记忆的影响不同</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十三章 学习</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0%20%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="第十三章-学习"><a href="#第十三章-学习" class="headerlink" title="第十三章 学习"></a>第十三章 学习</h1><h2 id="学习的一般概念"><a href="#学习的一般概念" class="headerlink" title="学习的一般概念"></a>学习的一般概念</h2><h3 id="什么是学习"><a href="#什么是学习" class="headerlink" title="什么是学习"></a>什么是学习</h3><h3 id="学习的分类"><a href="#学习的分类" class="headerlink" title="学习的分类"></a>学习的分类</h3><h4 id="根据学习的复杂程度分类"><a href="#根据学习的复杂程度分类" class="headerlink" title="根据学习的复杂程度分类"></a>根据学习的复杂程度分类</h4><h4 id="根据学习的结果分类"><a href="#根据学习的结果分类" class="headerlink" title="根据学习的结果分类"></a>根据学习的结果分类</h4><h4 id="根据学习材料与学习者原有知识结构的关系分类"><a href="#根据学习材料与学习者原有知识结构的关系分类" class="headerlink" title="根据学习材料与学习者原有知识结构的关系分类"></a>根据学习材料与学习者原有知识结构的关系分类</h4><h4 id="根据学习的方式分类"><a href="#根据学习的方式分类" class="headerlink" title="根据学习的方式分类"></a>根据学习的方式分类</h4><h4 id="根据学习的内容分类"><a href="#根据学习的内容分类" class="headerlink" title="根据学习的内容分类"></a>根据学习的内容分类</h4><h2 id="学习理论"><a href="#学习理论" class="headerlink" title="学习理论"></a>学习理论</h2><h3 id="学习的联结理论"><a href="#学习的联结理论" class="headerlink" title="学习的联结理论"></a>学习的联结理论</h3><h4 id="经典条件"><a href="#经典条件" class="headerlink" title="经典条件"></a>经典条件</h4><h5 id="经典条件反射的形成"><a href="#经典条件反射的形成" class="headerlink" title="经典条件反射的形成"></a>经典条件反射的形成</h5><h5 id="经典条件反射的规律"><a href="#经典条件反射的规律" class="headerlink" title="经典条件反射的规律"></a>经典条件反射的规律</h5><h6 id="习得"><a href="#习得" class="headerlink" title="习得"></a>习得</h6><h6 id="消退"><a href="#消退" class="headerlink" title="消退"></a>消退</h6><h6 id="泛化与分化"><a href="#泛化与分化" class="headerlink" title="泛化与分化"></a>泛化与分化</h6><h4 id="操作性条件作用"><a href="#操作性条件作用" class="headerlink" title="操作性条件作用"></a>操作性条件作用</h4><h5 id="桑代克的尝试——错误学习理论"><a href="#桑代克的尝试——错误学习理论" class="headerlink" title="桑代克的尝试——错误学习理论"></a>桑代克的尝试——错误学习理论</h5><h5 id="斯金纳的操作性条件作用"><a href="#斯金纳的操作性条件作用" class="headerlink" title="斯金纳的操作性条件作用"></a>斯金纳的操作性条件作用</h5><h3 id="学习的认知理论"><a href="#学习的认知理论" class="headerlink" title="学习的认知理论"></a>学习的认知理论</h3><h4 id="格式塔的学习理论——顿悟学习"><a href="#格式塔的学习理论——顿悟学习" class="headerlink" title="格式塔的学习理论——顿悟学习"></a>格式塔的学习理论——顿悟学习</h4><h4 id="托尔曼的认知学习理论"><a href="#托尔曼的认知学习理论" class="headerlink" title="托尔曼的认知学习理论"></a>托尔曼的认知学习理论</h4><h5 id="位置学习"><a href="#位置学习" class="headerlink" title="位置学习"></a>位置学习</h5><h5 id="潜伏学习"><a href="#潜伏学习" class="headerlink" title="潜伏学习"></a>潜伏学习</h5><h4 id="建构主义的学习理论"><a href="#建构主义的学习理论" class="headerlink" title="建构主义的学习理论"></a>建构主义的学习理论</h4><h2 id="认知和动作技能"><a href="#认知和动作技能" class="headerlink" title="认知和动作技能"></a>认知和动作技能</h2><h3 id="认知学习"><a href="#认知学习" class="headerlink" title="认知学习"></a>认知学习</h3><h4 id="认知学习的概念"><a href="#认知学习的概念" class="headerlink" title="认知学习的概念"></a>认知学习的概念</h4><h4 id="认知学习的种类"><a href="#认知学习的种类" class="headerlink" title="认知学习的种类"></a>认知学习的种类</h4><h5 id="初级认知学习"><a href="#初级认知学习" class="headerlink" title="初级认知学习"></a>初级认知学习</h5><h5 id="高级认知学习"><a href="#高级认知学习" class="headerlink" title="高级认知学习"></a>高级认知学习</h5><h4 id="认知学习的特点"><a href="#认知学习的特点" class="headerlink" title="认知学习的特点"></a>认知学习的特点</h4><h5 id="认知学习的特异性与非特异性"><a href="#认知学习的特异性与非特异性" class="headerlink" title="认知学习的特异性与非特异性"></a>认知学习的特异性与非特异性</h5><h5 id="认知学习的阶段性和连续性"><a href="#认知学习的阶段性和连续性" class="headerlink" title="认知学习的阶段性和连续性"></a>认知学习的阶段性和连续性</h5><h5 id="认知学习的层次性与逆层次性"><a href="#认知学习的层次性与逆层次性" class="headerlink" title="认知学习的层次性与逆层次性"></a>认知学习的层次性与逆层次性</h5><h4 id="注意在认知学习中的调节作用"><a href="#注意在认知学习中的调节作用" class="headerlink" title="注意在认知学习中的调节作用"></a>注意在认知学习中的调节作用</h4><h3 id="动作技能学习"><a href="#动作技能学习" class="headerlink" title="动作技能学习"></a>动作技能学习</h3><h4 id="动作技能学习的概念"><a href="#动作技能学习的概念" class="headerlink" title="动作技能学习的概念"></a>动作技能学习的概念</h4><h4 id="动作技能的种类"><a href="#动作技能的种类" class="headerlink" title="动作技能的种类"></a>动作技能的种类</h4><h5 id="连续技能和非连续技能"><a href="#连续技能和非连续技能" class="headerlink" title="连续技能和非连续技能"></a>连续技能和非连续技能</h5><h5 id="封闭技能和开放技能"><a href="#封闭技能和开放技能" class="headerlink" title="封闭技能和开放技能"></a>封闭技能和开放技能</h5><h5 id="精细动作技能和粗大动作技能"><a href="#精细动作技能和粗大动作技能" class="headerlink" title="精细动作技能和粗大动作技能"></a>精细动作技能和粗大动作技能</h5><h4 id="动作技能形成的特点"><a href="#动作技能形成的特点" class="headerlink" title="动作技能形成的特点"></a>动作技能形成的特点</h4><h5 id="意识对动作的控制作用减弱，整个动作系统趋向自动化"><a href="#意识对动作的控制作用减弱，整个动作系统趋向自动化" class="headerlink" title="意识对动作的控制作用减弱，整个动作系统趋向自动化"></a>意识对动作的控制作用减弱，整个动作系统趋向自动化</h5><h5 id="动作反馈由外反馈逐步转向内反馈"><a href="#动作反馈由外反馈逐步转向内反馈" class="headerlink" title="动作反馈由外反馈逐步转向内反馈"></a>动作反馈由外反馈逐步转向内反馈</h5><h5 id="动作的稳定性与灵活性增加"><a href="#动作的稳定性与灵活性增加" class="headerlink" title="动作的稳定性与灵活性增加"></a>动作的稳定性与灵活性增加</h5><h5 id="建立协调化的运动模式"><a href="#建立协调化的运动模式" class="headerlink" title="建立协调化的运动模式"></a>建立协调化的运动模式</h5><h2 id="学习的规律"><a href="#学习的规律" class="headerlink" title="学习的规律"></a>学习的规律</h2><h3 id="练习及其在学习中的作用"><a href="#练习及其在学习中的作用" class="headerlink" title="练习及其在学习中的作用"></a>练习及其在学习中的作用</h3><h4 id="练习曲线"><a href="#练习曲线" class="headerlink" title="练习曲线"></a>练习曲线</h4><h5 id="练习进程的特点练习成绩随练习的进程而逐步提高"><a href="#练习进程的特点练习成绩随练习的进程而逐步提高" class="headerlink" title="练习进程的特点练习成绩随练习的进程而逐步提高"></a>练习进程的特点练习成绩随练习的进程而逐步提高</h5><h5 id="练习进程中存在高原现象"><a href="#练习进程中存在高原现象" class="headerlink" title="练习进程中存在高原现象"></a>练习进程中存在高原现象</h5><h5 id="练习进程是不均匀的"><a href="#练习进程是不均匀的" class="headerlink" title="练习进程是不均匀的"></a>练习进程是不均匀的</h5><h4 id="提高练习效率的条件"><a href="#提高练习效率的条件" class="headerlink" title="提高练习效率的条件"></a>提高练习效率的条件</h4><h5 id="确定练习的目标"><a href="#确定练习的目标" class="headerlink" title="确定练习的目标"></a>确定练习的目标</h5><h5 id="灵活应用整体练习和分解练习"><a href="#灵活应用整体练习和分解练习" class="headerlink" title="灵活应用整体练习和分解练习"></a>灵活应用整体练习和分解练习</h5><h5 id="恰当安排练习时间"><a href="#恰当安排练习时间" class="headerlink" title="恰当安排练习时间"></a>恰当安排练习时间</h5><h5 id="练习中必须有反馈"><a href="#练习中必须有反馈" class="headerlink" title="练习中必须有反馈"></a>练习中必须有反馈</h5><h5 id="影响练习成绩的其他心理因素"><a href="#影响练习成绩的其他心理因素" class="headerlink" title="影响练习成绩的其他心理因素"></a>影响练习成绩的其他心理因素</h5><h3 id="学习的迁移"><a href="#学习的迁移" class="headerlink" title="学习的迁移"></a>学习的迁移</h3><h4 id="什么是迁移"><a href="#什么是迁移" class="headerlink" title="什么是迁移"></a>什么是迁移</h4><h4 id="迁移的分类"><a href="#迁移的分类" class="headerlink" title="迁移的分类"></a>迁移的分类</h4><h5 id="正迁移和负迁移"><a href="#正迁移和负迁移" class="headerlink" title="正迁移和负迁移"></a>正迁移和负迁移</h5><h5 id="近迁移和远迁移"><a href="#近迁移和远迁移" class="headerlink" title="近迁移和远迁移"></a>近迁移和远迁移</h5><h5 id="有意迁移和无意迁移"><a href="#有意迁移和无意迁移" class="headerlink" title="有意迁移和无意迁移"></a>有意迁移和无意迁移</h5><h3 id="学习与脑可塑性"><a href="#学习与脑可塑性" class="headerlink" title="学习与脑可塑性"></a>学习与脑可塑性</h3><h4 id="什么是脑可塑性"><a href="#什么是脑可塑性" class="headerlink" title="什么是脑可塑性"></a>什么是脑可塑性</h4><h4 id="脑可塑性的特点"><a href="#脑可塑性的特点" class="headerlink" title="脑可塑性的特点"></a>脑可塑性的特点</h4><h5 id="脑可塑性与学习进程"><a href="#脑可塑性与学习进程" class="headerlink" title="脑可塑性与学习进程"></a>脑可塑性与学习进程</h5><h5 id="脑可塑性与功能迁移"><a href="#脑可塑性与功能迁移" class="headerlink" title="脑可塑性与功能迁移"></a>脑可塑性与功能迁移</h5><h5 id="脑可塑性与练习方式"><a href="#脑可塑性与练习方式" class="headerlink" title="脑可塑性与练习方式"></a>脑可塑性与练习方式</h5>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十一章 能力</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20%E8%83%BD%E5%8A%9B/</url>
+    <content><![CDATA[<h1 id="第十一章-能力"><a href="#第十一章-能力" class="headerlink" title="第十一章 能力"></a>第十一章 能力</h1><h2 id="能力的一般概念"><a href="#能力的一般概念" class="headerlink" title="能力的一般概念"></a>能力的一般概念</h2><h3 id="什么是能力"><a href="#什么是能力" class="headerlink" title="什么是能力"></a>什么是能力</h3><h3 id="能力与知识、技能的关系"><a href="#能力与知识、技能的关系" class="headerlink" title="能力与知识、技能的关系"></a>能力与知识、技能的关系</h3><h3 id="能力、才能和天才"><a href="#能力、才能和天才" class="headerlink" title="能力、才能和天才"></a>能力、才能和天才</h3><h2 id="能力的种类和结构"><a href="#能力的种类和结构" class="headerlink" title="能力的种类和结构"></a>能力的种类和结构</h2><h3 id="能力的种类"><a href="#能力的种类" class="headerlink" title="能力的种类"></a>能力的种类</h3><h4 id="一般能力和特殊能力"><a href="#一般能力和特殊能力" class="headerlink" title="一般能力和特殊能力"></a>一般能力和特殊能力</h4><h4 id="模仿能力和创造能力"><a href="#模仿能力和创造能力" class="headerlink" title="模仿能力和创造能力"></a>模仿能力和创造能力</h4><h4 id="流体能力和晶体能力"><a href="#流体能力和晶体能力" class="headerlink" title="流体能力和晶体能力"></a>流体能力和晶体能力</h4><h4 id="认知能力、操作能力和社交能力"><a href="#认知能力、操作能力和社交能力" class="headerlink" title="认知能力、操作能力和社交能力"></a>认知能力、操作能力和社交能力</h4><h4 id="情绪理解、控制和利用的能力"><a href="#情绪理解、控制和利用的能力" class="headerlink" title="情绪理解、控制和利用的能力"></a>情绪理解、控制和利用的能力</h4><h3 id="能力的结构"><a href="#能力的结构" class="headerlink" title="能力的结构"></a>能力的结构</h3><h4 id="能力结构的传统理论"><a href="#能力结构的传统理论" class="headerlink" title="能力结构的传统理论"></a>能力结构的传统理论</h4><h5 id="三因素理论"><a href="#三因素理论" class="headerlink" title="三因素理论"></a>三因素理论</h5><h5 id="群因素理论"><a href="#群因素理论" class="headerlink" title="群因素理论"></a>群因素理论</h5><h5 id="三维结构理论"><a href="#三维结构理论" class="headerlink" title="三维结构理论"></a>三维结构理论</h5><h4 id="能力结构的新理论"><a href="#能力结构的新理论" class="headerlink" title="能力结构的新理论"></a>能力结构的新理论</h4><h5 id="多元智力理论"><a href="#多元智力理论" class="headerlink" title="多元智力理论"></a>多元智力理论</h5><h5 id="三元智力理论"><a href="#三元智力理论" class="headerlink" title="三元智力理论"></a>三元智力理论</h5><h5 id="智力的-PASS-模型"><a href="#智力的-PASS-模型" class="headerlink" title="智力的 PASS 模型"></a>智力的 PASS 模型</h5><h2 id="能力的测量"><a href="#能力的测量" class="headerlink" title="能力的测量"></a>能力的测量</h2><h3 id="一般能力检验"><a href="#一般能力检验" class="headerlink" title="一般能力检验"></a>一般能力检验</h3><h4 id="智力检验的由来"><a href="#智力检验的由来" class="headerlink" title="智力检验的由来"></a>智力检验的由来</h4><h4 id="斯坦福——比纳量表"><a href="#斯坦福——比纳量表" class="headerlink" title="斯坦福——比纳量表"></a>斯坦福——比纳量表</h4><h4 id="韦克斯勒智力量表"><a href="#韦克斯勒智力量表" class="headerlink" title="韦克斯勒智力量表"></a>韦克斯勒智力量表</h4><h3 id="特殊能力建议和创造力检验"><a href="#特殊能力建议和创造力检验" class="headerlink" title="特殊能力建议和创造力检验"></a>特殊能力建议和创造力检验</h3><h4 id="特殊能力检验"><a href="#特殊能力检验" class="headerlink" title="特殊能力检验"></a>特殊能力检验</h4><h4 id="创造力检验"><a href="#创造力检验" class="headerlink" title="创造力检验"></a>创造力检验</h4><h2 id="情绪智力"><a href="#情绪智力" class="headerlink" title="情绪智力"></a>情绪智力</h2><h3 id="情绪智力的概念"><a href="#情绪智力的概念" class="headerlink" title="情绪智力的概念"></a>情绪智力的概念</h3><h3 id="情绪智力的理论"><a href="#情绪智力的理论" class="headerlink" title="情绪智力的理论"></a>情绪智力的理论</h3><h3 id="情商"><a href="#情商" class="headerlink" title="情商"></a>情商</h3><h2 id="能力发展与个体差异"><a href="#能力发展与个体差异" class="headerlink" title="能力发展与个体差异"></a>能力发展与个体差异</h2><h3 id="能力发展的一般趋势"><a href="#能力发展的一般趋势" class="headerlink" title="能力发展的一般趋势"></a>能力发展的一般趋势</h3><h3 id="能力发展的个体差异"><a href="#能力发展的个体差异" class="headerlink" title="能力发展的个体差异"></a>能力发展的个体差异</h3><h4 id="能力发展水平的差异"><a href="#能力发展水平的差异" class="headerlink" title="能力发展水平的差异"></a>能力发展水平的差异</h4><h5 id="智力超常者与智力落后者"><a href="#智力超常者与智力落后者" class="headerlink" title="智力超常者与智力落后者"></a>智力超常者与智力落后者</h5><h5 id="智力超常的原因"><a href="#智力超常的原因" class="headerlink" title="智力超常的原因"></a>智力超常的原因</h5><h4 id="能力表现早晚的差异"><a href="#能力表现早晚的差异" class="headerlink" title="能力表现早晚的差异"></a>能力表现早晚的差异</h4><h4 id="能力结构的差异"><a href="#能力结构的差异" class="headerlink" title="能力结构的差异"></a>能力结构的差异</h4><h4 id="能力性别的差异"><a href="#能力性别的差异" class="headerlink" title="能力性别的差异"></a>能力性别的差异</h4><h5 id="数学能力的性别差异"><a href="#数学能力的性别差异" class="headerlink" title="数学能力的性别差异"></a>数学能力的性别差异</h5><h5 id="言语能力的性别差异"><a href="#言语能力的性别差异" class="headerlink" title="言语能力的性别差异"></a>言语能力的性别差异</h5><h5 id="空间能力的性别差异"><a href="#空间能力的性别差异" class="headerlink" title="空间能力的性别差异"></a>空间能力的性别差异</h5><h3 id="能力形成的原因和条件"><a href="#能力形成的原因和条件" class="headerlink" title="能力形成的原因和条件"></a>能力形成的原因和条件</h3><h4 id="遗传的影响"><a href="#遗传的影响" class="headerlink" title="遗传的影响"></a>遗传的影响</h4><h4 id="环境和教育对能力形成的影响"><a href="#环境和教育对能力形成的影响" class="headerlink" title="环境和教育对能力形成的影响"></a>环境和教育对能力形成的影响</h4><h5 id="产前环境的影响"><a href="#产前环境的影响" class="headerlink" title="产前环境的影响"></a>产前环境的影响</h5><h5 id="早期经验的作用"><a href="#早期经验的作用" class="headerlink" title="早期经验的作用"></a>早期经验的作用</h5><h5 id="学校教育的作用"><a href="#学校教育的作用" class="headerlink" title="学校教育的作用"></a>学校教育的作用</h5><h4 id="实践活动的影响"><a href="#实践活动的影响" class="headerlink" title="实践活动的影响"></a>实践活动的影响</h4><h4 id="人的主观能动性的影响"><a href="#人的主观能动性的影响" class="headerlink" title="人的主观能动性的影响"></a>人的主观能动性的影响</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十四章 人生全程发展</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%20%E4%BA%BA%E7%94%9F%E5%85%A8%E7%A8%8B%E5%8F%91%E5%B1%95/</url>
+    <content><![CDATA[<h1 id="第十四章-人生全程发展"><a href="#第十四章-人生全程发展" class="headerlink" title="第十四章 人生全程发展"></a>第十四章 人生全程发展</h1><h2 id="个体发展"><a href="#个体发展" class="headerlink" title="个体发展"></a>个体发展</h2><h3 id="个体发展的阶段性和关键期"><a href="#个体发展的阶段性和关键期" class="headerlink" title="个体发展的阶段性和关键期"></a>个体发展的阶段性和关键期</h3><h4 id="个体发展的阶段性"><a href="#个体发展的阶段性" class="headerlink" title="个体发展的阶段性"></a>个体发展的阶段性</h4><h4 id="心理发展的关键期"><a href="#心理发展的关键期" class="headerlink" title="心理发展的关键期"></a>心理发展的关键期</h4><h3 id="遗传与环境在个体发展中的作用"><a href="#遗传与环境在个体发展中的作用" class="headerlink" title="遗传与环境在个体发展中的作用"></a>遗传与环境在个体发展中的作用</h3><h4 id="染色体、DNA、基因"><a href="#染色体、DNA、基因" class="headerlink" title="染色体、DNA、基因"></a>染色体、DNA、基因</h4><h4 id="行为遗传学"><a href="#行为遗传学" class="headerlink" title="行为遗传学"></a>行为遗传学</h4><h4 id="遗传与环境在个体发展中的交互作用"><a href="#遗传与环境在个体发展中的交互作用" class="headerlink" title="遗传与环境在个体发展中的交互作用"></a>遗传与环境在个体发展中的交互作用</h4><h3 id="个体发展的主要研究方法"><a href="#个体发展的主要研究方法" class="headerlink" title="个体发展的主要研究方法"></a>个体发展的主要研究方法</h3><h4 id="纵向研究法"><a href="#纵向研究法" class="headerlink" title="纵向研究法"></a>纵向研究法</h4><h4 id="横断研究法"><a href="#横断研究法" class="headerlink" title="横断研究法"></a>横断研究法</h4><h4 id="群体——连续研究法"><a href="#群体——连续研究法" class="headerlink" title="群体——连续研究法"></a>群体——连续研究法</h4><h2 id="身体、动作与感知觉的发展"><a href="#身体、动作与感知觉的发展" class="headerlink" title="身体、动作与感知觉的发展"></a>身体、动作与感知觉的发展</h2><h3 id="出生前（胎儿期）的发展"><a href="#出生前（胎儿期）的发展" class="headerlink" title="出生前（胎儿期）的发展"></a>出生前（胎儿期）的发展</h3><h4 id="出生前的身体发展"><a href="#出生前的身体发展" class="headerlink" title="出生前的身体发展"></a>出生前的身体发展</h4><h4 id="影响胎儿发展的不利因素"><a href="#影响胎儿发展的不利因素" class="headerlink" title="影响胎儿发展的不利因素"></a>影响胎儿发展的不利因素</h4><h3 id="婴幼儿的发展"><a href="#婴幼儿的发展" class="headerlink" title="婴幼儿的发展"></a>婴幼儿的发展</h3><h4 id="婴幼儿的身体发展"><a href="#婴幼儿的身体发展" class="headerlink" title="婴幼儿的身体发展"></a>婴幼儿的身体发展</h4><h4 id="婴幼儿的动作发展"><a href="#婴幼儿的动作发展" class="headerlink" title="婴幼儿的动作发展"></a>婴幼儿的动作发展</h4><h4 id="婴幼儿的感知觉发展"><a href="#婴幼儿的感知觉发展" class="headerlink" title="婴幼儿的感知觉发展"></a>婴幼儿的感知觉发展</h4><h5 id="触觉"><a href="#触觉" class="headerlink" title="触觉"></a>触觉</h5><h5 id="视觉"><a href="#视觉" class="headerlink" title="视觉"></a>视觉</h5><h3 id="儿童期的发展"><a href="#儿童期的发展" class="headerlink" title="儿童期的发展"></a>儿童期的发展</h3><h4 id="青春期的发展"><a href="#青春期的发展" class="headerlink" title="青春期的发展"></a>青春期的发展</h4><h2 id="语言与认知发展"><a href="#语言与认知发展" class="headerlink" title="语言与认知发展"></a>语言与认知发展</h2><h3 id="儿童的语言发展"><a href="#儿童的语言发展" class="headerlink" title="儿童的语言发展"></a>儿童的语言发展</h3><h4 id="语言获得的理论"><a href="#语言获得的理论" class="headerlink" title="语言获得的理论"></a>语言获得的理论</h4><h5 id="学习论"><a href="#学习论" class="headerlink" title="学习论"></a>学习论</h5><h5 id="先天论"><a href="#先天论" class="headerlink" title="先天论"></a>先天论</h5><h4 id="语言发展的阶段"><a href="#语言发展的阶段" class="headerlink" title="语言发展的阶段"></a>语言发展的阶段</h4><h4 id="影响语言获得的因素"><a href="#影响语言获得的因素" class="headerlink" title="影响语言获得的因素"></a>影响语言获得的因素</h4><h3 id="儿童的认知发展"><a href="#儿童的认知发展" class="headerlink" title="儿童的认知发展"></a>儿童的认知发展</h3><h4 id="认知发展的阶段"><a href="#认知发展的阶段" class="headerlink" title="认知发展的阶段"></a>认知发展的阶段</h4><h5 id="感知运动阶段（0-2岁）"><a href="#感知运动阶段（0-2岁）" class="headerlink" title="感知运动阶段（0~2岁）"></a>感知运动阶段（0~2岁）</h5><h5 id="前运算阶段（2-7岁）"><a href="#前运算阶段（2-7岁）" class="headerlink" title="前运算阶段（2~7岁）"></a>前运算阶段（2~7岁）</h5><h5 id="具体运算阶段（7-11岁）"><a href="#具体运算阶段（7-11岁）" class="headerlink" title="具体运算阶段（7~11岁）"></a>具体运算阶段（7~11岁）</h5><h5 id="形式运算阶段（11岁以后）"><a href="#形式运算阶段（11岁以后）" class="headerlink" title="形式运算阶段（11岁以后）"></a>形式运算阶段（11岁以后）</h5><h4 id="儿童认知发展的机制"><a href="#儿童认知发展的机制" class="headerlink" title="儿童认知发展的机制"></a>儿童认知发展的机制</h4><h2 id="社会性发展"><a href="#社会性发展" class="headerlink" title="社会性发展"></a>社会性发展</h2><h3 id="依恋行为"><a href="#依恋行为" class="headerlink" title="依恋行为"></a>依恋行为</h3><h3 id="道德发展"><a href="#道德发展" class="headerlink" title="道德发展"></a>道德发展</h3><h4 id="皮亚杰的道德发展两阶段理论"><a href="#皮亚杰的道德发展两阶段理论" class="headerlink" title="皮亚杰的道德发展两阶段理论"></a>皮亚杰的道德发展两阶段理论</h4><h4 id="柯尔伯格的道德推理阶段理论"><a href="#柯尔伯格的道德推理阶段理论" class="headerlink" title="柯尔伯格的道德推理阶段理论"></a>柯尔伯格的道德推理阶段理论</h4><h5 id="习俗前道德时期（4-10岁）"><a href="#习俗前道德时期（4-10岁）" class="headerlink" title="习俗前道德时期（4~10岁）"></a>习俗前道德时期（4~10岁）</h5><h5 id="习俗道德时期（10-19岁）"><a href="#习俗道德时期（10-19岁）" class="headerlink" title="习俗道德时期（10~19岁）"></a>习俗道德时期（10~19岁）</h5><h5 id="后习俗道德时期（13岁以后）"><a href="#后习俗道德时期（13岁以后）" class="headerlink" title="后习俗道德时期（13岁以后）"></a>后习俗道德时期（13岁以后）</h5><h3 id="社会化与人格发展"><a href="#社会化与人格发展" class="headerlink" title="社会化与人格发展"></a>社会化与人格发展</h3><h5 id="艾里克森的心理社会发展理论"><a href="#艾里克森的心理社会发展理论" class="headerlink" title="艾里克森的心理社会发展理论"></a>艾里克森的心理社会发展理论</h5><h4 id="班杜拉的社会学习理论"><a href="#班杜拉的社会学习理论" class="headerlink" title="班杜拉的社会学习理论"></a>班杜拉的社会学习理论</h4><h2 id="中老年时期的发展"><a href="#中老年时期的发展" class="headerlink" title="中老年时期的发展"></a>中老年时期的发展</h2><h4 id="中老年时期生理与心理的发展"><a href="#中老年时期生理与心理的发展" class="headerlink" title="中老年时期生理与心理的发展"></a>中老年时期生理与心理的发展</h4><h3 id="中老年时期的生活适应"><a href="#中老年时期的生活适应" class="headerlink" title="中老年时期的生活适应"></a>中老年时期的生活适应</h3><h4 id="健康问题"><a href="#健康问题" class="headerlink" title="健康问题"></a>健康问题</h4><h4 id="终身学习问题"><a href="#终身学习问题" class="headerlink" title="终身学习问题"></a>终身学习问题</h4><h4 id="社会人际关系问题"><a href="#社会人际关系问题" class="headerlink" title="社会人际关系问题"></a>社会人际关系问题</h4><h4 id="面对死亡问题"><a href="#面对死亡问题" class="headerlink" title="面对死亡问题"></a>面对死亡问题</h4>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十二章 人格</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%20%E4%BA%BA%E6%A0%BC/</url>
+    <content><![CDATA[<h1 id="第十二章-人格"><a href="#第十二章-人格" class="headerlink" title="第十二章 人格"></a>第十二章 人格</h1><h2 id="人格的一般概念"><a href="#人格的一般概念" class="headerlink" title="人格的一般概念"></a>人格的一般概念</h2><h3 id="什么是人格"><a href="#什么是人格" class="headerlink" title="什么是人格"></a>什么是人格</h3><h4 id="独特性"><a href="#独特性" class="headerlink" title="独特性"></a>独特性</h4><h4 id="稳定性"><a href="#稳定性" class="headerlink" title="稳定性"></a>稳定性</h4><h4 id="统合性"><a href="#统合性" class="headerlink" title="统合性"></a>统合性</h4><h4 id="功能性"><a href="#功能性" class="headerlink" title="功能性"></a>功能性</h4><h3 id="人格的结构"><a href="#人格的结构" class="headerlink" title="人格的结构"></a>人格的结构</h3><h4 id="气质"><a href="#气质" class="headerlink" title="气质"></a>气质</h4><h4 id="性格"><a href="#性格" class="headerlink" title="性格"></a>性格</h4><h4 id="自我调控系统"><a href="#自我调控系统" class="headerlink" title="自我调控系统"></a>自我调控系统</h4><h5 id="自我认知"><a href="#自我认知" class="headerlink" title="自我认知"></a>自我认知</h5><h5 id="自我体验"><a href="#自我体验" class="headerlink" title="自我体验"></a>自我体验</h5><h5 id="自我控制"><a href="#自我控制" class="headerlink" title="自我控制"></a>自我控制</h5><h2 id="人格理论"><a href="#人格理论" class="headerlink" title="人格理论"></a>人格理论</h2><h3 id="特质理论"><a href="#特质理论" class="headerlink" title="特质理论"></a>特质理论</h3><h4 id="奥尔波特的特质理论"><a href="#奥尔波特的特质理论" class="headerlink" title="奥尔波特的特质理论"></a>奥尔波特的特质理论</h4><h4 id="卡特尔的人格特质理论"><a href="#卡特尔的人格特质理论" class="headerlink" title="卡特尔的人格特质理论"></a>卡特尔的人格特质理论</h4><h5 id="表面特质和根源特质"><a href="#表面特质和根源特质" class="headerlink" title="表面特质和根源特质"></a>表面特质和根源特质</h5><h5 id="体制特质3和环境特质"><a href="#体制特质3和环境特质" class="headerlink" title="体制特质3和环境特质"></a>体制特质3和环境特质</h5><h5 id="动力特质、能力特质和气质特质"><a href="#动力特质、能力特质和气质特质" class="headerlink" title="动力特质、能力特质和气质特质"></a>动力特质、能力特质和气质特质</h5><h3 id="类型理论"><a href="#类型理论" class="headerlink" title="类型理论"></a>类型理论</h3><h4 id="单一类型理论"><a href="#单一类型理论" class="headerlink" title="单一类型理论"></a>单一类型理论</h4><h4 id="对立类型理论"><a href="#对立类型理论" class="headerlink" title="对立类型理论"></a>对立类型理论</h4><h5 id="A-B-型人格"><a href="#A-B-型人格" class="headerlink" title="A - B 型人格"></a>A - B 型人格</h5><h5 id="内-外倾人格"><a href="#内-外倾人格" class="headerlink" title="内 - 外倾人格"></a>内 - 外倾人格</h5><h4 id="多元类型理论"><a href="#多元类型理论" class="headerlink" title="多元类型理论"></a>多元类型理论</h4><h5 id="气质类型学说"><a href="#气质类型学说" class="headerlink" title="气质类型学说"></a>气质类型学说</h5><h5 id="性格类型学说"><a href="#性格类型学说" class="headerlink" title="性格类型学说"></a>性格类型学说</h5><h3 id="整合理论"><a href="#整合理论" class="headerlink" title="整合理论"></a>整合理论</h3><h2 id="认知风格"><a href="#认知风格" class="headerlink" title="认知风格"></a>认知风格</h2><h3 id="场独立性——场依存性"><a href="#场独立性——场依存性" class="headerlink" title="场独立性——场依存性"></a>场独立性——场依存性</h3><h3 id="冲动性——沉稳性"><a href="#冲动性——沉稳性" class="headerlink" title="冲动性——沉稳性"></a>冲动性——沉稳性</h3><h3 id="同时性——继时性"><a href="#同时性——继时性" class="headerlink" title="同时性——继时性"></a>同时性——继时性</h3><h2 id="人格检验"><a href="#人格检验" class="headerlink" title="人格检验"></a>人格检验</h2><h3 id="自陈量表"><a href="#自陈量表" class="headerlink" title="自陈量表"></a>自陈量表</h3><h4 id="明尼苏达多相人格测验"><a href="#明尼苏达多相人格测验" class="headerlink" title="明尼苏达多相人格测验"></a>明尼苏达多相人格测验</h4><h4 id="爱德华个人兴趣量表"><a href="#爱德华个人兴趣量表" class="headerlink" title="爱德华个人兴趣量表"></a>爱德华个人兴趣量表</h4><h3 id="投射测验"><a href="#投射测验" class="headerlink" title="投射测验"></a>投射测验</h3><h4 id="罗夏克墨渍测验"><a href="#罗夏克墨渍测验" class="headerlink" title="罗夏克墨渍测验"></a>罗夏克墨渍测验</h4><h4 id="主题统觉测验"><a href="#主题统觉测验" class="headerlink" title="主题统觉测验"></a>主题统觉测验</h4><h3 id="情境测验"><a href="#情境测验" class="headerlink" title="情境测验"></a>情境测验</h3><h4 id="教育性格测验"><a href="#教育性格测验" class="headerlink" title="教育性格测验"></a>教育性格测验</h4><h4 id="情境压力测验"><a href="#情境压力测验" class="headerlink" title="情境压力测验"></a>情境压力测验</h4><h3 id="自我概念测验"><a href="#自我概念测验" class="headerlink" title="自我概念测验"></a>自我概念测验</h3><h4 id="形容词列表法"><a href="#形容词列表法" class="headerlink" title="形容词列表法"></a>形容词列表法</h4><h4 id="Q-分类法"><a href="#Q-分类法" class="headerlink" title="Q 分类法"></a>Q 分类法</h4><h4 id="WAI-法"><a href="#WAI-法" class="headerlink" title="WAI 法"></a>WAI 法</h4><h2 id="人格成因"><a href="#人格成因" class="headerlink" title="人格成因"></a>人格成因</h2><h3 id="生物遗传因素"><a href="#生物遗传因素" class="headerlink" title="生物遗传因素"></a>生物遗传因素</h3><h3 id="社会文化因素"><a href="#社会文化因素" class="headerlink" title="社会文化因素"></a>社会文化因素</h3><h3 id="家庭环境因素"><a href="#家庭环境因素" class="headerlink" title="家庭环境因素"></a>家庭环境因素</h3><h3 id="早期童年经验"><a href="#早期童年经验" class="headerlink" title="早期童年经验"></a>早期童年经验</h3><h3 id="学校教育因素"><a href="#学校教育因素" class="headerlink" title="学校教育因素"></a>学校教育因素</h3><h3 id="自然物理因素"><a href="#自然物理因素" class="headerlink" title="自然物理因素"></a>自然物理因素</h3><h3 id="自我调控因素"><a href="#自我调控因素" class="headerlink" title="自我调控因素"></a>自我调控因素</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十章 情绪</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%8D%81%E7%AB%A0%20%E6%83%85%E7%BB%AA/</url>
+    <content><![CDATA[<h1 id="第十章-情绪"><a href="#第十章-情绪" class="headerlink" title="第十章 情绪"></a>第十章 情绪</h1><h2 id="情绪的一般概念"><a href="#情绪的一般概念" class="headerlink" title="情绪的一般概念"></a>情绪的一般概念</h2><h3 id="情绪的含义和功能"><a href="#情绪的含义和功能" class="headerlink" title="情绪的含义和功能"></a>情绪的含义和功能</h3><h4 id="情绪的含义"><a href="#情绪的含义" class="headerlink" title="情绪的含义"></a>情绪的含义</h4><h4 id="情绪的功能"><a href="#情绪的功能" class="headerlink" title="情绪的功能"></a>情绪的功能</h4><h5 id="适应功能"><a href="#适应功能" class="headerlink" title="适应功能"></a>适应功能</h5><h5 id="动机功能"><a href="#动机功能" class="headerlink" title="动机功能"></a>动机功能</h5><h5 id="组织功能"><a href="#组织功能" class="headerlink" title="组织功能"></a>组织功能</h5><h5 id="社会功能"><a href="#社会功能" class="headerlink" title="社会功能"></a>社会功能</h5><h3 id="情绪的维度与两极性"><a href="#情绪的维度与两极性" class="headerlink" title="情绪的维度与两极性"></a>情绪的维度与两极性</h3><h4 id="什么是情绪的维度与两极性"><a href="#什么是情绪的维度与两极性" class="headerlink" title="什么是情绪的维度与两极性"></a>什么是情绪的维度与两极性</h4><h4 id="情绪维度理论"><a href="#情绪维度理论" class="headerlink" title="情绪维度理论"></a>情绪维度理论</h4><h5 id="三维理论"><a href="#三维理论" class="headerlink" title="三维理论"></a>三维理论</h5><h5 id="四维理论"><a href="#四维理论" class="headerlink" title="四维理论"></a>四维理论</h5><h3 id="情绪的分类"><a href="#情绪的分类" class="headerlink" title="情绪的分类"></a>情绪的分类</h3><h4 id="情绪的几种分类"><a href="#情绪的几种分类" class="headerlink" title="情绪的几种分类"></a>情绪的几种分类</h4><h5 id="基本情绪与复合情绪"><a href="#基本情绪与复合情绪" class="headerlink" title="基本情绪与复合情绪"></a>基本情绪与复合情绪</h5><h5 id="积极情绪与消极情绪"><a href="#积极情绪与消极情绪" class="headerlink" title="积极情绪与消极情绪"></a>积极情绪与消极情绪</h5><h6 id="积极情绪"><a href="#积极情绪" class="headerlink" title="积极情绪"></a>积极情绪</h6><h6 id="消极情绪"><a href="#消极情绪" class="headerlink" title="消极情绪"></a>消极情绪</h6><h4 id="情绪状态及其分类"><a href="#情绪状态及其分类" class="headerlink" title="情绪状态及其分类"></a>情绪状态及其分类</h4><h5 id="心境"><a href="#心境" class="headerlink" title="心境"></a>心境</h5><h5 id="激情"><a href="#激情" class="headerlink" title="激情"></a>激情</h5><h5 id="应激"><a href="#应激" class="headerlink" title="应激"></a>应激</h5><h2 id="情绪与脑"><a href="#情绪与脑" class="headerlink" title="情绪与脑"></a>情绪与脑</h2><h3 id="情绪的脑中枢机制"><a href="#情绪的脑中枢机制" class="headerlink" title="情绪的脑中枢机制"></a>情绪的脑中枢机制</h3><h4 id="前额皮层"><a href="#前额皮层" class="headerlink" title="前额皮层"></a>前额皮层</h4><h5 id="正常人的研究"><a href="#正常人的研究" class="headerlink" title="正常人的研究"></a>正常人的研究</h5><h5 id="脑损伤病人的研究"><a href="#脑损伤病人的研究" class="headerlink" title="脑损伤病人的研究"></a>脑损伤病人的研究</h5><h5 id="情绪障碍的研究"><a href="#情绪障碍的研究" class="headerlink" title="情绪障碍的研究"></a>情绪障碍的研究</h5><h4 id="杏仁核"><a href="#杏仁核" class="headerlink" title="杏仁核"></a>杏仁核</h4><h4 id="海马回和前部扣回带"><a href="#海马回和前部扣回带" class="headerlink" title="海马回和前部扣回带"></a>海马回和前部扣回带</h4><h4 id="网状结构"><a href="#网状结构" class="headerlink" title="网状结构"></a>网状结构</h4><h4 id="大脑皮层功能的一侧化与情绪"><a href="#大脑皮层功能的一侧化与情绪" class="headerlink" title="大脑皮层功能的一侧化与情绪"></a>大脑皮层功能的一侧化与情绪</h4><h3 id="情绪的外周神经机制"><a href="#情绪的外周神经机制" class="headerlink" title="情绪的外周神经机制"></a>情绪的外周神经机制</h3><h4 id="情绪与自主神经系统"><a href="#情绪与自主神经系统" class="headerlink" title="情绪与自主神经系统"></a>情绪与自主神经系统</h4><h4 id="情绪与躯体神经系统"><a href="#情绪与躯体神经系统" class="headerlink" title="情绪与躯体神经系统"></a>情绪与躯体神经系统</h4><h4 id="情绪与分泌系统"><a href="#情绪与分泌系统" class="headerlink" title="情绪与分泌系统"></a>情绪与分泌系统</h4><h3 id="情绪与唤醒模式"><a href="#情绪与唤醒模式" class="headerlink" title="情绪与唤醒模式"></a>情绪与唤醒模式</h3><h2 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h2><h3 id="面部表情"><a href="#面部表情" class="headerlink" title="面部表情"></a>面部表情</h3><h3 id="姿态表情"><a href="#姿态表情" class="headerlink" title="姿态表情"></a>姿态表情</h3><h3 id="语调表情"><a href="#语调表情" class="headerlink" title="语调表情"></a>语调表情</h3><h3 id="感觉反馈"><a href="#感觉反馈" class="headerlink" title="感觉反馈"></a>感觉反馈</h3><h2 id="情绪理论"><a href="#情绪理论" class="headerlink" title="情绪理论"></a>情绪理论</h2><h3 id="情绪的早期理论"><a href="#情绪的早期理论" class="headerlink" title="情绪的早期理论"></a>情绪的早期理论</h3><h4 id="詹姆斯——兰格理论"><a href="#詹姆斯——兰格理论" class="headerlink" title="詹姆斯——兰格理论"></a>詹姆斯——兰格理论</h4><h4 id="坎农——巴德学说"><a href="#坎农——巴德学说" class="headerlink" title="坎农——巴德学说"></a>坎农——巴德学说</h4><h3 id="情绪的认知理论"><a href="#情绪的认知理论" class="headerlink" title="情绪的认知理论"></a>情绪的认知理论</h3><h4 id="阿诺德的评定——兴奋说"><a href="#阿诺德的评定——兴奋说" class="headerlink" title="阿诺德的评定——兴奋说"></a>阿诺德的评定——兴奋说</h4><h4 id="沙赫特——辛格的情绪理论"><a href="#沙赫特——辛格的情绪理论" class="headerlink" title="沙赫特——辛格的情绪理论"></a>沙赫特——辛格的情绪理论</h4><h4 id="拉扎勒斯的认知评价理论"><a href="#拉扎勒斯的认知评价理论" class="headerlink" title="拉扎勒斯的认知评价理论"></a>拉扎勒斯的认知评价理论</h4><h3 id="情绪的动机——分化理论"><a href="#情绪的动机——分化理论" class="headerlink" title="情绪的动机——分化理论"></a>情绪的动机——分化理论</h3><h4 id="情绪是分化的不同情绪具有不同的适应能力"><a href="#情绪是分化的不同情绪具有不同的适应能力" class="headerlink" title="情绪是分化的不同情绪具有不同的适应能力"></a>情绪是分化的不同情绪具有不同的适应能力</h4><h4 id="情绪在人格系统中的地位和作用"><a href="#情绪在人格系统中的地位和作用" class="headerlink" title="情绪在人格系统中的地位和作用"></a>情绪在人格系统中的地位和作用</h4><h4 id="情绪自身也是一个复杂系统"><a href="#情绪自身也是一个复杂系统" class="headerlink" title="情绪自身也是一个复杂系统"></a>情绪自身也是一个复杂系统</h4><h2 id="情绪的调节"><a href="#情绪的调节" class="headerlink" title="情绪的调节"></a>情绪的调节</h2><h3 id="情绪调节的意义"><a href="#情绪调节的意义" class="headerlink" title="情绪调节的意义"></a>情绪调节的意义</h3><h4 id="具体情绪的调节"><a href="#具体情绪的调节" class="headerlink" title="具体情绪的调节"></a>具体情绪的调节</h4><h4 id="唤醒水平的调节"><a href="#唤醒水平的调节" class="headerlink" title="唤醒水平的调节"></a>唤醒水平的调节</h4><h4 id="情绪成分的调节"><a href="#情绪成分的调节" class="headerlink" title="情绪成分的调节"></a>情绪成分的调节</h4><h3 id="情绪调节的特征"><a href="#情绪调节的特征" class="headerlink" title="情绪调节的特征"></a>情绪调节的特征</h3><h4 id="情绪调节的恒定性"><a href="#情绪调节的恒定性" class="headerlink" title="情绪调节的恒定性"></a>情绪调节的恒定性</h4><h4 id="情绪调节过程的等级组织"><a href="#情绪调节过程的等级组织" class="headerlink" title="情绪调节过程的等级组织"></a>情绪调节过程的等级组织</h4><h4 id="情绪调节的个体差异和文化差异"><a href="#情绪调节的个体差异和文化差异" class="headerlink" title="情绪调节的个体差异和文化差异"></a>情绪调节的个体差异和文化差异</h4><h3 id="情绪调节的类型"><a href="#情绪调节的类型" class="headerlink" title="情绪调节的类型"></a>情绪调节的类型</h3><h4 id="内部调节和外部调节"><a href="#内部调节和外部调节" class="headerlink" title="内部调节和外部调节"></a>内部调节和外部调节</h4><h4 id="修正调节、维持调节和增强调节"><a href="#修正调节、维持调节和增强调节" class="headerlink" title="修正调节、维持调节和增强调节"></a>修正调节、维持调节和增强调节</h4><h4 id="原因调节和反应调节"><a href="#原因调节和反应调节" class="headerlink" title="原因调节和反应调节"></a>原因调节和反应调节</h4><h4 id="良好调节和不良调节"><a href="#良好调节和不良调节" class="headerlink" title="良好调节和不良调节"></a>良好调节和不良调节</h4><h3 id="情绪调节的过程"><a href="#情绪调节的过程" class="headerlink" title="情绪调节的过程"></a>情绪调节的过程</h3><h3 id="情绪调节的维度"><a href="#情绪调节的维度" class="headerlink" title="情绪调节的维度"></a>情绪调节的维度</h3><h4 id="生理调节"><a href="#生理调节" class="headerlink" title="生理调节"></a>生理调节</h4><h4 id="情绪体验调节"><a href="#情绪体验调节" class="headerlink" title="情绪体验调节"></a>情绪体验调节</h4><h4 id="行为调节"><a href="#行为调节" class="headerlink" title="行为调节"></a>行为调节</h4><h4 id="认知调节"><a href="#认知调节" class="headerlink" title="认知调节"></a>认知调节</h4><h4 id="人际调节"><a href="#人际调节" class="headerlink" title="人际调节"></a>人际调节</h4><h3 id="情绪调节的策略"><a href="#情绪调节的策略" class="headerlink" title="情绪调节的策略"></a>情绪调节的策略</h3><h4 id="回避和接近策略"><a href="#回避和接近策略" class="headerlink" title="回避和接近策略"></a>回避和接近策略</h4><h4 id="控制和修正策略"><a href="#控制和修正策略" class="headerlink" title="控制和修正策略"></a>控制和修正策略</h4><h4 id="注意转换策略"><a href="#注意转换策略" class="headerlink" title="注意转换策略"></a>注意转换策略</h4><h4 id="认知重评策略"><a href="#认知重评策略" class="headerlink" title="认知重评策略"></a>认知重评策略</h4><h4 id="表达抑制策略"><a href="#表达抑制策略" class="headerlink" title="表达抑制策略"></a>表达抑制策略</h4><h4 id="合理表达策略"><a href="#合理表达策略" class="headerlink" title="合理表达策略"></a>合理表达策略</h4><h3 id="情绪调节与身心健康"><a href="#情绪调节与身心健康" class="headerlink" title="情绪调节与身心健康"></a>情绪调节与身心健康</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第四章 知觉</title>
+    <url>/%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E7%9F%A5%E8%A7%89/</url>
+    <content><![CDATA[<h1 id="第四章-知觉"><a href="#第四章-知觉" class="headerlink" title="第四章 知觉"></a>第四章 知觉</h1><h2 id="知觉的一般概念"><a href="#知觉的一般概念" class="headerlink" title="知觉的一般概念"></a>知觉的一般概念</h2><h3 id="什么是知觉"><a href="#什么是知觉" class="headerlink" title="什么是知觉"></a>什么是知觉</h3><h3 id="知觉中的自下而上和自上而下的加工"><a href="#知觉中的自下而上和自上而下的加工" class="headerlink" title="知觉中的自下而上和自上而下的加工"></a>知觉中的自下而上和自上而下的加工</h3><h3 id="知觉的种类"><a href="#知觉的种类" class="headerlink" title="知觉的种类"></a>知觉的种类</h3><h2 id="知觉的特性"><a href="#知觉的特性" class="headerlink" title="知觉的特性"></a>知觉的特性</h2><h3 id="知觉的对象与背景"><a href="#知觉的对象与背景" class="headerlink" title="知觉的对象与背景"></a>知觉的对象与背景</h3><h3 id="知觉中整体与部分的关系"><a href="#知觉中整体与部分的关系" class="headerlink" title="知觉中整体与部分的关系"></a>知觉中整体与部分的关系</h3><h3 id="理解在知觉中的作用"><a href="#理解在知觉中的作用" class="headerlink" title="理解在知觉中的作用"></a>理解在知觉中的作用</h3><h3 id="知觉的恒常性"><a href="#知觉的恒常性" class="headerlink" title="知觉的恒常性"></a>知觉的恒常性</h3><h4 id="知觉恒常性的定义"><a href="#知觉恒常性的定义" class="headerlink" title="知觉恒常性的定义"></a>知觉恒常性的定义</h4><h4 id="知觉恒常性的种类"><a href="#知觉恒常性的种类" class="headerlink" title="知觉恒常性的种类"></a>知觉恒常性的种类</h4><h5 id="形状恒常性"><a href="#形状恒常性" class="headerlink" title="形状恒常性"></a>形状恒常性</h5><h5 id="大小恒常性"><a href="#大小恒常性" class="headerlink" title="大小恒常性"></a>大小恒常性</h5><h5 id="明度恒常性"><a href="#明度恒常性" class="headerlink" title="明度恒常性"></a>明度恒常性</h5><h5 id="颜色恒常性"><a href="#颜色恒常性" class="headerlink" title="颜色恒常性"></a>颜色恒常性</h5><h4 id="影响知觉恒常性的因素"><a href="#影响知觉恒常性的因素" class="headerlink" title="影响知觉恒常性的因素"></a>影响知觉恒常性的因素</h4><h3 id="知觉学习"><a href="#知觉学习" class="headerlink" title="知觉学习"></a>知觉学习</h3><h3 id="知觉适应"><a href="#知觉适应" class="headerlink" title="知觉适应"></a>知觉适应</h3><h2 id="空间知觉"><a href="#空间知觉" class="headerlink" title="空间知觉"></a>空间知觉</h2><h3 id="形状知觉"><a href="#形状知觉" class="headerlink" title="形状知觉"></a>形状知觉</h3><h4 id="形状的特征分析"><a href="#形状的特征分析" class="headerlink" title="形状的特征分析"></a>形状的特征分析</h4><h4 id="轮廓与图形"><a href="#轮廓与图形" class="headerlink" title="轮廓与图形"></a>轮廓与图形</h4><h4 id="图形的组成"><a href="#图形的组成" class="headerlink" title="图形的组成"></a>图形的组成</h4><h5 id="临近性"><a href="#临近性" class="headerlink" title="临近性"></a>临近性</h5><h5 id="相似性"><a href="#相似性" class="headerlink" title="相似性"></a>相似性</h5><h5 id="对称性"><a href="#对称性" class="headerlink" title="对称性"></a>对称性</h5><h5 id="良好连续"><a href="#良好连续" class="headerlink" title="良好连续"></a>良好连续</h5><h5 id="共同命运"><a href="#共同命运" class="headerlink" title="共同命运"></a>共同命运</h5><h5 id="封闭"><a href="#封闭" class="headerlink" title="封闭"></a>封闭</h5><h5 id="线条朝向"><a href="#线条朝向" class="headerlink" title="线条朝向"></a>线条朝向</h5><h5 id="简单性"><a href="#简单性" class="headerlink" title="简单性"></a>简单性</h5><h4 id="形状识别"><a href="#形状识别" class="headerlink" title="形状识别"></a>形状识别</h4><h4 id="注意在形状知觉中的作用"><a href="#注意在形状知觉中的作用" class="headerlink" title="注意在形状知觉中的作用"></a>注意在形状知觉中的作用</h4><h4 id="眼动与形状知觉"><a href="#眼动与形状知觉" class="headerlink" title="眼动与形状知觉"></a>眼动与形状知觉</h4><h3 id="大小知觉"><a href="#大小知觉" class="headerlink" title="大小知觉"></a>大小知觉</h3><h3 id="深度知觉和距离知觉"><a href="#深度知觉和距离知觉" class="headerlink" title="深度知觉和距离知觉"></a>深度知觉和距离知觉</h3><h4 id="肌肉线索（生理线索）"><a href="#肌肉线索（生理线索）" class="headerlink" title="肌肉线索（生理线索）"></a>肌肉线索（生理线索）</h4><h5 id="调节"><a href="#调节" class="headerlink" title="调节"></a>调节</h5><h5 id="辐合"><a href="#辐合" class="headerlink" title="辐合"></a>辐合</h5><h4 id="单眼线索"><a href="#单眼线索" class="headerlink" title="单眼线索"></a>单眼线索</h4><h5 id="对象重叠（遮挡）"><a href="#对象重叠（遮挡）" class="headerlink" title="对象重叠（遮挡）"></a>对象重叠（遮挡）</h5><h5 id="线条透视"><a href="#线条透视" class="headerlink" title="线条透视"></a>线条透视</h5><h5 id="空气透视"><a href="#空气透视" class="headerlink" title="空气透视"></a>空气透视</h5><h5 id="相对高度"><a href="#相对高度" class="headerlink" title="相对高度"></a>相对高度</h5><h5 id="纹理梯度"><a href="#纹理梯度" class="headerlink" title="纹理梯度"></a>纹理梯度</h5><h5 id="运动视察与运动透视"><a href="#运动视察与运动透视" class="headerlink" title="运动视察与运动透视"></a>运动视察与运动透视</h5><h4 id="双眼线索——双眼视差"><a href="#双眼线索——双眼视差" class="headerlink" title="双眼线索——双眼视差"></a>双眼线索——双眼视差</h4><h3 id="方位定向"><a href="#方位定向" class="headerlink" title="方位定向"></a>方位定向</h3><h2 id="时间知觉与运动知觉"><a href="#时间知觉与运动知觉" class="headerlink" title="时间知觉与运动知觉"></a>时间知觉与运动知觉</h2><h3 id="时间知觉"><a href="#时间知觉" class="headerlink" title="时间知觉"></a>时间知觉</h3><h4 id="什么叫时间知觉"><a href="#什么叫时间知觉" class="headerlink" title="什么叫时间知觉"></a>什么叫时间知觉</h4><h4 id="影响时间知觉的因素"><a href="#影响时间知觉的因素" class="headerlink" title="影响时间知觉的因素"></a>影响时间知觉的因素</h4><h5 id="感觉通道的性质"><a href="#感觉通道的性质" class="headerlink" title="感觉通道的性质"></a>感觉通道的性质</h5><h5 id="在一定时间内事件发生的数量和性质"><a href="#在一定时间内事件发生的数量和性质" class="headerlink" title="在一定时间内事件发生的数量和性质"></a>在一定时间内事件发生的数量和性质</h5><h5 id="人的兴趣和情绪"><a href="#人的兴趣和情绪" class="headerlink" title="人的兴趣和情绪"></a>人的兴趣和情绪</h5><h4 id="时间知觉的脑机制"><a href="#时间知觉的脑机制" class="headerlink" title="时间知觉的脑机制"></a>时间知觉的脑机制</h4><h3 id="运动知觉"><a href="#运动知觉" class="headerlink" title="运动知觉"></a>运动知觉</h3><h4 id="什么叫运动知觉"><a href="#什么叫运动知觉" class="headerlink" title="什么叫运动知觉"></a>什么叫运动知觉</h4><h4 id="真正运动的知觉"><a href="#真正运动的知觉" class="headerlink" title="真正运动的知觉"></a>真正运动的知觉</h4><h4 id="似动"><a href="#似动" class="headerlink" title="似动"></a>似动</h4><h5 id="动景运动"><a href="#动景运动" class="headerlink" title="动景运动"></a>动景运动</h5><h5 id="诱发运动"><a href="#诱发运动" class="headerlink" title="诱发运动"></a>诱发运动</h5><h5 id="自主运动"><a href="#自主运动" class="headerlink" title="自主运动"></a>自主运动</h5><h5 id="运动后效"><a href="#运动后效" class="headerlink" title="运动后效"></a>运动后效</h5><h2 id="错觉"><a href="#错觉" class="headerlink" title="错觉"></a>错觉</h2><h3 id="什么叫错觉"><a href="#什么叫错觉" class="headerlink" title="什么叫错觉"></a>什么叫错觉</h3><h3 id="错觉的种类"><a href="#错觉的种类" class="headerlink" title="错觉的种类"></a>错觉的种类</h3><h4 id="大小错觉"><a href="#大小错觉" class="headerlink" title="大小错觉"></a>大小错觉</h4><h5 id="缪勒——莱耶错觉"><a href="#缪勒——莱耶错觉" class="headerlink" title="缪勒——莱耶错觉"></a>缪勒——莱耶错觉</h5><h5 id="潘佐错觉"><a href="#潘佐错觉" class="headerlink" title="潘佐错觉"></a>潘佐错觉</h5><h5 id="垂直——水平错觉"><a href="#垂直——水平错觉" class="headerlink" title="垂直——水平错觉"></a>垂直——水平错觉</h5><h5 id="贾斯特罗错觉"><a href="#贾斯特罗错觉" class="headerlink" title="贾斯特罗错觉"></a>贾斯特罗错觉</h5><h5 id="多尔波也夫错觉"><a href="#多尔波也夫错觉" class="headerlink" title="多尔波也夫错觉"></a>多尔波也夫错觉</h5><h5 id="月亮错觉"><a href="#月亮错觉" class="headerlink" title="月亮错觉"></a>月亮错觉</h5><h4 id="形状和方向错觉"><a href="#形状和方向错觉" class="headerlink" title="形状和方向错觉"></a>形状和方向错觉</h4><h5 id="佐尔拉错觉"><a href="#佐尔拉错觉" class="headerlink" title="佐尔拉错觉"></a>佐尔拉错觉</h5><h5 id="冯特错觉"><a href="#冯特错觉" class="headerlink" title="冯特错觉"></a>冯特错觉</h5><h5 id="爱因斯坦错觉"><a href="#爱因斯坦错觉" class="headerlink" title="爱因斯坦错觉"></a>爱因斯坦错觉</h5><h5 id="波根多夫错觉"><a href="#波根多夫错觉" class="headerlink" title="波根多夫错觉"></a>波根多夫错觉</h5><h4 id="螺旋和运动错觉"><a href="#螺旋和运动错觉" class="headerlink" title="螺旋和运动错觉"></a>螺旋和运动错觉</h4><h5 id="螺旋错觉"><a href="#螺旋错觉" class="headerlink" title="螺旋错觉"></a>螺旋错觉</h5><h5 id="运动错觉"><a href="#运动错觉" class="headerlink" title="运动错觉"></a>运动错觉</h5><h4 id="明暗错觉"><a href="#明暗错觉" class="headerlink" title="明暗错觉"></a>明暗错觉</h4><h3 id="人为什么会有错觉"><a href="#人为什么会有错觉" class="headerlink" title="人为什么会有错觉"></a>人为什么会有错觉</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>基础心理学</category>
+      </categories>
   </entry>
 </search>
