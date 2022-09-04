@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>信息系统的组成 | 二之日</title>
+<meta name="keywords" content="">
+<meta name="description" content="通用计算机系统 通用计算机系统概述 现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。
+现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。
+计算机系统的两大组成部分 计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。
+计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。
+“冯·诺依曼”体系结构 计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。 计算机内部采用二进制来表示程序和数据。 采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。 集成电路技术和摩尔定律 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。 计算机的主要功能 把需要的程序和数据送至计算机中。 必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。 能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。 能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。 能够按照要求将处理结果输出给用户。 计算机工作流程 取指令 指令译码 执行指令 访存取数 结果写回 计算机工作原理 首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。
+然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。
+最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。
+计算机系统硬件 五个基本部分 运算器 控制器 存储器 输入设备 输出设备 CPU 通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。
+CPU主要由运算器和控制器两大部分组成 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 CPU的主要功能 指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。 操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。 时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。 数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。 控制器（CU） 控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。
+控制器是计算机的指挥系统，完成计算机的指挥工作。 控制器的基本功能是从内存读取指令和执行指令。 运算器（ALU） 运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。
+运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。 运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。 CPU的架构 CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。
+CISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。 在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。 CPU的主要参数 CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。">
+
+
+    
+<meta name="author" content="二之日">
+<link rel="canonical" href="https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b5ec5a06378d79cadd89a55b935242295157b3c3d852c1dce3b10601ff0c207e.css" integrity="sha256-texaBjeNecrdiaVbk1JCKVFXs8PYUsHc47EGAf8MIH4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://eeviriyi.top/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eeviriyi.top/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eeviriyi.top/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://eeviriyi.top/apple-touch-icon.png">
+<link rel="mask-icon" href="https://eeviriyi.top/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="信息系统的组成" />
+<meta property="og:description" content="通用计算机系统 通用计算机系统概述 现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。
+现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。
+计算机系统的两大组成部分 计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。
+计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。
+“冯·诺依曼”体系结构 计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。 计算机内部采用二进制来表示程序和数据。 采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。 集成电路技术和摩尔定律 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。 计算机的主要功能 把需要的程序和数据送至计算机中。 必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。 能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。 能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。 能够按照要求将处理结果输出给用户。 计算机工作流程 取指令 指令译码 执行指令 访存取数 结果写回 计算机工作原理 首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。
+然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。
+最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。
+计算机系统硬件 五个基本部分 运算器 控制器 存储器 输入设备 输出设备 CPU 通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。
+CPU主要由运算器和控制器两大部分组成 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 CPU的主要功能 指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。 操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。 时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。 数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。 控制器（CU） 控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。
+控制器是计算机的指挥系统，完成计算机的指挥工作。 控制器的基本功能是从内存读取指令和执行指令。 运算器（ALU） 运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。
+运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。 运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。 CPU的架构 CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。
+CISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。 在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。 CPU的主要参数 CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90/" /><meta property="article:section" content="笔记" />
+<meta property="article:published_time" content="2022-08-08T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-08-08T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="信息系统的组成"/>
+<meta name="twitter:description" content="通用计算机系统 通用计算机系统概述 现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。
+现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。
+计算机系统的两大组成部分 计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。
+计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。
+“冯·诺依曼”体系结构 计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。 计算机内部采用二进制来表示程序和数据。 采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。 集成电路技术和摩尔定律 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。 计算机的主要功能 把需要的程序和数据送至计算机中。 必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。 能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。 能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。 能够按照要求将处理结果输出给用户。 计算机工作流程 取指令 指令译码 执行指令 访存取数 结果写回 计算机工作原理 首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。
+然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。
+最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。
+计算机系统硬件 五个基本部分 运算器 控制器 存储器 输入设备 输出设备 CPU 通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。
+CPU主要由运算器和控制器两大部分组成 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 CPU的主要功能 指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。 操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。 时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。 数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。 控制器（CU） 控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。
+控制器是计算机的指挥系统，完成计算机的指挥工作。 控制器的基本功能是从内存读取指令和执行指令。 运算器（ALU） 运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。
+运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。 运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。 CPU的架构 CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。
+CISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。 在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。 CPU的主要参数 CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "信息系统的组成",
+      "item": "https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "信息系统的组成",
+  "name": "信息系统的组成",
+  "description": "通用计算机系统 通用计算机系统概述 现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。\n现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。\n计算机系统的两大组成部分 计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。\n计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。\n“冯·诺依曼”体系结构 计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。 计算机内部采用二进制来表示程序和数据。 采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。 集成电路技术和摩尔定律 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。 计算机的主要功能 把需要的程序和数据送至计算机中。 必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。 能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。 能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。 能够按照要求将处理结果输出给用户。 计算机工作流程 取指令 指令译码 执行指令 访存取数 结果写回 计算机工作原理 首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。\n然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。\n最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。\n计算机系统硬件 五个基本部分 运算器 控制器 存储器 输入设备 输出设备 CPU 通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。\nCPU主要由运算器和控制器两大部分组成 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 CPU的主要功能 指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。 操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。 时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。 数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。 控制器（CU） 控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。\n控制器是计算机的指挥系统，完成计算机的指挥工作。 控制器的基本功能是从内存读取指令和执行指令。 运算器（ALU） 运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。\n运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。 运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。 CPU的架构 CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。\nCISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。 在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。 CPU的主要参数 CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。",
+  "keywords": [
+    
+  ],
+  "articleBody": "通用计算机系统 通用计算机系统概述 现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。\n现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。\n计算机系统的两大组成部分 计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。\n计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。\n“冯·诺依曼”体系结构 计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。 计算机内部采用二进制来表示程序和数据。 采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。 集成电路技术和摩尔定律 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。 计算机的主要功能 把需要的程序和数据送至计算机中。 必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。 能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。 能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。 能够按照要求将处理结果输出给用户。 计算机工作流程 取指令 指令译码 执行指令 访存取数 结果写回 计算机工作原理 首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。\n然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。\n最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。\n计算机系统硬件 五个基本部分 运算器 控制器 存储器 输入设备 输出设备 CPU 通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。\nCPU主要由运算器和控制器两大部分组成 集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。 CPU的主要功能 指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。 操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。 时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。 数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。 控制器（CU） 控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。\n控制器是计算机的指挥系统，完成计算机的指挥工作。 控制器的基本功能是从内存读取指令和执行指令。 运算器（ALU） 运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。\n运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。 运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。 CPU的架构 CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。\nCISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。 在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。 CPU的主要参数 CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。\n存储设备概述 存储器是计算机的记忆装置，它的主要功能是存放程序和数据。\n根据存储器与CPU联系的密切程度，可以将存储器分为内存储器（主存储器，简称为内存、主存）和外存储器（辅助存储器，简称为外存、附存）两大类。\n内存在计算机主机内，它直接与运算器、控制器交换信 息，容量虽小，但存取速度快，一般只存放那些正在运 行的程序和待处理的数据。 外存存取速度慢，但存储容量大，可以长时间地保存大 量信息。 CPU可以直接访问内存，但不能直接访问外存 存储系统的层次结构 寄存器 寄存器集成在CPU内部，是属于L0层的存储设备。\n寄存器一般和CPU同时钟频率，所以速度非常快。\n受限于工艺和成本，所以在CPU中只有少量的寄存器。而每个寄存器的大小都是8~512个字节。\n高速缓存（Cache） 目前CPU中一般集成了2到3级的Cache，容量从128K到4M。\n对于CPU中的Cache来说，它们也是和CPU同频率的，所以理论上执行速度和寄存器应该是相同的，但是Cache往往用来存储一些指令和数据，这样就存在一个命中的问题。当没有命中的时候，需要向下一级的存储器获取新的数据，这时Cache会被锁定（lock），所以导致实际的执行速度要比寄存器慢。\n主内存 主内存是RAM随机访问存储，属于L3层的存储设备。\n主内存简称为主存，即我们常说的内存。\n主内存通常使用DRAM来实现。主流的内存是DDR2、DDR3、DDR4，数字越大，表示其带宽越大。\n本地磁盘存储 本地磁盘存储就是通常所见的硬盘，本地磁盘存储属于L4层的存储设备，其优点是容量大、缺点是速度慢。\n本地存储设备包括常见的机械硬盘和固态硬盘，以及不常见的软盘、光盘、磁带等。\n机械硬盘的优点是容量大，缺点是速度较慢。 ​\t相对于CPU内部存储的电子结构，磁盘存储是一种机械结构。数据都通过电磁流来改变极性的方式被电磁流写到磁盘上，而通过相反的方式读回。\n固态硬盘的优点是速度快，缺点是容量不大，价格较贵。 ​\tSSD一般采用Flash Memory，速度较快。\n移动存储和远程存储 移动存储指便携式的数据存储设备，现代的移动存储主要有移动硬盘、USB盘和各种记忆卡。\n云存储是一种网上在线存储（英语：Cloud storage）的模式，即把数据存放在通常由第三方托管的多台虚拟服务器，而非专属的服务器上。\n存储设备的主要性能指标 容量 程序和数据在计算机中以二进制的形式存放于存储器中。存储容量的大小以字节为单位来度量。常用的存储单位包括如下几种：bit、byte、word等\n内存频率 内存频率一般包括了核心频率、总线频率和传输频率。核心频率是脉冲震荡信号的频率；总线频率是指内存总线的工作频率；传输频率是指实际传输数据的频率。例如常见的DDR3 1600指的是内存的传输频率。\nRAM vs ROM 半导体存储器可以分成两大类：断电后数据会丢失的易失性（Volatile）存储器和断电后数据不会丢失的非易失性（Non-volatile）存储器。\nRAM（Random-Access Memory）属于可随机读写的易失性存储器 ROM（Read-Only Memory）属于非易失性存储器。 输出和输出设备 输入设备和输出设备是指可以与计算机进行数据传输的硬件。\nI/O I/O（Input/Output），即输入/输出，是计算机与外部世界之间的通信。通常指数据在内部存储器和外部存储器或其他周边设备之间的输入和输出。\n输入设备 输入设备是从计算机外部向计算机内部传送信息的装置，其功能是将数据、程序及其他信息，从人们熟悉的形式转换为计算机能够识别和处理的形式，然后输入到计算机的内部。\n输出设备 输出设备是将计算机的处理结果传送到计算机外部，从而供计算机用户使用的装置。输出设备的功能是将计算机内部二进制形式的数据信息转换成人们所需要的或其他设备能接受和识别的信息形式。\n设备控制器 I/O设备一般由机械部件和电子部件两部分组成。电子设备一般称为设备控制器。\n驱动程序 对设备控制器进行控制的软件，称为驱动程序。\n一般来说驱动程序由硬件设备厂商提供。\n总线（Bus） 总线是各种功能部件之间传送信息的公共通信干线。\n总线是由导线组成的传输线束。\n数据总线（Data Bus） 数据总线既可以把CPU的数据传送到存储器或输入输出接口等其它部件，也可以将其它部件的数据传送到CPU。\n数据总线的位数是微型计算机的一个重要指标，通常与微处理的字长相一致。我们说的32位计算机、64位计算机指的就是数据总线。\n地址总线（Address Bus） 地址总线是专门用来传送地址的，由于地址只能从CPU传向外部存储器或I/O端口，所以地址总线总是单向三态的，这与数据总线不同。\n地址总线的位数决定了CPU可直接寻址的内存空间大小。\n控制总线（Control Bus） 控制总线主要用来传送控制信号和时序信号。\n控制总线的传送方向由具体控制信号而定，一般是双向的，控制总线的位数要根据系统的实际控制需要而定。\n数据总线和控制总线可以共用。\n内部总线 在CPU内部，用于在寄存器之间和算术逻辑部件ALU以及控制部件之间传输数据所用的总线称为内部总线。\n外部总线 通常所说的总线指外部总线，是CPU与内存RAM、ROM和输入/输出设备接口之间进行通讯的通路，也称系统总线。\n现代计算机总线 前端总线 内存总线 显卡总线 I/O总线 扩展总线 USB USB，是英文Universal Serial Bus（通用串行总线）的缩写，是一个外部总线标准，广泛用于规范电脑与外部设备的连接和通讯。\n计算机系统软件 软件的定义 国际标准化组织（ISO）将软件定义为：电子计算机程序及运用数据处理系统所必需的手续、规则和文件的总称。\n系统软件 系统软件一般是指控制和协调计算机及外部设备、支持应用软件开发和运行的软件\n操作系统OS（Operating System） 最主要的系统软件\n桌面/服务器计算机的常用的操作系统包括：Linux、Windows 10、Mac OS，以及各种版本的Unix等。\n移动端设备常用的操作系统包括Android、IPhone IOS、鸿蒙等。\n语言处理程序（汇编和编译程序等） 程序设计语言按其发展演变过程可以分为三种：\n机器语言\n机器语言（Machine Language）是直接由机器指令（二进制）构成的，因此由机器语言编写的计算机程序不需要翻译就可直接被计算机系统识别并运行。 机器语言的最大的优点是执行速度快、效率高，同时也存在着严重的缺点：机器语言很难掌握，编程繁琐、可读性差、易出错，并且依赖于具体的机器，通用性差。 汇编语言\n汇编语言（Assemble Language）采用一定的助记符号表示机器语言中的指令和数据，是符号化了的机器语言，也称作“符号语言”。 汇编语言程序指令的操作码和操作数全都使用符号表示，大大方便了记忆。 汇编语言同样具备机器语言的缺点，例如缺乏通用性、繁琐、易出错等，只是程度上不同而已。 高级语言\n高级语言与机器无关，是近似于人类自然语言或数学公式的计算机语言。 高级语言克服了低级语言的诸多缺点，它易学易用、可读性好、表达能力强（语句用较为接近自然语言的英文字来表示）、通用性好 机器语言和汇编语言统称为 低级语言。\n语言处理程序可以分为三种类型：\n汇编程序\n编译程序\n解释程序\n常用的高级计算机语言：\nC C++ Java C# Python Fortran 服务性程序（支撑软件） 为了帮助用户使用与维护计算机，提供服务性手段，支持其他软件开发而编制的一类程序\n常用的服务型软件：\n工具软件 编辑程序 调试程序 诊断程序 数据库管理系统 一种操纵和管理数据库的大型软件，用于建立、使用和维护数据库。数据库管理系统对数据库进行 统一的管理和控制，以保证数据库的安全性和完整性。\n主要功能：\n数据定义 数据操作 数据库的运行管理 流行的数据库管理系统：\nOracle数据库 MySQL SQL Server DB2 Access 应用软件 在计算机各个应用领域中，为解决各类实际问题而编制的程序，其目的是帮助人们完成在特定领域中的各种工作。\n常用的应用软件 文字处理程序 电子表格处理软件 辅助设计软件 实时控制软件 用户应用程序 ",
+  "wordCount" : "236",
+  "inLanguage": "zh",
+  "datePublished": "2022-08-08T00:00:00Z",
+  "dateModified": "2022-08-08T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "二之日"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "二之日",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eeviriyi.top/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://eeviriyi.top/" accesskey="h" title="二之日 (Alt + H)">二之日</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://eeviriyi.top/archives" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://eeviriyi.top/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://eeviriyi.top/">主页</a></div>
+    <h1 class="post-title">
+      信息系统的组成
+    </h1>
+    <div class="post-meta"><span title='2022-08-08 00:00:00 +0000 UTC'>八月 8, 2022</span>&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;二之日&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/%e7%ac%94%e8%ae%b0/%e5%bc%80%e5%ad%a6%e7%ac%ac%e4%b8%80%e8%af%be/%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e9%80%9a%e7%94%a8%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f" aria-label="通用计算机系统">通用计算机系统</a><ul>
+                        
+                <li>
+                    <a href="#%e9%80%9a%e7%94%a8%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e6%a6%82%e8%bf%b0" aria-label="通用计算机系统概述">通用计算机系统概述</a></li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e4%b8%a4%e5%a4%a7%e7%bb%84%e6%88%90%e9%83%a8%e5%88%86" aria-label="计算机系统的两大组成部分">计算机系统的两大组成部分</a></li>
+                <li>
+                    <a href="#%e5%86%af%e8%af%ba%e4%be%9d%e6%9b%bc%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84" aria-label="“冯·诺依曼”体系结构">“冯·诺依曼”体系结构</a></li>
+                <li>
+                    <a href="#%e9%9b%86%e6%88%90%e7%94%b5%e8%b7%af%e6%8a%80%e6%9c%af%e5%92%8c%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b" aria-label="集成电路技术和摩尔定律">集成电路技术和摩尔定律</a></li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" aria-label="计算机的主要功能">计算机的主要功能</a></li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b" aria-label="计算机工作流程">计算机工作流程</a></li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" aria-label="计算机工作原理">计算机工作原理</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%a1%ac%e4%bb%b6" aria-label="计算机系统硬件">计算机系统硬件</a><ul>
+                        
+                <li>
+                    <a href="#%e4%ba%94%e4%b8%aa%e5%9f%ba%e6%9c%ac%e9%83%a8%e5%88%86" aria-label="五个基本部分">五个基本部分</a></li>
+                <li>
+                    <a href="#cpu" aria-label="CPU">CPU</a><ul>
+                        
+                <li>
+                    <a href="#cpu%e7%9a%84%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" aria-label="CPU的主要功能">CPU的主要功能</a></li>
+                <li>
+                    <a href="#%e6%8e%a7%e5%88%b6%e5%99%a8cu" aria-label="控制器（CU）">控制器（CU）</a></li>
+                <li>
+                    <a href="#%e8%bf%90%e7%ae%97%e5%99%a8alu" aria-label="运算器（ALU）">运算器（ALU）</a></li>
+                <li>
+                    <a href="#cpu%e7%9a%84%e6%9e%b6%e6%9e%84" aria-label="CPU的架构">CPU的架构</a></li>
+                <li>
+                    <a href="#cpu%e7%9a%84%e4%b8%bb%e8%a6%81%e5%8f%82%e6%95%b0" aria-label="CPU的主要参数">CPU的主要参数</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%ad%98%e5%82%a8%e8%ae%be%e5%a4%87%e6%a6%82%e8%bf%b0" aria-label="存储设备概述">存储设备概述</a></li>
+                <li>
+                    <a href="#%e5%ad%98%e5%82%a8%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="存储系统的层次结构">存储系统的层次结构</a><ul>
+                        
+                <li>
+                    <a href="#%e5%af%84%e5%ad%98%e5%99%a8" aria-label="寄存器">寄存器</a></li>
+                <li>
+                    <a href="#%e9%ab%98%e9%80%9f%e7%bc%93%e5%ad%98cache" aria-label="高速缓存（Cache）">高速缓存（Cache）</a></li>
+                <li>
+                    <a href="#%e4%b8%bb%e5%86%85%e5%ad%98" aria-label="主内存">主内存</a></li>
+                <li>
+                    <a href="#%e6%9c%ac%e5%9c%b0%e7%a3%81%e7%9b%98%e5%ad%98%e5%82%a8" aria-label="本地磁盘存储">本地磁盘存储</a></li>
+                <li>
+                    <a href="#%e7%a7%bb%e5%8a%a8%e5%ad%98%e5%82%a8%e5%92%8c%e8%bf%9c%e7%a8%8b%e5%ad%98%e5%82%a8" aria-label="移动存储和远程存储">移动存储和远程存储</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%ad%98%e5%82%a8%e8%ae%be%e5%a4%87%e7%9a%84%e4%b8%bb%e8%a6%81%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87" aria-label="存储设备的主要性能指标">存储设备的主要性能指标</a><ul>
+                        
+                <li>
+                    <a href="#%e5%ae%b9%e9%87%8f" aria-label="容量">容量</a></li>
+                <li>
+                    <a href="#%e5%86%85%e5%ad%98%e9%a2%91%e7%8e%87" aria-label="内存频率">内存频率</a></li>
+                <li>
+                    <a href="#ram-vs-rom" aria-label="RAM vs ROM">RAM vs ROM</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%be%93%e5%87%ba%e5%92%8c%e8%be%93%e5%87%ba%e8%ae%be%e5%a4%87" aria-label="输出和输出设备">输出和输出设备</a><ul>
+                        
+                <li>
+                    <a href="#io" aria-label="I/O">I/O</a></li>
+                <li>
+                    <a href="#%e8%be%93%e5%85%a5%e8%ae%be%e5%a4%87" aria-label="输入设备">输入设备</a></li>
+                <li>
+                    <a href="#%e8%be%93%e5%87%ba%e8%ae%be%e5%a4%87" aria-label="输出设备">输出设备</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%ae%be%e5%a4%87%e6%8e%a7%e5%88%b6%e5%99%a8" aria-label="设备控制器">设备控制器</a></li>
+                <li>
+                    <a href="#%e9%a9%b1%e5%8a%a8%e7%a8%8b%e5%ba%8f" aria-label="驱动程序">驱动程序</a></li>
+                <li>
+                    <a href="#%e6%80%bb%e7%ba%bfbus" aria-label="总线（Bus）">总线（Bus）</a><ul>
+                        
+                <li>
+                    <a href="#%e6%95%b0%e6%8d%ae%e6%80%bb%e7%ba%bfdata-bus" aria-label="数据总线（Data Bus）">数据总线（Data Bus）</a></li>
+                <li>
+                    <a href="#%e5%9c%b0%e5%9d%80%e6%80%bb%e7%ba%bfaddress-bus" aria-label="地址总线（Address Bus）">地址总线（Address Bus）</a></li>
+                <li>
+                    <a href="#%e6%8e%a7%e5%88%b6%e6%80%bb%e7%ba%bfcontrol-bus" aria-label="控制总线（Control Bus）">控制总线（Control Bus）</a></li>
+                <li>
+                    <a href="#%e5%86%85%e9%83%a8%e6%80%bb%e7%ba%bf" aria-label="内部总线">内部总线</a></li>
+                <li>
+                    <a href="#%e5%a4%96%e9%83%a8%e6%80%bb%e7%ba%bf" aria-label="外部总线">外部总线</a></li>
+                <li>
+                    <a href="#%e7%8e%b0%e4%bb%a3%e8%ae%a1%e7%ae%97%e6%9c%ba%e6%80%bb%e7%ba%bf" aria-label="现代计算机总线">现代计算机总线</a></li>
+                <li>
+                    <a href="#usb" aria-label="USB">USB</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e8%bd%af%e4%bb%b6" aria-label="计算机系统软件">计算机系统软件</a><ul>
+                        
+                <li>
+                    <a href="#%e8%bd%af%e4%bb%b6%e7%9a%84%e5%ae%9a%e4%b9%89" aria-label="软件的定义">软件的定义</a></li>
+                <li>
+                    <a href="#%e7%b3%bb%e7%bb%9f%e8%bd%af%e4%bb%b6" aria-label="系统软件">系统软件</a><ul>
+                        
+                <li>
+                    <a href="#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9fosoperating-system" aria-label="操作系统OS（Operating System）">操作系统OS（Operating System）</a></li>
+                <li>
+                    <a href="#%e8%af%ad%e8%a8%80%e5%a4%84%e7%90%86%e7%a8%8b%e5%ba%8f%e6%b1%87%e7%bc%96%e5%92%8c%e7%bc%96%e8%af%91%e7%a8%8b%e5%ba%8f%e7%ad%89" aria-label="语言处理程序（汇编和编译程序等）">语言处理程序（汇编和编译程序等）</a></li>
+                <li>
+                    <a href="#%e6%9c%8d%e5%8a%a1%e6%80%a7%e7%a8%8b%e5%ba%8f%e6%94%af%e6%92%91%e8%bd%af%e4%bb%b6" aria-label="服务性程序（支撑软件）">服务性程序（支撑软件）</a></li>
+                <li>
+                    <a href="#%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f" aria-label="数据库管理系统">数据库管理系统</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%ba%94%e7%94%a8%e8%bd%af%e4%bb%b6" aria-label="应用软件">应用软件</a><ul>
+                        
+                <li>
+                    <a href="#%e5%b8%b8%e7%94%a8%e7%9a%84%e5%ba%94%e7%94%a8%e8%bd%af%e4%bb%b6" aria-label="常用的应用软件">常用的应用软件</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="通用计算机系统">通用计算机系统<a hidden class="anchor" aria-hidden="true" href="#通用计算机系统">#</a></h2>
+<h3 id="通用计算机系统概述">通用计算机系统概述<a hidden class="anchor" aria-hidden="true" href="#通用计算机系统概述">#</a></h3>
+<p>现代信息系统的核心是计算机系统。自20世纪40年代诞生以来，计算技术保持高速发展，对人类社会产生了深刻广泛的影响，从而使得人类进入了信息社会。</p>
+<p>现代通用计算机是基于冯·诺依曼结构的设计思想，称之为“冯·诺依曼”体系结构计算机系统。</p>
+<h3 id="计算机系统的两大组成部分">计算机系统的两大组成部分<a hidden class="anchor" aria-hidden="true" href="#计算机系统的两大组成部分">#</a></h3>
+<ul>
+<li>
+<p>计算机硬件是构成计算机系统各功能部件的集合，是由电子、机械和光电元件组成的各种计算机部件和设备的总称，是计算机完成各项工作的物质基础。</p>
+</li>
+<li>
+<p>计算机软件是指与计算机系统操作有关的各种程序以及任何与之相关的文档和数据的集合。计算机程序是用程序设计语言描述的、适合计算机执行的语句指令序列。</p>
+</li>
+</ul>
+<h3 id="冯诺依曼体系结构">“冯·诺依曼”体系结构<a hidden class="anchor" aria-hidden="true" href="#冯诺依曼体系结构">#</a></h3>
+<ul>
+<li>计算机硬件由五个基本部分组成：运算器、控制器、存储器、输入设备和输出设备。</li>
+<li>计算机内部采用二进制来表示程序和数据。</li>
+<li>采用“存储程序”的方式，将程序和数据放入同一个存储器中（内存储器），计算机能够自动高速地从存储器中取出指令加以执行。</li>
+</ul>
+<h3 id="集成电路技术和摩尔定律">集成电路技术和摩尔定律<a hidden class="anchor" aria-hidden="true" href="#集成电路技术和摩尔定律">#</a></h3>
+<ul>
+<li>集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。</li>
+<li>在1965年，芯片巨人英特尔公司的创始人戈登 · 摩尔提出了著名的摩尔定律：芯片上的晶体管数量每隔18个月左右就会翻一番。</li>
+</ul>
+<h3 id="计算机的主要功能">计算机的主要功能<a hidden class="anchor" aria-hidden="true" href="#计算机的主要功能">#</a></h3>
+<ul>
+<li>把需要的程序和数据送至计算机中。</li>
+<li>必须具有长期记忆程序、数据、中间结果及最终运算结果的能力。</li>
+<li>能够完成各种算术运算、逻辑运算和数据传送等数据加工处理的能力。</li>
+<li>能够根据需要控制程序走向，并能根据指令控制机器的各部件协调操作。</li>
+<li>能够按照要求将处理结果输出给用户。</li>
+</ul>
+<h3 id="计算机工作流程">计算机工作流程<a hidden class="anchor" aria-hidden="true" href="#计算机工作流程">#</a></h3>
+<ol>
+<li>取指令</li>
+<li>指令译码</li>
+<li>执行指令</li>
+<li>访存取数</li>
+<li>结果写回</li>
+</ol>
+<h3 id="计算机工作原理">计算机工作原理<a hidden class="anchor" aria-hidden="true" href="#计算机工作原理">#</a></h3>
+<p>首先读入程序和数据到主内存中。在控制器输入命令的控制下，通过输入设备把表示计算步骤的程序和计算中需要的原始数据读入到计算机的主内存中。</p>
+<p>然后执行程序。在取指令作用下把程序指令逐条送入控制器。控制器对指令进行译码，并根据指令的操作要求向存储器和运算器发出存储、取数命令和运算命令，经过运算器计算并把结果存放在存储器内。</p>
+<p>最后是输出结果。在控制器的取数和输出命令作用下，通过输出设备输出计算结果。</p>
+<h2 id="计算机系统硬件">计算机系统硬件<a hidden class="anchor" aria-hidden="true" href="#计算机系统硬件">#</a></h2>
+<h3 id="五个基本部分">五个基本部分<a hidden class="anchor" aria-hidden="true" href="#五个基本部分">#</a></h3>
+<ul>
+<li>运算器</li>
+<li>控制器</li>
+<li>存储器</li>
+<li>输入设备</li>
+<li>输出设备</li>
+</ul>
+<h3 id="cpu">CPU<a hidden class="anchor" aria-hidden="true" href="#cpu">#</a></h3>
+<p>通常将运算器和控制器统称为中央处理器，即CPU（Central Processing Unit），它是整个计算机的核心部件，是计算机的“大脑”。CPU控制计算机的运算、处理、输入和输出等工作。</p>
+<ul>
+<li>CPU主要由运算器和控制器两大部分组成</li>
+<li>集成电路技术是制造微型机、小型机、大型机和巨型机的CPU的基本技术。</li>
+</ul>
+<h4 id="cpu的主要功能">CPU的主要功能<a hidden class="anchor" aria-hidden="true" href="#cpu的主要功能">#</a></h4>
+<ul>
+<li>指令控制：指令控制也称为程序的顺序控制，控制程序严格按照规定的顺序执行。</li>
+<li>操作控制：为取出的指令产生一系列的控制信号(微指令)，分别送往相应的部件，从而控制这些部件按指令的要求进行工作。</li>
+<li>时间控制：有些控制信号在时间上有严格的先后顺序，例如读取存储器的数据，只有当地址线信号稳定以后，才能通过数据线将所需的数据读出（否则读出的数据是不正确的数据），从而确保计算机有条不紊地工作。</li>
+<li>数据加工：所谓数据加工，就是对数据进行算术运算和逻辑运算处理。</li>
+</ul>
+<h4 id="控制器cu">控制器（CU）<a hidden class="anchor" aria-hidden="true" href="#控制器cu">#</a></h4>
+<p>控制器CU（Controller Unit）由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成。</p>
+<ul>
+<li>控制器是计算机的指挥系统，完成计算机的指挥工作。</li>
+<li>控制器的基本功能是从内存读取指令和执行指令。</li>
+</ul>
+<h4 id="运算器alu">运算器（ALU）<a hidden class="anchor" aria-hidden="true" href="#运算器alu">#</a></h4>
+<p>运算器也称为算术逻辑单元ALU（Arithmetic Logic Unit）。</p>
+<ul>
+<li>运算器由算术逻辑单元、累加寄存器、数据缓冲寄存器和状态条件寄存器组成。</li>
+<li>运算器是数据加工处理部件，完成计算机的各种算术运算和逻辑运算。</li>
+</ul>
+<h4 id="cpu的架构">CPU的架构<a hidden class="anchor" aria-hidden="true" href="#cpu的架构">#</a></h4>
+<p>CPU按指令集可以主要分为如下两种类别：CISC（Complex Instruction Set Computers，复杂指令集计算机）和RISC（Reduced Instruction Set Computers，精简指令集计算机）。</p>
+<ul>
+<li>CISC以Intel和AMD的X86 CPU为代表，而RISC以ARM和IBM Power为代表。</li>
+<li>在计算机发展的数十年历史中，产生了各种架构的CPU。目前比较流行的架构主要包括以下4种：X86、ARM、RISC-V和MIPS。其它指令架构相对小众，只在专业的领域使用。</li>
+</ul>
+<h4 id="cpu的主要参数">CPU的主要参数<a hidden class="anchor" aria-hidden="true" href="#cpu的主要参数">#</a></h4>
+<p>CPU的主要参数有主频、外频、前端总线频率、倍频、高速缓存容量、所采用的制造工艺、功耗，以及CPU所采用的处理器架构、一系列的处理器计算技术等。</p>
+<h3 id="存储设备概述">存储设备概述<a hidden class="anchor" aria-hidden="true" href="#存储设备概述">#</a></h3>
+<p>存储器是计算机的记忆装置，它的主要功能是存放程序和数据。</p>
+<p>根据存储器与CPU联系的密切程度，可以将存储器分为内存储器（主存储器，简称为内存、主存）和外存储器（辅助存储器，简称为外存、附存）两大类。</p>
+<ul>
+<li>内存在计算机主机内，它直接与运算器、控制器交换信 息，容量虽小，但存取速度快，一般只存放那些正在运 行的程序和待处理的数据。</li>
+<li>外存存取速度慢，但存储容量大，可以长时间地保存大 量信息。</li>
+<li>CPU可以直接访问内存，但不能直接访问外存</li>
+</ul>
+<h3 id="存储系统的层次结构">存储系统的层次结构<a hidden class="anchor" aria-hidden="true" href="#存储系统的层次结构">#</a></h3>
+<h4 id="寄存器">寄存器<a hidden class="anchor" aria-hidden="true" href="#寄存器">#</a></h4>
+<ul>
+<li>
+<p>寄存器集成在CPU内部，是属于L0层的存储设备。</p>
+</li>
+<li>
+<p>寄存器一般和CPU同时钟频率，所以速度非常快。</p>
+</li>
+<li>
+<p>受限于工艺和成本，所以在CPU中只有少量的寄存器。而每个寄存器的大小都是8~512个字节。</p>
+</li>
+</ul>
+<h4 id="高速缓存cache">高速缓存（Cache）<a hidden class="anchor" aria-hidden="true" href="#高速缓存cache">#</a></h4>
+<p>目前CPU中一般集成了2到3级的Cache，容量从128K到4M。</p>
+<p>对于CPU中的Cache来说，它们也是和CPU同频率的，所以理论上执行速度和寄存器应该是相同的，但是Cache往往用来存储一些指令和数据，这样就存在一个命中的问题。当没有命中的时候，需要向下一级的存储器获取新的数据，这时Cache会被锁定（lock），所以导致实际的执行速度要比寄存器慢。</p>
+<h4 id="主内存">主内存<a hidden class="anchor" aria-hidden="true" href="#主内存">#</a></h4>
+<p>主内存是RAM随机访问存储，属于L3层的存储设备。</p>
+<p>主内存简称为主存，即我们常说的内存。</p>
+<p>主内存通常使用DRAM来实现。主流的内存是DDR2、DDR3、DDR4，数字越大，表示其带宽越大。</p>
+<h4 id="本地磁盘存储">本地磁盘存储<a hidden class="anchor" aria-hidden="true" href="#本地磁盘存储">#</a></h4>
+<p>本地磁盘存储就是通常所见的硬盘，本地磁盘存储属于L4层的存储设备，其优点是容量大、缺点是速度慢。</p>
+<p>本地存储设备包括常见的机械硬盘和固态硬盘，以及不常见的软盘、光盘、磁带等。</p>
+<ul>
+<li>机械硬盘的优点是容量大，缺点是速度较慢。</li>
+</ul>
+<p>​		相对于CPU内部存储的电子结构，磁盘存储是一种机械结构。数据都通过电磁流来改变极性的方式被电磁流写到磁盘上，而通过相反的方式读回。</p>
+<ul>
+<li>固态硬盘的优点是速度快，缺点是容量不大，价格较贵。</li>
+</ul>
+<p>​		SSD一般采用Flash Memory，速度较快。</p>
+<h4 id="移动存储和远程存储">移动存储和远程存储<a hidden class="anchor" aria-hidden="true" href="#移动存储和远程存储">#</a></h4>
+<p>移动存储指便携式的数据存储设备，现代的移动存储主要有移动硬盘、USB盘和各种记忆卡。</p>
+<p>云存储是一种网上在线存储（英语：Cloud storage）的模式，即把数据存放在通常由第三方托管的多台虚拟服务器，而非专属的服务器上。</p>
+<h3 id="存储设备的主要性能指标">存储设备的主要性能指标<a hidden class="anchor" aria-hidden="true" href="#存储设备的主要性能指标">#</a></h3>
+<h4 id="容量">容量<a hidden class="anchor" aria-hidden="true" href="#容量">#</a></h4>
+<p>程序和数据在计算机中以二进制的形式存放于存储器中。存储容量的大小以字节为单位来度量。常用的存储单位包括如下几种：bit、byte、word等</p>
+<h4 id="内存频率">内存频率<a hidden class="anchor" aria-hidden="true" href="#内存频率">#</a></h4>
+<p>内存频率一般包括了核心频率、总线频率和传输频率。核心频率是脉冲震荡信号的频率；总线频率是指内存总线的工作频率；传输频率是指实际传输数据的频率。例如常见的DDR3 1600指的是内存的传输频率。</p>
+<h4 id="ram-vs-rom">RAM vs ROM<a hidden class="anchor" aria-hidden="true" href="#ram-vs-rom">#</a></h4>
+<p>半导体存储器可以分成两大类：断电后数据会丢失的易失性（Volatile）存储器和断电后数据不会丢失的非易失性（Non-volatile）存储器。</p>
+<ul>
+<li>RAM（Random-Access Memory）属于可随机读写的易失性存储器</li>
+<li>ROM（Read-Only Memory）属于非易失性存储器。</li>
+</ul>
+<h3 id="输出和输出设备">输出和输出设备<a hidden class="anchor" aria-hidden="true" href="#输出和输出设备">#</a></h3>
+<p>输入设备和输出设备是指可以与计算机进行数据传输的硬件。</p>
+<h4 id="io">I/O<a hidden class="anchor" aria-hidden="true" href="#io">#</a></h4>
+<p>I/O（Input/Output），即输入/输出，是计算机与外部世界之间的通信。通常指数据在内部存储器和外部存储器或其他周边设备之间的输入和输出。</p>
+<h4 id="输入设备">输入设备<a hidden class="anchor" aria-hidden="true" href="#输入设备">#</a></h4>
+<p>输入设备是从计算机外部向计算机内部传送信息的装置，其功能是将数据、程序及其他信息，从人们熟悉的形式转换为计算机能够识别和处理的形式，然后输入到计算机的内部。</p>
+<h4 id="输出设备">输出设备<a hidden class="anchor" aria-hidden="true" href="#输出设备">#</a></h4>
+<p>输出设备是将计算机的处理结果传送到计算机外部，从而供计算机用户使用的装置。输出设备的功能是将计算机内部二进制形式的数据信息转换成人们所需要的或其他设备能接受和识别的信息形式。</p>
+<h3 id="设备控制器">设备控制器<a hidden class="anchor" aria-hidden="true" href="#设备控制器">#</a></h3>
+<p>I/O设备一般由机械部件和电子部件两部分组成。电子设备一般称为设备控制器。</p>
+<h3 id="驱动程序">驱动程序<a hidden class="anchor" aria-hidden="true" href="#驱动程序">#</a></h3>
+<p>对设备控制器进行控制的软件，称为驱动程序。</p>
+<p>一般来说驱动程序由硬件设备厂商提供。</p>
+<h3 id="总线bus">总线（Bus）<a hidden class="anchor" aria-hidden="true" href="#总线bus">#</a></h3>
+<p>总线是各种功能部件之间传送信息的公共通信干线。</p>
+<p>总线是由导线组成的传输线束。</p>
+<h4 id="数据总线data-bus">数据总线（Data Bus）<a hidden class="anchor" aria-hidden="true" href="#数据总线data-bus">#</a></h4>
+<p>数据总线既可以把CPU的数据传送到存储器或输入输出接口等其它部件，也可以将其它部件的数据传送到CPU。</p>
+<p>数据总线的位数是微型计算机的一个重要指标，通常与微处理的字长相一致。我们说的32位计算机、64位计算机指的就是数据总线。</p>
+<h4 id="地址总线address-bus">地址总线（Address Bus）<a hidden class="anchor" aria-hidden="true" href="#地址总线address-bus">#</a></h4>
+<p>地址总线是专门用来传送地址的，由于地址只能从CPU传向外部存储器或I/O端口，所以地址总线总是单向三态的，这与数据总线不同。</p>
+<p>地址总线的位数决定了CPU可直接寻址的内存空间大小。</p>
+<h4 id="控制总线control-bus">控制总线（Control Bus）<a hidden class="anchor" aria-hidden="true" href="#控制总线control-bus">#</a></h4>
+<p>控制总线主要用来传送控制信号和时序信号。</p>
+<p>控制总线的传送方向由具体控制信号而定，一般是双向的，控制总线的位数要根据系统的实际控制需要而定。</p>
+<p>数据总线和控制总线可以共用。</p>
+<h4 id="内部总线">内部总线<a hidden class="anchor" aria-hidden="true" href="#内部总线">#</a></h4>
+<p>在CPU内部，用于在寄存器之间和算术逻辑部件ALU以及控制部件之间传输数据所用的总线称为内部总线。</p>
+<h4 id="外部总线">外部总线<a hidden class="anchor" aria-hidden="true" href="#外部总线">#</a></h4>
+<p>通常所说的总线指外部总线，是CPU与内存RAM、ROM和输入/输出设备接口之间进行通讯的通路，也称系统总线。</p>
+<h4 id="现代计算机总线">现代计算机总线<a hidden class="anchor" aria-hidden="true" href="#现代计算机总线">#</a></h4>
+<ul>
+<li>前端总线</li>
+<li>内存总线</li>
+<li>显卡总线</li>
+<li>I/O总线</li>
+<li>扩展总线</li>
+</ul>
+<h4 id="usb">USB<a hidden class="anchor" aria-hidden="true" href="#usb">#</a></h4>
+<p>USB，是英文Universal Serial Bus（通用串行总线）的缩写，是一个外部总线标准，广泛用于规范电脑与外部设备的连接和通讯。</p>
+<h2 id="计算机系统软件">计算机系统软件<a hidden class="anchor" aria-hidden="true" href="#计算机系统软件">#</a></h2>
+<h3 id="软件的定义">软件的定义<a hidden class="anchor" aria-hidden="true" href="#软件的定义">#</a></h3>
+<p>国际标准化组织（ISO）将软件定义为：电子计算机程序及运用数据处理系统所必需的手续、规则和文件的总称。</p>
+<h3 id="系统软件">系统软件<a hidden class="anchor" aria-hidden="true" href="#系统软件">#</a></h3>
+<p>系统软件一般是指控制和协调计算机及外部设备、支持应用软件开发和运行的软件</p>
+<h4 id="操作系统osoperating-system">操作系统OS（Operating System）<a hidden class="anchor" aria-hidden="true" href="#操作系统osoperating-system">#</a></h4>
+<p>最主要的系统软件</p>
+<ul>
+<li>
+<p>桌面/服务器计算机的常用的操作系统包括：Linux、Windows 10、Mac OS，以及各种版本的Unix等。</p>
+</li>
+<li>
+<p>移动端设备常用的操作系统包括Android、IPhone IOS、鸿蒙等。</p>
+</li>
+</ul>
+<h4 id="语言处理程序汇编和编译程序等">语言处理程序（汇编和编译程序等）<a hidden class="anchor" aria-hidden="true" href="#语言处理程序汇编和编译程序等">#</a></h4>
+<p>程序设计语言按其发展演变过程可以分为三种：</p>
+<ul>
+<li>
+<p>机器语言</p>
+<ul>
+<li>机器语言（Machine Language）是直接由机器指令（二进制）构成的，因此由机器语言编写的计算机程序不需要翻译就可直接被计算机系统识别并运行。</li>
+<li>机器语言的最大的优点是执行速度快、效率高，同时也存在着严重的缺点：机器语言很难掌握，编程繁琐、可读性差、易出错，并且依赖于具体的机器，通用性差。</li>
+</ul>
+</li>
+<li>
+<p>汇编语言</p>
+<ul>
+<li>汇编语言（Assemble Language）采用一定的助记符号表示机器语言中的指令和数据，是符号化了的机器语言，也称作“符号语言”。</li>
+<li>汇编语言程序指令的操作码和操作数全都使用符号表示，大大方便了记忆。</li>
+<li>汇编语言同样具备机器语言的缺点，例如缺乏通用性、繁琐、易出错等，只是程度上不同而已。</li>
+</ul>
+</li>
+<li>
+<p>高级语言</p>
+<ul>
+<li>高级语言与机器无关，是近似于人类自然语言或数学公式的计算机语言。</li>
+<li>高级语言克服了低级语言的诸多缺点，它易学易用、可读性好、表达能力强（语句用较为接近自然语言的英文字来表示）、通用性好</li>
+</ul>
+</li>
+</ul>
+<p>机器语言和汇编语言统称为 低级语言。</p>
+<p>语言处理程序可以分为三种类型：</p>
+<ul>
+<li>
+<p>汇编程序</p>
+</li>
+<li>
+<p>编译程序</p>
+</li>
+<li>
+<p>解释程序</p>
+</li>
+</ul>
+<p>常用的高级计算机语言：</p>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>Java</li>
+<li>C#</li>
+<li>Python</li>
+<li>Fortran</li>
+</ul>
+<h4 id="服务性程序支撑软件">服务性程序（支撑软件）<a hidden class="anchor" aria-hidden="true" href="#服务性程序支撑软件">#</a></h4>
+<p>为了帮助用户使用与维护计算机，提供服务性手段，支持其他软件开发而编制的一类程序</p>
+<p>常用的服务型软件：</p>
+<ul>
+<li>工具软件</li>
+<li>编辑程序</li>
+<li>调试程序</li>
+<li>诊断程序</li>
+</ul>
+<h4 id="数据库管理系统">数据库管理系统<a hidden class="anchor" aria-hidden="true" href="#数据库管理系统">#</a></h4>
+<p>一种操纵和管理数据库的大型软件，用于建立、使用和维护数据库。数据库管理系统对数据库进行 统一的管理和控制，以保证数据库的安全性和完整性。</p>
+<p>主要功能：</p>
+<ul>
+<li>数据定义</li>
+<li>数据操作</li>
+<li>数据库的运行管理</li>
+</ul>
+<p>流行的数据库管理系统：</p>
+<ul>
+<li>Oracle数据库</li>
+<li>MySQL</li>
+<li>SQL Server</li>
+<li>DB2</li>
+<li>Access</li>
+</ul>
+<h3 id="应用软件">应用软件<a hidden class="anchor" aria-hidden="true" href="#应用软件">#</a></h3>
+<p>在计算机各个应用领域中，为解决各类实际问题而编制的程序，其目的是帮助人们完成在特定领域中的各种工作。</p>
+<h4 id="常用的应用软件">常用的应用软件<a hidden class="anchor" aria-hidden="true" href="#常用的应用软件">#</a></h4>
+<ul>
+<li>文字处理程序</li>
+<li>电子表格处理软件</li>
+<li>辅助设计软件</li>
+<li>实时控制软件</li>
+<li>用户应用程序</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>信息系统安全与信息社会责任</span>
+  </a>
+  <a class="next" href="https://eeviriyi.top/%E7%AC%94%E8%AE%B0/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%95%B0%E5%AD%97%E7%A4%BE%E4%BC%9A%E6%A6%82%E8%BF%B0/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>信息系统与数字社会概述</span>
+  </a>
+</nav>
+
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on twitter"
+        href="https://twitter.com/intent/tweet/?text=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90&amp;url=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f&amp;hashtags=">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f&amp;title=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90&amp;summary=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90&amp;source=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f&title=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on whatsapp"
+        href="https://api.whatsapp.com/send?text=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90%20-%20https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share 信息系统的组成 on telegram"
+        href="https://telegram.me/share/url?text=%e4%bf%a1%e6%81%af%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90&amp;url=https%3a%2f%2feeviriyi.top%2f%25E7%25AC%2594%25E8%25AE%25B0%2f%25E5%25BC%2580%25E5%25AD%25A6%25E7%25AC%25AC%25E4%25B8%2580%25E8%25AF%25BE%2f%25E4%25BF%25A1%25E6%2581%25AF%25E7%25B3%25BB%25E7%25BB%259F%25E7%259A%2584%25E7%25BB%2584%25E6%2588%2590%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+  </footer><head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    
+  </head>
+  <body>
+    
+    <div id="waline"></div>
+    <script>
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline.eeviriyi.top',
+        emoji:
+          [
+            '//unpkg.com/@waline/emojis@1.0.1/weibo',
+            '//unpkg.com/@waline/emojis@1.0.1/bilibili',
+          ],
+        dark: 'html[data-theme="body.dark"]'
+      });
+    </script>
+  </body>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://eeviriyi.top/">二之日</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
