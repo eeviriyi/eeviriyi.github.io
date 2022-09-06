@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on 二之日</title>
-    <link>https://eeviriyi.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on 二之日</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 29 Aug 2022 09:49:00 +0000</lastBuildDate><atom:link href="https://eeviriyi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 09:49:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ecnu</title>
-      <link>https://eeviriyi.github.io/categories/ecnu/</link>
+      <link>/categories/ecnu/</link>
       <pubDate>Mon, 29 Aug 2022 09:49:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/ecnu/</guid>
+      <guid>/categories/ecnu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>笔记</title>
-      <link>https://eeviriyi.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+      <link>/categories/%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 29 Aug 2022 09:49:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/%E7%AC%94%E8%AE%B0/</guid>
+      <guid>/categories/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>第一篇 绪论</title>
-      <link>https://eeviriyi.github.io/categories/%E7%AC%AC%E4%B8%80%E7%AF%87-%E7%BB%AA%E8%AE%BA/</link>
+      <link>/categories/%E7%AC%AC%E4%B8%80%E7%AF%87-%E7%BB%AA%E8%AE%BA/</link>
       <pubDate>Mon, 29 Aug 2022 09:49:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/%E7%AC%AC%E4%B8%80%E7%AF%87-%E7%BB%AA%E8%AE%BA/</guid>
+      <guid>/categories/%E7%AC%AC%E4%B8%80%E7%AF%87-%E7%BB%AA%E8%AE%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title>心理学导论</title>
-      <link>https://eeviriyi.github.io/categories/%E5%BF%83%E7%90%86%E5%AD%A6%E5%AF%BC%E8%AE%BA/</link>
+      <link>/categories/%E5%BF%83%E7%90%86%E5%AD%A6%E5%AF%BC%E8%AE%BA/</link>
       <pubDate>Mon, 29 Aug 2022 09:49:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/%E5%BF%83%E7%90%86%E5%AD%A6%E5%AF%BC%E8%AE%BA/</guid>
+      <guid>/categories/%E5%BF%83%E7%90%86%E5%AD%A6%E5%AF%BC%E8%AE%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title>开学第一课</title>
-      <link>https://eeviriyi.github.io/categories/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/</link>
+      <link>/categories/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
+      <guid>/categories/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>基础心理学</title>
-      <link>https://eeviriyi.github.io/categories/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/</link>
+      <link>/categories/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/</link>
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://eeviriyi.github.io/categories/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
+      <guid>/categories/%E5%9F%BA%E7%A1%80%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
       <description></description>
     </item>
     
